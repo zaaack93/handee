@@ -1,0 +1,737 @@
+{
+  "sections": {
+    "1650891033bae15b05": {
+      "type": "image-with-text",
+      "blocks": {
+        "fd63bf46-7b83-450b-9205-e98d3bb15657": {
+          "type": "background_shape",
+          "settings": {
+            "shape": "blob",
+            "blob_type": 8,
+            "size": 170,
+            "opacity": 70,
+            "blur": 0,
+            "horizontal_position": 69,
+            "vertical_position": 58,
+            "rotate": -12,
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color": "gradient",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "7de8f682-42c1-4705-b9ea-207f66e0c04e": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "quaternary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "175e66d3-20ec-47c8-b628-6580300f4f5f": {
+          "type": "sticker",
+          "settings": {
+            "text": "Sticker",
+            "shape": "star_1",
+            "width": 270,
+            "sticker_font_size": "1.563rem",
+            "image": "shopify:\/\/shop_images\/Paper_hand_towel_roll_2nd_image__75074.webp",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 88,
+            "vertical_position": 88,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 6,
+            "color": "bg-scheme-accent text-scheme-accent-overlay",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "140e7989-8375-45bf-b75f-61897a50b73a": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "text": "Sticker",
+            "shape": "star_1",
+            "width": 120,
+            "sticker_font_size": "1.563rem",
+            "image": "shopify:\/\/shop_images\/Handee_trans_Medium_d0c1b561-1b6a-4aee-a7e6-cfc885ad2b8c.png",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 77,
+            "vertical_position": 38,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 6,
+            "color": "bg-scheme-accent text-scheme-accent-overlay",
+            "color_scheme": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "fd63bf46-7b83-450b-9205-e98d3bb15657",
+        "7de8f682-42c1-4705-b9ea-207f66e0c04e",
+        "175e66d3-20ec-47c8-b628-6580300f4f5f",
+        "140e7989-8375-45bf-b75f-61897a50b73a"
+      ],
+      "settings": {
+        "display_on_card": false,
+        "image": "shopify:\/\/shop_images\/handee_gif.gif",
+        "crop": "",
+        "image_shape": "zig_zag_tear",
+        "blob_type": 2,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "The Superhero of Spills",
+        "heading_size": "heading-template",
+        "richtext": "<p>When life gets messy, Handee has got you covered. <\/p>",
+        "text_alignment": "text-left",
+        "button_link": "shopify:\/\/collections\/all",
+        "button_label": "Shop Hand Towels",
+        "color_scheme": "primary",
+        "use_gradient_background": true
+      }
+    },
+    "1650891358fef95dd4": {
+      "type": "featured-collection",
+      "blocks": {
+        "7261f40b-41bf-4b48-8953-041e29fe35e4": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "secondary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "a3770a3e-1fec-4c1b-a639-ea67e882b25a": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "quaternary",
+            "style": "waves-2-asymmetrical_1440x330",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "7261f40b-41bf-4b48-8953-041e29fe35e4",
+        "a3770a3e-1fec-4c1b-a639-ea67e882b25a"
+      ],
+      "settings": {
+        "title": "Shop Australia's #1 Paper Towel",
+        "subheading": "Keeping Aussie homes spill-free and worry-free for over 50 years.",
+        "collection": "best-sellers",
+        "no_products": 4,
+        "show_view_all": true,
+        "enable_quick_buy": false,
+        "display_on_card": false,
+        "layout": "carousel",
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "slideshow_focus": "center",
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 40,
+        "autoscroll_mode": "1",
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "zig_zag_tear",
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    },
+    "1650891303c44cb2d2": {
+      "type": "icon-list",
+      "blocks": {
+        "16508913039d58ab55-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "alcohol_free",
+            "text": "Made in Australia"
+          }
+        },
+        "16508913039d58ab55-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "no_additives",
+            "text": "Strong - Wet or Dry"
+          }
+        },
+        "16508913039d58ab55-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "no_artificial_colors",
+            "text": "PEFC Certified"
+          }
+        },
+        "2d49c667-6651-4aec-9f2e-b5b01b310ecd": {
+          "type": "icon",
+          "settings": {
+            "icon": "organic",
+            "text": "Biodegradable Paper"
+          }
+        },
+        "2eb4a361-85df-445d-a708-84d7e4173322": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "gluten_free",
+            "text": "Recyclable packaging & core"
+          }
+        },
+        "894e6559-3e49-4058-9aee-355ae3204c20": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "secondary",
+            "style": "large-waves_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "1b6d0d10-c112-410d-ba9b-b725adb46c06": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "text": "Sticker",
+            "shape": "star_1",
+            "width": 250,
+            "sticker_font_size": "1.563rem",
+            "image": "shopify:\/\/shop_images\/wine-2662104_1280.png",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 5,
+            "vertical_position": 100,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color": "bg-scheme-accent text-scheme-accent-overlay",
+            "color_scheme": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "16508913039d58ab55-0",
+        "16508913039d58ab55-1",
+        "16508913039d58ab55-2",
+        "2d49c667-6651-4aec-9f2e-b5b01b310ecd",
+        "2eb4a361-85df-445d-a708-84d7e4173322",
+        "894e6559-3e49-4058-9aee-355ae3204c20",
+        "1b6d0d10-c112-410d-ba9b-b725adb46c06"
+      ],
+      "settings": {
+        "title": "Clean up like a pro",
+        "max_width": 100,
+        "text_style": "body",
+        "color_scheme": "primary",
+        "use_gradient_background": true
+      }
+    },
+    "16508912994a26e8bf": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "0a67b1dc-9897-4fc0-ab9e-cfd162628bae": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "text": "Sticker",
+            "shape": "star_1",
+            "width": 150,
+            "sticker_font_size": "1.563rem",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 8,
+            "vertical_position": 80,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color": "bg-scheme-accent text-scheme-accent-overlay",
+            "color_scheme": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "0a67b1dc-9897-4fc0-ab9e-cfd162628bae"
+      ],
+      "settings": {
+        "title": "Clean up like a pro.",
+        "heading_size": "heading-base",
+        "rich_text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2\/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "secondary",
+        "use_gradient_background": false
+      }
+    },
+    "165089168609b8f684": {
+      "type": "blog-posts",
+      "blocks": {
+        "821c67ed-463f-43b1-8388-52f9db81567a": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "primary",
+            "style": "large-waves_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "2b0a1dd0-f56e-4d66-af74-ebaa5e50e100": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "text": "Sticker",
+            "shape": "star_1",
+            "width": 150,
+            "sticker_font_size": "1.563rem",
+            "image": "shopify:\/\/shop_images\/sparkle.gif",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 80,
+            "vertical_position": 100,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color": "bg-scheme-accent text-scheme-accent-overlay",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "4251f46a-18e8-42f6-a2cb-35016631152f": {
+          "type": "sticker",
+          "settings": {
+            "text": "Sticker",
+            "shape": "star_1",
+            "width": 200,
+            "sticker_font_size": "1.563rem",
+            "image": "shopify:\/\/shop_images\/wine-2662104_1280.png",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 5,
+            "vertical_position": 15,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color": "bg-scheme-accent text-scheme-accent-overlay",
+            "color_scheme": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "821c67ed-463f-43b1-8388-52f9db81567a",
+        "2b0a1dd0-f56e-4d66-af74-ebaa5e50e100",
+        "4251f46a-18e8-42f6-a2cb-35016631152f"
+      ],
+      "settings": {
+        "display_on_card": false,
+        "title": "Handee Hacks",
+        "blog": "news",
+        "post_limit": 3,
+        "crop": "aspect-w-4 aspect-h-3",
+        "image_shape": "zig_zag_tear",
+        "blog_show_author": false,
+        "blog_show_date": false,
+        "show_post_excerpt": true,
+        "show_view_all": true,
+        "color_scheme": "primary",
+        "use_gradient_background": true
+      }
+    },
+    "1194cb91-1aa1-4f58-8d4e-e85abd405f13": {
+      "type": "image-with-text",
+      "settings": {
+        "display_on_card": false,
+        "image": "shopify:\/\/shop_images\/FSCPEFC-Blog-Post-Image-1.jpg",
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Committed to sustainable forest management",
+        "heading_size": "heading-base",
+        "richtext": "<p>Handee Ultra wood pulp is sourced from socially and environmentally sustainable forests in line with PEFC guidelines, recognised through Responsible Wood. <\/p>",
+        "text_alignment": "text-left",
+        "button_link": "shopify:\/\/pages\/contact",
+        "button_label": "Learn more",
+        "color_scheme": "secondary",
+        "use_gradient_background": true
+      }
+    },
+    "16508916022eba9802": {
+      "type": "video-with-text-overlay",
+      "disabled": true,
+      "blocks": {
+        "cbd8f80c-1444-4950-ab07-9537cb452ea9": {
+          "type": "sticker",
+          "settings": {
+            "text": "Sticker",
+            "shape": "star_1",
+            "width": 250,
+            "sticker_font_size": "1.563rem",
+            "image": "shopify:\/\/shop_images\/Paper_hand_towel_roll_2nd_image__75074.webp",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 80,
+            "vertical_position": 100,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color": "bg-scheme-accent text-scheme-accent-overlay",
+            "color_scheme": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "cbd8f80c-1444-4950-ab07-9537cb452ea9"
+      ],
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ce94b4d53a2141038413738d48b7d2ec.mp4",
+        "crop": "four-three",
+        "crop_desktop": "cinematic",
+        "fallback_image": "shopify:\/\/shop_images\/200625_Handee_01_0057.jpg",
+        "display_on_card": false,
+        "style": "full",
+        "place_content": "place-content-center-center",
+        "text_align": "text-center",
+        "title": "",
+        "heading_size": "heading-base",
+        "richtext": "",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "primary",
+        "use_gradient_background": false,
+        "text_overlay_color": "same_as_section"
+      }
+    },
+    "1650891590472e0352": {
+      "type": "comparison-table",
+      "disabled": true,
+      "blocks": {
+        "1650891590fbd399df-0": {
+          "type": "row",
+          "settings": {
+            "title": "Strong in both wet or dry",
+            "column_1_icon": "like",
+            "column_1_text": "",
+            "column_2_icon": "thumbs_down",
+            "column_2_text": "",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "1650891590fbd399df-1": {
+          "type": "row",
+          "settings": {
+            "title": "Made in Australia",
+            "column_1_icon": "like",
+            "column_1_text": "",
+            "column_2_icon": "thumbs_down",
+            "column_2_text": "",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "1650891590fbd399df-2": {
+          "type": "row",
+          "settings": {
+            "title": "Biodegradable Paper",
+            "column_1_icon": "like",
+            "column_1_text": "",
+            "column_2_icon": "thumbs_down",
+            "column_2_text": "",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "d3979839-2408-4986-b78d-82d18a060119": {
+          "type": "row",
+          "settings": {
+            "title": "PEFC Certified",
+            "column_1_icon": "like",
+            "column_1_text": "",
+            "column_2_icon": "thumbs_down",
+            "column_2_text": "",
+            "column_3_icon": "",
+            "column_3_text": "",
+            "column_4_icon": "",
+            "column_4_text": ""
+          }
+        },
+        "6afe4643-e397-44a6-8e62-576bb4cb4911": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "primary",
+            "style": "large-waves_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "1650891590fbd399df-0",
+        "1650891590fbd399df-1",
+        "1650891590fbd399df-2",
+        "d3979839-2408-4986-b78d-82d18a060119",
+        "6afe4643-e397-44a6-8e62-576bb4cb4911"
+      ],
+      "settings": {
+        "display_on_card": true,
+        "title": "",
+        "highlighted_column": "1",
+        "column_1_title": "Column 1",
+        "column_1_image": "shopify:\/\/shop_images\/Handee_Logo_Header.png",
+        "column_2_title": "The Rest",
+        "enable_column_3": false,
+        "column_3_title": "Column 3",
+        "enable_column_4": false,
+        "column_4_title": "Column 4",
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    },
+    "16508916323f758a49": {
+      "type": "testimonials",
+      "blocks": {
+        "16508916326463ca2f-0": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-polina-zimmerman-4008503_Small_80b037a1-fe19-41df-a168-1da3387df441.jpg",
+            "rating": "5_stars",
+            "quote": "<p>We use a LOT of paper towels, every meal there is 6 of us, kids, spills and so on. Very handy to have and work well. Double length means they last twice as long for a single roll.<\/p>",
+            "source": "- Scott Arbon (Verified Purchase)"
+          }
+        },
+        "16508916326463ca2f-1": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-karolina-grabowska-4239113_Small_33fcb4a5-44e7-4830-a5ff-5984545c8ae4.jpg",
+            "rating": "5_stars",
+            "quote": "<p>They do hold together when wet which, ain't bad .. and have some scrub in them if needed. Convenience at hand and volume, given I'm a cluts, works out cheaper than the top 2 most days <\/p>",
+            "source": "- Kevin (Verified Purchase)"
+          }
+        },
+        "16508916326463ca2f-2": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-vlada-karpovich-3958211_Small_52f2dfb6-1255-48c9-b91d-b2c30fcb2aab.jpg",
+            "rating": "5_stars",
+            "quote": "<p>Absorbency gets a 100% it’s a product that’s needed so often, when purchased on a special is more value and worth purchasing more at this point.<\/p>",
+            "source": "- Ola (Verified Purchase)"
+          }
+        },
+        "eebb3a63-a165-4a2b-be61-c3aa09e2d2d9": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "tertiary",
+            "style": "tilt-1-asymmetrical_1440x101",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "cac3bc24-dadd-4d70-a3fc-228b17a29d0c": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Handee_trans_Medium_d0c1b561-1b6a-4aee-a7e6-cfc885ad2b8c.png",
+            "rating": "5_stars",
+            "quote": "<p>I’ve always purchased Handee paper towel. It’s twice as absorbent as the cheap supermarket brand. I use half the amount when cleaning up messes as the absorbency is excellent.<\/p>",
+            "source": "- David M. (Verified Purchase)"
+          }
+        },
+        "27ad4123-5bc5-45fc-8745-bfb089360171": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Handee_trans_Medium_d0c1b561-1b6a-4aee-a7e6-cfc885ad2b8c.png",
+            "rating": "5_stars",
+            "quote": "<p>Wiping up spills.<br\/>Keeping fruit and vegetables fresh longer when using it to wrap around then in our green fruit bags.<\/p>",
+            "source": "- Israel B. (Verified Purchase)"
+          }
+        }
+      },
+      "block_order": [
+        "16508916326463ca2f-0",
+        "16508916326463ca2f-1",
+        "16508916326463ca2f-2",
+        "eebb3a63-a165-4a2b-be61-c3aa09e2d2d9",
+        "cac3bc24-dadd-4d70-a3fc-228b17a29d0c",
+        "27ad4123-5bc5-45fc-8745-bfb089360171"
+      ],
+      "settings": {
+        "display_on_card": true,
+        "title": "Rated 4.8 out of 5 stars (750+ Reviews)",
+        "max_width": 200,
+        "disable_media_style": false,
+        "crop": "",
+        "image_shape": "triple_pill",
+        "desktop_slide_width": 30,
+        "autoscroll_mode": "1",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "61aebac6-ea67-44d8-8085-98fce3a024e5": {
+      "type": "faq",
+      "blocks": {
+        "ce84be94-0c5b-46cb-ae93-234c8eac051d": {
+          "type": "background_shape",
+          "settings": {
+            "shape": "blob",
+            "blob_type": 6,
+            "size": 120,
+            "opacity": 100,
+            "blur": 0,
+            "horizontal_position": 50,
+            "vertical_position": 50,
+            "rotate": 0,
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color": "gradient",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-0": {
+          "type": "question",
+          "settings": {
+            "question": "Where are Handee Ultra Paper Towels manufactured?",
+            "answer": "<p>Handee Ultra paper towels are manufactured by Sorbent Paper Company, operating manufacturing facilities in several locations, including New South Wales and Victoria. The company's production facilities utilize state-of-the-art technology and adhere to strict quality control standards to ensure that their products, meet high standards of quality and performance.<\/p>"
+          }
+        },
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-1": {
+          "type": "question",
+          "settings": {
+            "question": "How many sheets are in a roll of Handee Ultra paper towel?",
+            "answer": "<p>The number of sheets in a roll of Handee Ultra paper towel can vary depending on the size and type of the roll. Generally, a regular-sized roll contains around 60-80 sheets, while a large-sized roll may contain 100-120 sheets.<\/p>"
+          }
+        },
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-2": {
+          "type": "question",
+          "settings": {
+            "question": "What is PFEC?",
+            "answer": "<p>PEFC stands for Program for the Endorsement of Forest Certification. It is a global organization that promotes sustainable forest management practices and provides a certification system for forest products. The PEFC works to ensure that forests are managed in a way that meets the social, environmental, and economic needs of present and future generations. The organization's certification system enables customers to identify and choose products that come from sustainably managed forests, and it helps businesses demonstrate their commitment to sustainability.<\/p>"
+          }
+        },
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-3": {
+          "type": "question",
+          "settings": {
+            "question": "Is Handee Ultra Paper Towel food safe?",
+            "answer": "<p>Yes, Handee Ultra paper towel is considered food safe. The paper towel is designed to be used for cleaning up spills and messes in the kitchen, and it is made from materials that are safe for use with food. However, it is important to note that if the paper towel comes into contact with food, it should be discarded and replaced with a clean paper towel to avoid cross-contamination. Additionally, it is always recommended to follow proper food safety practices when handling and preparing food.<\/p>"
+          }
+        },
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-4": {
+          "type": "question",
+          "settings": {
+            "question": "Can paper towels be flushed down the toilet? ",
+            "answer": "<p>No, paper towels should not be flushed down the toilet as they are not designed to break down as easily as toilet paper and can cause blockages in your plumbing systems.<\/p>"
+          }
+        },
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-5": {
+          "type": "question",
+          "settings": {
+            "question": "Is Handee Ultra Paper Towel biodegradable?",
+            "answer": "<p>Handee Ultra paper towel is made from paper pulp, which is biodegradable. The paper towel can break down naturally over time and does not contribute to long-term environmental pollution.<\/p>"
+          }
+        },
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-6": {
+          "type": "question",
+          "settings": {
+            "question": "How can Handee Ultra Paper Towel be useful in my home?",
+            "answer": "<p>Handee Ultra paper towels can be useful in your home in many ways. Here are some examples:<\/p><p>Cleaning spills and messes: Handee Ultra paper towels are highly absorbent and strong, making them ideal for cleaning up spills and messes around the house.<\/p><p>Kitchen use: Handee Ultra paper towels are food safe and can be used to wipe down kitchen surfaces, dry dishes, and clean up after cooking.<\/p><p>Bathroom use: Handee Ultra paper towels are soft and gentle, making them suitable for wiping down bathroom surfaces and cleaning mirrors.<\/p><p>Pet care: Handee Ultra paper towels can be used to clean up pet messes and wipe down pet toys and accessories.<\/p><p>Arts and crafts: Handee Ultra paper towels can be used for various arts and crafts projects, such as painting, drawing, and collage.<\/p><p>Outdoor use: Handee Ultra paper towels are durable and can be used for outdoor activities such as camping, picnics, and barbecues.<\/p>"
+          }
+        },
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-7": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ce84be94-0c5b-46cb-ae93-234c8eac051d",
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-0",
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-1",
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-2",
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-3",
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-4",
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-5",
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-6",
+        "template--18150337315131__61aebac6-ea67-44d8-8085-98fce3a024e5-167886377993cb520f-7"
+      ],
+      "settings": {
+        "display_on_card": true,
+        "heading_text_style": "body",
+        "two_columns_desktop": true,
+        "title": "Handee FAQs",
+        "richtext": "<p>Have something on your mind? Check out our frequently asked questions below.<\/p>",
+        "color_scheme": "secondary",
+        "use_gradient_background": true
+      }
+    },
+    "1650891804363a2769": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Sign up to our newsletter",
+        "richtext": "<p>Receive special offers and first look at new products.<\/p>",
+        "display_on_card": false,
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "1650891033bae15b05",
+    "1650891358fef95dd4",
+    "1650891303c44cb2d2",
+    "16508912994a26e8bf",
+    "165089168609b8f684",
+    "1194cb91-1aa1-4f58-8d4e-e85abd405f13",
+    "16508916022eba9802",
+    "1650891590472e0352",
+    "16508916323f758a49",
+    "61aebac6-ea67-44d8-8085-98fce3a024e5",
+    "1650891804363a2769"
+  ]
+}
