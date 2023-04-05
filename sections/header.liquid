@@ -478,6 +478,9 @@
 <header
   class="
     site-header w-full text-scheme-text
+    {% if section.settings.enable_background_blur %}
+      blur-bg-header no-back-blur
+    {%endif%}
     {% if enable_overlay %}
       absolute top-0 left-0 right-0 z-20 border-b-section bg-transparent
       {% unless section.settings.overlay_show_separator_border %}
@@ -655,6 +658,18 @@
     }
   </style>
 {%- endif -%}
+{%if section.settings.enable_background_blur%}
+<style>
+.blur-bg-header{
+    background-color: rgb(255, 255, 255,0.2);
+    backdrop-filter: blur({{section.settings.blur_effect_size}}px);
+}
+.no-back-blur{
+    background-color: inherit;
+    backdrop-filter: inherit;
+}
+</style>
+{%endif%}
 {%- if predictive_search_enabled and request.design_mode == false -%}
   <script src="{{ 'modules-predictive-search.bundle.min.js' | asset_url }}" type="module"></script>
 {%- endif -%}
@@ -864,6 +879,22 @@
       "type": "header",
       "content": "Color"
     },
+    {
+        "type": "checkbox",
+        "id": "enable_background_blur",
+        "label": "Enable background blur",
+        "default": false
+      },
+      {
+        "type": "range",
+        "id": "blur_effect_size",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Blur effect value",
+        "default": 20
+      },
     {
       "type": "select",
       "id": "color_scheme",
