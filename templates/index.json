@@ -182,6 +182,7 @@
           "type": "icon",
           "settings": {
             "icon": "organic",
+            "image_alternative": "shopify:\/\/shop_images\/output-onlinepngtools.png",
             "text": "Biodegradable Paper"
           }
         },
