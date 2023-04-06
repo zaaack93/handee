@@ -1,5 +1,85 @@
 {
   "sections": {
+    "63d434ad-62cb-4dea-a4a2-08ea0b234157": {
+      "type": "video-with-text",
+      "blocks": {
+        "05e95b93-05c0-421e-a1fc-18e1660f9e07": {
+          "type": "background_shape",
+          "settings": {
+            "shape": "blob",
+            "blob_type": 8,
+            "size": 170,
+            "opacity": 70,
+            "blur": 0,
+            "horizontal_position": 69,
+            "vertical_position": 58,
+            "rotate": -12,
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color": "gradient",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "4010c1e3-422b-4d6c-90e6-2c819bee0589": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "quaternary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "1b20f88a-1a7d-4c52-bd11-c0e2870dff0e": {
+          "type": "sticker",
+          "settings": {
+            "text": "Sticker",
+            "shape": "star_1",
+            "width": 270,
+            "sticker_font_size": "1.563rem",
+            "image": "shopify:\/\/shop_images\/Paper_hand_towel_roll_2nd_image__75074.webp",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 88,
+            "vertical_position": 88,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 6,
+            "color": "bg-scheme-accent text-scheme-accent-overlay",
+            "color_scheme": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "05e95b93-05c0-421e-a1fc-18e1660f9e07",
+        "4010c1e3-422b-4d6c-90e6-2c819bee0589",
+        "1b20f88a-1a7d-4c52-bd11-c0e2870dff0e"
+      ],
+      "settings": {
+        "display_on_card": false,
+        "cover_image": "shopify:\/\/shop_images\/200625_Handee_01_0057_1.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "aspect_ratio": "16:9",
+        "crop": "",
+        "image_shape": "zig_zag_tear",
+        "blob_type": 2,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "The Superhero of Spills",
+        "heading_size": "heading-template",
+        "richtext": "<p>When life gets messy, Handee has got you covered. <\/p>",
+        "text_alignment": "text-left",
+        "button_link": "shopify:\/\/collections\/all",
+        "button_label": "Shop Hand Towels",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
     "1650891033bae15b05": {
       "type": "image-with-text",
       "blocks": {
@@ -770,6 +850,7 @@
     }
   },
   "order": [
+    "63d434ad-62cb-4dea-a4a2-08ea0b234157",
     "1650891033bae15b05",
     "1650891358fef95dd4",
     "1650891303c44cb2d2",
