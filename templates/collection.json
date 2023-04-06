@@ -10,7 +10,7 @@
         "collection_image_style": "full",
         "crop": "aspect-w-4 aspect-h-1",
         "linklist": "",
-        "color_scheme": "primary",
+        "color_scheme": "tertiary",
         "use_gradient_background": false
       }
     },
@@ -19,10 +19,14 @@
       "settings": {
         "no_products": 8,
         "display_on_card": false,
+        "enable_quick_buy": false,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "enable_filtering": true,
         "enable_sorting": true,
+        "expand_filters": true,
+        "show_filter_count": true,
+        "enable_color_swatch_filters": false,
         "color_scheme": "primary",
         "use_gradient_background": false
       }

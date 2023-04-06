@@ -529,5 +529,10 @@
       "pinterest_title": "Pin on Pinterest"
     },
     "rss_subscribe": "Subscribe"
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    }
   }
 }

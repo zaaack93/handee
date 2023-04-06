@@ -566,7 +566,6 @@
         "16508916326463ca2f-0": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-polina-zimmerman-4008503_Small_80b037a1-fe19-41df-a168-1da3387df441.jpg",
             "rating": "5_stars",
             "quote": "<p>We use a LOT of paper towels, every meal there is 6 of us, kids, spills and so on. Very handy to have and work well. Double length means they last twice as long for a single roll.<\/p>",
             "source": "- Scott Arbon (Verified Purchase)"
@@ -575,7 +574,6 @@
         "16508916326463ca2f-1": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-karolina-grabowska-4239113_Small_33fcb4a5-44e7-4830-a5ff-5984545c8ae4.jpg",
             "rating": "5_stars",
             "quote": "<p>They do hold together when wet which, ain't bad .. and have some scrub in them if needed. Convenience at hand and volume, given I'm a cluts, works out cheaper than the top 2 most days <\/p>",
             "source": "- Kevin (Verified Purchase)"
@@ -584,7 +582,6 @@
         "16508916326463ca2f-2": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-vlada-karpovich-3958211_Small_52f2dfb6-1255-48c9-b91d-b2c30fcb2aab.jpg",
             "rating": "5_stars",
             "quote": "<p>Absorbency gets a 100% it’s a product that’s needed so often, when purchased on a special is more value and worth purchasing more at this point.<\/p>",
             "source": "- Ola (Verified Purchase)"
@@ -605,7 +602,6 @@
         "cac3bc24-dadd-4d70-a3fc-228b17a29d0c": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Handee_trans_Medium_d0c1b561-1b6a-4aee-a7e6-cfc885ad2b8c.png",
             "rating": "5_stars",
             "quote": "<p>I’ve always purchased Handee paper towel. It’s twice as absorbent as the cheap supermarket brand. I use half the amount when cleaning up messes as the absorbency is excellent.<\/p>",
             "source": "- David M. (Verified Purchase)"
@@ -614,7 +610,6 @@
         "27ad4123-5bc5-45fc-8745-bfb089360171": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Handee_trans_Medium_d0c1b561-1b6a-4aee-a7e6-cfc885ad2b8c.png",
             "rating": "5_stars",
             "quote": "<p>Wiping up spills.<br\/>Keeping fruit and vegetables fresh longer when using it to wrap around then in our green fruit bags.<\/p>",
             "source": "- Israel B. (Verified Purchase)"
@@ -639,6 +634,28 @@
         "desktop_slide_width": 30,
         "autoscroll_mode": "1",
         "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "00892983-906a-4d57-b137-0c987a9edd8f": {
+      "type": "image-with-text",
+      "settings": {
+        "display_on_card": false,
+        "image": "shopify:\/\/shop_images\/handee_gif.gif",
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Australia’s most absorbent paper towel!",
+        "heading_size": "heading-base",
+        "richtext": "<p>Thanks to our advanced paper making technology, Handee paper towel is ultra strong - wet or dry.<\/p>",
+        "text_alignment": "text-left",
+        "button_link": "shopify:\/\/products\/handee-ultra-paper-towel",
+        "button_label": "SHOP HANDEE ULTRA",
+        "color_scheme": "tertiary",
         "use_gradient_background": false
       }
     },
@@ -762,6 +779,7 @@
     "16508916022eba9802",
     "1650891590472e0352",
     "16508916323f758a49",
+    "00892983-906a-4d57-b137-0c987a9edd8f",
     "61aebac6-ea67-44d8-8085-98fce3a024e5",
     "1650891804363a2769"
   ]
