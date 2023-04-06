@@ -2,3 +2,20 @@
   width: 100%;
   height: 100%;
 }
+
+@media (max-width: 660px) {
+  .customized-mobile-icon-list {
+    justify-content: space-between;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+  .customized-mobile-icon-list li {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: calc(50% - 5px);
+  }
+  .customized-mobile-icon-list li h3 {
+    word-break: keep-all;
+    font-size: 18px;
+  }
+}
