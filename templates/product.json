@@ -21,6 +21,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
             "display_on_card": false,
             "show_label": true
@@ -45,6 +46,14 @@
             "show_pickup_availability": false
           }
         },
+        "3ce0f7b3-d626-4191-a86e-b11ee24f39d0": {
+          "type": "text",
+          "settings": {
+            "display_on_card": false,
+            "text": "Text block",
+            "icon": "check-mark"
+          }
+        },
         "a17e90c4-acc9-4f1d-af84-828ae4cb2289": {
           "type": "description",
           "settings": {
@@ -53,8 +62,19 @@
             "text_align": "text-left"
           }
         },
+        "54647959-a331-470f-bf9c-89f5ae63778e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "display_on_card": false,
+            "icon": "none",
+            "heading": "Collapsible tab",
+            "content": "",
+            "page": ""
+          }
+        },
         "0c0e4f3e-613c-4465-9b82-eacb6a372286": {
           "type": "icon_row",
+          "disabled": true,
           "settings": {
             "display_on_card": false,
             "icon_1": "globe",
@@ -76,7 +96,9 @@
         "quantity_selector",
         "variant_picker",
         "baf3083e-d14d-435d-bca3-100d6ac490ce",
+        "3ce0f7b3-d626-4191-a86e-b11ee24f39d0",
         "a17e90c4-acc9-4f1d-af84-828ae4cb2289",
+        "54647959-a331-470f-bf9c-89f5ae63778e",
         "0c0e4f3e-613c-4465-9b82-eacb6a372286"
       ],
       "settings": {
@@ -94,6 +116,152 @@
         "hide_media_shadow": false,
         "thumbnail_size": "large",
         "show_thumbnails_on_mobile": false,
+        "color_scheme": "primary",
+        "use_gradient_background": true
+      }
+    },
+    "9014213c-9116-43e4-a0a3-fc59d6ceced3": {
+      "type": "icon-list",
+      "blocks": {
+        "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/5.png",
+            "text": "SPILLS, SPLATTER & MESS"
+          }
+        },
+        "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/3.png",
+            "text": "PET MESS"
+          }
+        },
+        "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/8.png",
+            "text": "CARS, BBQ & SHED"
+          }
+        },
+        "95394688-c205-4a69-95fe-c77014943799": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/7.png",
+            "text": "WINDOWS & MIRRORS"
+          }
+        }
+      },
+      "block_order": [
+        "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-0",
+        "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-1",
+        "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-2",
+        "95394688-c205-4a69-95fe-c77014943799"
+      ],
+      "settings": {
+        "title": "",
+        "max_width": 100,
+        "text_style": "heading",
+        "color_scheme": "primary",
+        "use_gradient_background": true
+      }
+    },
+    "8ca4135a-1c4f-4bb9-8195-7ac897ccc827": {
+      "type": "comparison-table",
+      "blocks": {
+        "5aa7ae89-4be0-4338-9012-de2f5aec9c68": {
+          "type": "row",
+          "settings": {
+            "title": "Interlock Weave Technology",
+            "column_1_icon": "check-mark",
+            "column_1_text": "",
+            "column_2_icon": "",
+            "column_2_text": "",
+            "column_3_icon": "",
+            "column_3_text": "",
+            "column_4_icon": "",
+            "column_4_text": ""
+          }
+        },
+        "template--18150337282363__8ca4135a-1c4f-4bb9-8195-7ac897ccc827-1680582555671e1dde-0": {
+          "type": "row",
+          "settings": {
+            "title": "Australia Made",
+            "column_1_icon": "check-mark",
+            "column_1_text": "",
+            "column_2_icon": "check_close",
+            "column_2_text": "",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "template--18150337282363__8ca4135a-1c4f-4bb9-8195-7ac897ccc827-1680582555671e1dde-1": {
+          "type": "row",
+          "settings": {
+            "title": "Strong - Wet or Dry",
+            "column_1_icon": "check-mark",
+            "column_1_text": "",
+            "column_2_icon": "check_close",
+            "column_2_text": "",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "template--18150337282363__8ca4135a-1c4f-4bb9-8195-7ac897ccc827-1680582555671e1dde-2": {
+          "type": "row",
+          "settings": {
+            "title": "PEFC Certified",
+            "column_1_icon": "check-mark",
+            "column_1_text": "",
+            "column_2_icon": "check_close",
+            "column_2_text": "",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "0167831f-6d63-4e52-b61d-49dde589a428": {
+          "type": "row",
+          "settings": {
+            "title": "Biodegradable Paper",
+            "column_1_icon": "check-mark",
+            "column_1_text": "",
+            "column_2_icon": "",
+            "column_2_text": "",
+            "column_3_icon": "",
+            "column_3_text": "",
+            "column_4_icon": "",
+            "column_4_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "5aa7ae89-4be0-4338-9012-de2f5aec9c68",
+        "template--18150337282363__8ca4135a-1c4f-4bb9-8195-7ac897ccc827-1680582555671e1dde-0",
+        "template--18150337282363__8ca4135a-1c4f-4bb9-8195-7ac897ccc827-1680582555671e1dde-1",
+        "template--18150337282363__8ca4135a-1c4f-4bb9-8195-7ac897ccc827-1680582555671e1dde-2",
+        "0167831f-6d63-4e52-b61d-49dde589a428"
+      ],
+      "settings": {
+        "display_on_card": false,
+        "title": "",
+        "highlighted_column": "1",
+        "column_1_title": "Column 1",
+        "column_1_image": "shopify:\/\/shop_images\/Handee_Logo_Header.png",
+        "column_2_title": "The Others",
+        "enable_column_3": false,
+        "column_3_title": "Column 3",
+        "enable_column_4": false,
+        "column_4_title": "Column 4",
         "color_scheme": "primary",
         "use_gradient_background": true
       }
@@ -125,61 +293,6 @@
         "aspect_ratio": "16:9",
         "color_scheme": "secondary",
         "use_gradient_background": true
-      }
-    },
-    "9217e06f-a9b9-4178-aa23-371a77dbd705": {
-      "type": "logo-list",
-      "blocks": {
-        "template--18150337282363__9217e06f-a9b9-4178-aa23-371a77dbd705-16805825073aa73638-0": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--18150337282363__9217e06f-a9b9-4178-aa23-371a77dbd705-16805825073aa73638-1": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--18150337282363__9217e06f-a9b9-4178-aa23-371a77dbd705-16805825073aa73638-2": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--18150337282363__9217e06f-a9b9-4178-aa23-371a77dbd705-16805825073aa73638-3": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--18150337282363__9217e06f-a9b9-4178-aa23-371a77dbd705-16805825073aa73638-4": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--18150337282363__9217e06f-a9b9-4178-aa23-371a77dbd705-16805825073aa73638-5": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18150337282363__9217e06f-a9b9-4178-aa23-371a77dbd705-16805825073aa73638-0",
-        "template--18150337282363__9217e06f-a9b9-4178-aa23-371a77dbd705-16805825073aa73638-1",
-        "template--18150337282363__9217e06f-a9b9-4178-aa23-371a77dbd705-16805825073aa73638-2",
-        "template--18150337282363__9217e06f-a9b9-4178-aa23-371a77dbd705-16805825073aa73638-3",
-        "template--18150337282363__9217e06f-a9b9-4178-aa23-371a77dbd705-16805825073aa73638-4",
-        "template--18150337282363__9217e06f-a9b9-4178-aa23-371a77dbd705-16805825073aa73638-5"
-      ],
-      "settings": {
-        "title": "",
-        "max_width": 100,
-        "color_scheme": "primary",
-        "use_gradient_background": false
       }
     },
     "859bcbe2-1baf-4c40-afcc-1b4d59777207": {
@@ -321,80 +434,15 @@
         "color_scheme": "primary",
         "use_gradient_background": false
       }
-    },
-    "8ca4135a-1c4f-4bb9-8195-7ac897ccc827": {
-      "type": "comparison-table",
-      "blocks": {
-        "template--18150337282363__8ca4135a-1c4f-4bb9-8195-7ac897ccc827-1680582555671e1dde-0": {
-          "type": "row",
-          "settings": {
-            "title": "Label",
-            "column_1_icon": "check-mark",
-            "column_1_text": "",
-            "column_2_icon": "check_close",
-            "column_2_text": "",
-            "column_3_icon": "check_close",
-            "column_3_text": "",
-            "column_4_icon": "check_close",
-            "column_4_text": ""
-          }
-        },
-        "template--18150337282363__8ca4135a-1c4f-4bb9-8195-7ac897ccc827-1680582555671e1dde-1": {
-          "type": "row",
-          "settings": {
-            "title": "Label",
-            "column_1_icon": "check-mark",
-            "column_1_text": "",
-            "column_2_icon": "check_close",
-            "column_2_text": "",
-            "column_3_icon": "check_close",
-            "column_3_text": "",
-            "column_4_icon": "check_close",
-            "column_4_text": ""
-          }
-        },
-        "template--18150337282363__8ca4135a-1c4f-4bb9-8195-7ac897ccc827-1680582555671e1dde-2": {
-          "type": "row",
-          "settings": {
-            "title": "Label",
-            "column_1_icon": "check-mark",
-            "column_1_text": "",
-            "column_2_icon": "check_close",
-            "column_2_text": "",
-            "column_3_icon": "check_close",
-            "column_3_text": "",
-            "column_4_icon": "check_close",
-            "column_4_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18150337282363__8ca4135a-1c4f-4bb9-8195-7ac897ccc827-1680582555671e1dde-0",
-        "template--18150337282363__8ca4135a-1c4f-4bb9-8195-7ac897ccc827-1680582555671e1dde-1",
-        "template--18150337282363__8ca4135a-1c4f-4bb9-8195-7ac897ccc827-1680582555671e1dde-2"
-      ],
-      "settings": {
-        "display_on_card": true,
-        "title": "",
-        "highlighted_column": "1",
-        "column_1_title": "Column 1",
-        "column_2_title": "Column 2",
-        "enable_column_3": true,
-        "column_3_title": "Column 3",
-        "enable_column_4": true,
-        "column_4_title": "Column 4",
-        "color_scheme": "primary",
-        "use_gradient_background": false
-      }
     }
   },
   "order": [
     "main",
+    "9014213c-9116-43e4-a0a3-fc59d6ceced3",
+    "8ca4135a-1c4f-4bb9-8195-7ac897ccc827",
     "ad6c2178-cfe7-4e33-9ff5-b3d27ea8505c",
-    "9217e06f-a9b9-4178-aa23-371a77dbd705",
     "859bcbe2-1baf-4c40-afcc-1b4d59777207",
     "product-recommendations",
-    "10a3a9c2-9dc4-4747-87f2-9ab450eaee84",
-    "8ca4135a-1c4f-4bb9-8195-7ac897ccc827"
+    "10a3a9c2-9dc4-4747-87f2-9ab450eaee84"
   ]
 }

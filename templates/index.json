@@ -157,25 +157,28 @@
     "1650891303c44cb2d2": {
       "type": "icon-list",
       "blocks": {
-        "16508913039d58ab55-0": {
+        "a441a13a-b611-4758-b003-98bdad4f8db3": {
           "type": "icon",
           "settings": {
-            "icon": "alcohol_free",
-            "text": "Made in Australia"
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/2.png",
+            "text": "MICROWAVE SAFE"
           }
         },
-        "16508913039d58ab55-1": {
+        "b8c47959-d67a-41f5-9960-1a4b0f2fec49": {
           "type": "icon",
           "settings": {
-            "icon": "no_additives",
-            "text": "Strong - Wet or Dry"
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/4.png",
+            "text": "LINT & STREAK FREE"
           }
         },
-        "16508913039d58ab55-2": {
+        "84b8026d-45ba-430a-b5e1-4efa25ffcf86": {
           "type": "icon",
           "settings": {
-            "icon": "no_artificial_colors",
-            "text": "PEFC Certified"
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/6.png",
+            "text": "FOOD SAFE"
           }
         },
         "2d49c667-6651-4aec-9f2e-b5b01b310ecd": {
@@ -183,7 +186,31 @@
           "settings": {
             "icon": "organic",
             "image_alternative": "shopify:\/\/shop_images\/output-onlinepngtools.png",
-            "text": "Biodegradable Paper"
+            "text": "BIODEGRADABLE PAPER"
+          }
+        },
+        "16508913039d58ab55-0": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "alcohol_free",
+            "text": "Made in Australia"
+          }
+        },
+        "16508913039d58ab55-1": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "no_additives",
+            "text": "Strong - Wet or Dry"
+          }
+        },
+        "16508913039d58ab55-2": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "no_artificial_colors",
+            "text": "PEFC Certified"
           }
         },
         "2eb4a361-85df-445d-a708-84d7e4173322": {
@@ -230,18 +257,21 @@
         }
       },
       "block_order": [
+        "a441a13a-b611-4758-b003-98bdad4f8db3",
+        "b8c47959-d67a-41f5-9960-1a4b0f2fec49",
+        "84b8026d-45ba-430a-b5e1-4efa25ffcf86",
+        "2d49c667-6651-4aec-9f2e-b5b01b310ecd",
         "16508913039d58ab55-0",
         "16508913039d58ab55-1",
         "16508913039d58ab55-2",
-        "2d49c667-6651-4aec-9f2e-b5b01b310ecd",
         "2eb4a361-85df-445d-a708-84d7e4173322",
         "894e6559-3e49-4058-9aee-355ae3204c20",
         "1b6d0d10-c112-410d-ba9b-b725adb46c06"
       ],
       "settings": {
-        "title": "Clean up like a pro",
+        "title": "Clean Up Like A Pro",
         "max_width": 100,
-        "text_style": "body",
+        "text_style": "heading",
         "color_scheme": "primary",
         "use_gradient_background": true
       }
