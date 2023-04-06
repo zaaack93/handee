@@ -17,3 +17,13 @@
         }
     }
 }
+
+@media (min-width: 661px) {
+.customized-mobile-icon-list{
+    column-gap: 20px;
+    li{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+}

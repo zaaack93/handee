@@ -19,3 +19,13 @@
     font-size: 18px;
   }
 }
+@media (min-width: 661px) {
+  .customized-mobile-icon-list {
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .customized-mobile-icon-list li {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
