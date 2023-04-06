@@ -83,6 +83,7 @@
       ],
       "settings": {
         "display_on_card": false,
+        "video_file": "shopify:\/\/files\/videos\/Copy of Handee Double Length 6_ 3.mp4",
         "image": "shopify:\/\/shop_images\/handee_gif.gif",
         "crop": "",
         "image_shape": "zig_zag_tear",

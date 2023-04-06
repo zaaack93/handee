@@ -33,12 +33,11 @@
   endcase
 -%}
 
-{%- render 'shape-defs',
-  shape: image_shape,
+{%- render 'shape-defs'
+  , shape: image_shape,
   shape_id: section_id,
   index: index,
-  blob_type: blob_type
--%}
+  blob_type: blob_type -%}
 
 <div class="px-section relative z-10 max-w-site mx-auto">
   <div class="{% if display_on_card %}card-container{% endif %}">
@@ -46,7 +45,8 @@
       <div class="grid grid-cols-1 lg:grid-cols-12 grid-flow-row-dense gap-10">
         <div class="{{ image_width_desktop }}">
           {%- if image != blank -%}
-            {%- render 'media-image',
+            {%- render 'media-image'
+              , video: video,
               media: image,
               shape_id: section_id,
               shape: image_shape,
@@ -54,16 +54,15 @@
               rotate: rotate_image,
               is_card: display_on_card,
               container_id: container_id,
-              disable_media_style: disable_media_style
-            -%}
+              disable_media_style: disable_media_style -%}
           {%- else -%}
-           {%- render 'media-image-placeholder', shape_id: section_id, container_id: section_id, shape: image_shape, crop: scrop, is_card: display_on_card, blob_type: blob_type -%}
+            {%- render 'media-image-placeholder', shape_id: section_id, container_id: section_id, shape: image_shape, crop: scrop, is_card: display_on_card, blob_type: blob_type -%}
           {%- endif -%}
         </div>
         <div class="flex items-center {{ text_width_desktop }}">
           <div class="{{ text_alignment }}">
             {% if title != '' %}
-            <h2 class="font-heading  {{ heading_size }} heading-style {{ settings.heading_drop_shadow_style }}">{{ title }}</h2>
+              <h2 class="font-heading  {{ heading_size }} heading-style {{ settings.heading_drop_shadow_style }}">{{ title }}</h2>
             {% endif %}
 
             <div class="rte  mt-5  max-w-2xl {% if text_alignment contains 'center' %}mx-auto{% elsif text_alignment contains 'right' %}ml-auto{% endif %}">
@@ -71,18 +70,18 @@
             </div>
 
             {%- if button_link != blank and button_label != '' -%}
-            <div class="mt-5">
-              <a href="{{ button_link }}" class="inline-block push-btn">
-                <span class="push-btn-surface">{{ button_label }}</span>
-              </a>
-            </div>
+              <div class="mt-5">
+                <a href="{{ button_link }}" class="inline-block push-btn">
+                  <span class="push-btn-surface">{{ button_label }}</span>
+                </a>
+              </div>
             {%- endif -%}
           </div>
         </div>
       </div>
     </div>
-    {% if section.settings.display_on_card and settings.card_show_border_on_shadow %}<div class="card-border"></div>{% endif %}
+    {% if section.settings.display_on_card and settings.card_show_border_on_shadow %}
+      <div class="card-border"></div>
+    {% endif %}
   </div>
 </div>
-
-
