@@ -84,7 +84,6 @@
       "settings": {
         "display_on_card": false,
         "video_file": "shopify:\/\/files\/videos\/Copy of Handee Double Length 6_ 3.mp4",
-        "image": "shopify:\/\/shop_images\/handee_gif.gif",
         "crop": "",
         "image_shape": "zig_zag_tear",
         "blob_type": 2,
@@ -273,49 +272,8 @@
         "title": "Clean Up Like A Pro",
         "max_width": 100,
         "text_style": "heading",
-        "color_scheme": "primary",
+        "color_scheme": "quaternary",
         "use_gradient_background": true
-      }
-    },
-    "16508912994a26e8bf": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "0a67b1dc-9897-4fc0-ab9e-cfd162628bae": {
-          "type": "sticker",
-          "disabled": true,
-          "settings": {
-            "text": "Sticker",
-            "shape": "star_1",
-            "width": 150,
-            "sticker_font_size": "1.563rem",
-            "half_image_width_on_mobile": true,
-            "horizontal_position": 8,
-            "vertical_position": 80,
-            "rotate": 0,
-            "show_sticker_on_mobile": true,
-            "show_sticker_on_desktop": true,
-            "rotation_animation": "rotate_when_scrolling",
-            "enable_parallax": true,
-            "parallax_speed": 3,
-            "color": "bg-scheme-accent text-scheme-accent-overlay",
-            "color_scheme": "same_as_section"
-          }
-        }
-      },
-      "block_order": [
-        "0a67b1dc-9897-4fc0-ab9e-cfd162628bae"
-      ],
-      "settings": {
-        "title": "Clean up like a pro.",
-        "heading_size": "heading-base",
-        "rich_text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "display_on_card": false,
-        "content_width_desktop": "lg:w-2\/3",
-        "button_link": "",
-        "button_label": "Shop Now",
-        "color_scheme": "secondary",
-        "use_gradient_background": false
       }
     },
     "165089168609b8f684": {
@@ -393,7 +351,7 @@
         "blog_show_date": false,
         "show_post_excerpt": true,
         "show_view_all": true,
-        "color_scheme": "primary",
+        "color_scheme": "quaternary",
         "use_gradient_background": true
       }
     },
@@ -417,54 +375,6 @@
         "button_label": "Learn more",
         "color_scheme": "secondary",
         "use_gradient_background": true
-      }
-    },
-    "16508916022eba9802": {
-      "type": "video-with-text-overlay",
-      "disabled": true,
-      "blocks": {
-        "cbd8f80c-1444-4950-ab07-9537cb452ea9": {
-          "type": "sticker",
-          "settings": {
-            "text": "Sticker",
-            "shape": "star_1",
-            "width": 250,
-            "sticker_font_size": "1.563rem",
-            "image": "shopify:\/\/shop_images\/Paper_hand_towel_roll_2nd_image__75074.webp",
-            "half_image_width_on_mobile": true,
-            "horizontal_position": 80,
-            "vertical_position": 100,
-            "rotate": 0,
-            "show_sticker_on_mobile": true,
-            "show_sticker_on_desktop": true,
-            "rotation_animation": "rotate_when_scrolling",
-            "enable_parallax": false,
-            "parallax_speed": 3,
-            "color": "bg-scheme-accent text-scheme-accent-overlay",
-            "color_scheme": "same_as_section"
-          }
-        }
-      },
-      "block_order": [
-        "cbd8f80c-1444-4950-ab07-9537cb452ea9"
-      ],
-      "settings": {
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ce94b4d53a2141038413738d48b7d2ec.mp4",
-        "crop": "four-three",
-        "crop_desktop": "cinematic",
-        "fallback_image": "shopify:\/\/shop_images\/200625_Handee_01_0057.jpg",
-        "display_on_card": false,
-        "style": "full",
-        "place_content": "place-content-center-center",
-        "text_align": "text-center",
-        "title": "",
-        "heading_size": "heading-base",
-        "richtext": "",
-        "cta_url": "",
-        "cta_text": "",
-        "color_scheme": "primary",
-        "use_gradient_background": false,
-        "text_overlay_color": "same_as_section"
       }
     },
     "1650891590472e0352": {
@@ -644,7 +554,7 @@
         "display_on_card": false,
         "image": "shopify:\/\/shop_images\/handee_gif.gif",
         "crop": "",
-        "image_shape": "default",
+        "image_shape": "triple_pill",
         "blob_type": 1,
         "rotate_image": 0,
         "image_position": "right",
@@ -774,10 +684,8 @@
     "1650891033bae15b05",
     "1650891358fef95dd4",
     "1650891303c44cb2d2",
-    "16508912994a26e8bf",
     "165089168609b8f684",
     "1194cb91-1aa1-4f58-8d4e-e85abd405f13",
-    "16508916022eba9802",
     "1650891590472e0352",
     "16508916323f758a49",
     "00892983-906a-4d57-b137-0c987a9edd8f",

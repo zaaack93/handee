@@ -33,7 +33,7 @@
   endcase
 -%}
 
-{%- render 'shape-defs'
+{%- render 'shape-defs' 
   , shape: image_shape,
   shape_id: section_id,
   index: index,
@@ -44,8 +44,8 @@
     <div class="{% if display_on_card %}card p-5 lg:p-10{% endif %} section-content mx-auto relative z-10 text_alignment">
       <div class="grid grid-cols-1 lg:grid-cols-12 grid-flow-row-dense gap-10">
         <div class="{{ image_width_desktop }}">
-          {%- if image != blank -%}
-            {%- render 'media-image'
+          {%- if image != blank or video != blank -%}
+            {%- render 'media-image' 
               , video: video,
               media: image,
               shape_id: section_id,
