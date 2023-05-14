@@ -24,7 +24,7 @@
         <div class="{% if section.settings.display_on_card %}card-container{% else %}{% endif %}" {{ block.shopify_attributes }}>
           <div class="{% if section.settings.display_on_card %}card p-4{% else %}border-scheme-text border-t-2 py-4{% endif %}" x-data="{ open: false }" x-cloak>
             <{{ block_heading_level }} class="">
-              <button @click="open = !open" class="{% if section.settings.heading_text_style == 'heading' %}font-heading heading-secondary{% endif %} cursor-pointer flex justify-between items-center w-full text-left" :aria-expanded="open ? true : 'false'">
+              <button @click="open = !open" class="{% if section.settings.heading_text_style == 'heading' %}font-heading heading-secondary{% endif %} cursor-pointer flex justify-between items-center w-full font-bold text-left" :aria-expanded="open ? true : 'false'">
                 <div class="w-10/12 lg:w-11/12 grow-0">
                   <span class="inline-block break-words w-full">
                     {{ block.settings.question }}
@@ -35,7 +35,7 @@
                 </div>
               </button>
             </{{ block_heading_level }}>
-            <div class="mt-4 rte" x-show="open" id="{{ block.id }}">
+            <div class="mt-4 rte font-normal" x-show="open" id="{{ block.id }}">
               {{ block.settings.answer }}
             </div>
           </div>
