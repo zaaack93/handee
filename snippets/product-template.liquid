@@ -287,9 +287,11 @@
                         </button>
                       </div>
                     {%- endif -%}
-                    <div class="splide__arrows px-section flex items-center justify-end gap-2 mt-4 lg:hidden">
+                    
+                    <div class="splide__arrows px-section flex items-center justify-end gap-2 mt-4 lg:hidden -pl {%- if section.settings.show_slideshow_arrows_on_mobile -%} 2- hidden{%endif%}">
                       {%- render 'splide-navigation' -%}
                     </div>
+                    
                     {%- if section.settings.show_slideshow_arrows_on_desktop -%}
                     <div class="splide__arrows flex items-center justify-end gap-2 mt-4 hidden lg:block text-right">
                       <div class="inline-block controls relative z-10 ml-auto {% if settings.button_shadow_direction contains 'top' %}pt-button-shadow{% else %}pb-button-shadow{% endif %}">

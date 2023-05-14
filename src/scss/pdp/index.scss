@@ -1,0 +1,17 @@
+.template--product{
+    @media (max-width: 749px) {
+        .splide--product{
+            .splide__list{
+                column-gap: 20px;
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+                li {
+                    padding: 0px;
+                }
+                .w-4\/5{
+                    width: 90% !important;
+                }
+            }
+        }
+    }
+}
