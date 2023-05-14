@@ -129,7 +129,7 @@
       ],
       "settings": {
         "display_on_card": true,
-        "heading_text_style": "heading",
+        "heading_text_style": "body",
         "two_columns_desktop": true,
         "title": "FAQ",
         "richtext": "<p>Find the most frequently asked questions below.<\/p>",
