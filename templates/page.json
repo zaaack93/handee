@@ -1,15 +1,162 @@
 {
   "sections": {
+    "64ba5387-afcf-427d-a85e-0f1ff7db2f21": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "template--18578221990203__64ba5387-afcf-427d-a85e-0f1ff7db2f21-1683853580cb2f3b49-0": {
+          "type": "slide",
+          "settings": {
+            "title": "Frequently Asked Questions",
+            "richtext": "",
+            "cta_url": "",
+            "cta_text": "Shop Now",
+            "place_content": "inherit",
+            "text_align": "inherit",
+            "text_overlay_color": "same_as_section"
+          }
+        },
+        "template--18578221990203__64ba5387-afcf-427d-a85e-0f1ff7db2f21-1683853580cb2f3b49-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "title": "Hero slideshow",
+            "richtext": "",
+            "cta_url": "",
+            "cta_text": "Shop Now",
+            "place_content": "inherit",
+            "text_align": "inherit",
+            "text_overlay_color": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "template--18578221990203__64ba5387-afcf-427d-a85e-0f1ff7db2f21-1683853580cb2f3b49-0",
+        "template--18578221990203__64ba5387-afcf-427d-a85e-0f1ff7db2f21-1683853580cb2f3b49-1"
+      ],
+      "settings": {
+        "style": "full",
+        "height": "natural",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": false,
+        "auto_rotate": false,
+        "slide_speed": "5000",
+        "place_content": "place-content-center-start",
+        "text_align": "text-left",
+        "heading_size": "heading-base",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "display_on_card": true,
         "color_scheme": "primary",
         "use_gradient_background": true
       }
+    },
+    "3d3c1369-f411-4c3a-a99f-074bc9cfa73c": {
+      "type": "faq",
+      "blocks": {
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-0": {
+          "type": "question",
+          "settings": {
+            "question": "Where are Handee Ultra Paper Towels manufactured?",
+            "answer": "<p>Handee Ultra paper towels are manufactured by Sorbent Paper Company, operating manufacturing facilities in several locations, including New South Wales and Victoria. The company's production facilities utilize state-of-the-art technology and adhere to strict quality control standards to ensure that their products, meet high standards of quality and performance.<\/p>"
+          }
+        },
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-1": {
+          "type": "question",
+          "settings": {
+            "question": "How many sheets are in a roll of Handee Ultra paper towel?",
+            "answer": "<p>The number of sheets in a roll of Handee Ultra paper towel can vary depending on the size and type of the roll. Generally, a regular-sized roll contains around 60-80 sheets, while a large-sized roll may contain 100-120 sheets.<\/p>"
+          }
+        },
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-2": {
+          "type": "question",
+          "settings": {
+            "question": "What is PFEC?",
+            "answer": "<p>PEFC stands for Program for the Endorsement of Forest Certification. It is a global organization that promotes sustainable forest management practices and provides a certification system for forest products. The PEFC works to ensure that forests are managed in a way that meets the social, environmental, and economic needs of present and future generations. The organization's certification system enables customers to identify and choose products that come from sustainably managed forests, and it helps businesses demonstrate their commitment to sustainability.<\/p>"
+          }
+        },
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-3": {
+          "type": "question",
+          "settings": {
+            "question": "Is Handee Ultra Paper Towel food safe?",
+            "answer": "<p>Yes, Handee Ultra paper towel is considered food safe. The paper towel is designed to be used for cleaning up spills and messes in the kitchen, and it is made from materials that are safe for use with food. However, it is important to note that if the paper towel comes into contact with food, it should be discarded and replaced with a clean paper towel to avoid cross-contamination. Additionally, it is always recommended to follow proper food safety practices when handling and preparing food.<\/p>"
+          }
+        },
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-4": {
+          "type": "question",
+          "settings": {
+            "question": "Can paper towels be flushed down the toilet? ",
+            "answer": "<p>No, paper towels should not be flushed down the toilet as they are not designed to break down as easily as toilet paper and can cause blockages in your plumbing systems.<\/p>"
+          }
+        },
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-5": {
+          "type": "question",
+          "settings": {
+            "question": "Is Handee Ultra Paper Towel biodegradable?",
+            "answer": "<p>Handee Ultra paper towel is made from paper pulp, which is biodegradable. The paper towel can break down naturally over time and does not contribute to long-term environmental pollution.<\/p>"
+          }
+        },
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-6": {
+          "type": "question",
+          "settings": {
+            "question": "How can Handee Ultra Paper Towel be useful in my home?",
+            "answer": "<p>Handee Ultra paper towels can be useful in your home in many ways. Here are some examples:<\/p><p>Cleaning spills and messes: Handee Ultra paper towels are highly absorbent and strong, making them ideal for cleaning up spills and messes around the house.<\/p><p>Kitchen use: Handee Ultra paper towels are food safe and can be used to wipe down kitchen surfaces, dry dishes, and clean up after cooking.<\/p><p>Bathroom use: Handee Ultra paper towels are soft and gentle, making them suitable for wiping down bathroom surfaces and cleaning mirrors.<\/p><p>Pet care: Handee Ultra paper towels can be used to clean up pet messes and wipe down pet toys and accessories.<\/p><p>Arts and crafts: Handee Ultra paper towels can be used for various arts and crafts projects, such as painting, drawing, and collage.<\/p><p>Outdoor use: Handee Ultra paper towels are durable and can be used for outdoor activities such as camping, picnics, and barbecues.<\/p>"
+          }
+        },
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-7": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-0",
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-1",
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-2",
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-3",
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-4",
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-5",
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-6",
+        "template--18578221990203__3d3c1369-f411-4c3a-a99f-074bc9cfa73c-16838571065f397d4a-7"
+      ],
+      "settings": {
+        "display_on_card": true,
+        "heading_text_style": "heading",
+        "two_columns_desktop": true,
+        "title": "FAQ",
+        "richtext": "<p>Find the most frequently asked questions below.<\/p>",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "cbb1ea9e-a2f1-4677-93bd-93c91ca6e1d7": {
+      "type": "offset-collection-gallery",
+      "settings": {
+        "collection": "all-products",
+        "height": "pt-600",
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "default",
+        "no_mobile_grid_items": 4,
+        "no_desktop_grid_items": 24,
+        "zoom_level": 1.3,
+        "rotate": -15,
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
-    "main"
+    "64ba5387-afcf-427d-a85e-0f1ff7db2f21",
+    "main",
+    "3d3c1369-f411-4c3a-a99f-074bc9cfa73c",
+    "cbb1ea9e-a2f1-4677-93bd-93c91ca6e1d7"
   ]
 }

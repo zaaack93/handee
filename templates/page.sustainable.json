@@ -1,0 +1,199 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "display_on_card": true,
+        "color_scheme": "primary",
+        "use_gradient_background": true
+      }
+    },
+    "ee4c8b96-1e2e-4b2c-9da9-7e4d2827f53c": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "template--19038698373435__ee4c8b96-1e2e-4b2c-9da9-7e4d2827f53c-168371953374c2489f-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-karolina-grabowska-4239113_Small_33fcb4a5-44e7-4830-a5ff-5984545c8ae4.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/pexels-polina-zimmerman-4008503_Small_80b037a1-fe19-41df-a168-1da3387df441.jpg",
+            "title": "Sustainability",
+            "richtext": "",
+            "cta_url": "",
+            "cta_text": "",
+            "place_content": "place-content-center-start",
+            "text_align": "text-left",
+            "text_overlay_color": "same_as_section"
+          }
+        },
+        "template--19038698373435__ee4c8b96-1e2e-4b2c-9da9-7e4d2827f53c-168371953374c2489f-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "title": "Hero slideshow",
+            "richtext": "",
+            "cta_url": "",
+            "cta_text": "Shop Now",
+            "place_content": "inherit",
+            "text_align": "inherit",
+            "text_overlay_color": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "template--19038698373435__ee4c8b96-1e2e-4b2c-9da9-7e4d2827f53c-168371953374c2489f-0",
+        "template--19038698373435__ee4c8b96-1e2e-4b2c-9da9-7e4d2827f53c-168371953374c2489f-1"
+      ],
+      "settings": {
+        "style": "full",
+        "height": "pt-700",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": false,
+        "auto_rotate": false,
+        "slide_speed": "5000",
+        "place_content": "place-content-center-start",
+        "text_align": "text-left",
+        "heading_size": "heading-template",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "a3e927c3-a4e8-4528-8888-bc209e110057": {
+      "type": "feature-text",
+      "settings": {
+        "rich_text": "<p>Did you know that Handee paper towels are sustainably made? <\/p>",
+        "mobile_text_size": "text-2xl",
+        "desktop_text_size": "lg:text-4xl",
+        "display_on_card": false,
+        "apply_effects": false,
+        "content_width_desktop": "lg:w-full",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "8fcd9fe8-9b37-4851-94af-c116aff7900e": {
+      "type": "image-with-text",
+      "settings": {
+        "display_on_card": false,
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Making Positive Impact",
+        "heading_size": "heading-base",
+        "richtext": "<p>Our strategic supply partnership with the world's largest pulp and paper company helps us manage and maintain a vertically integrated business model that provides you with the economic and quality benefits of efficient and responsibly managed business operations. Our paper towels are made through an innovative process that reduces waste and helps to conserve resources.<\/p><p>We understand that customers like you care about the environment and want to make a positive impact with your purchasing choices. That's why we're proud to uphold a strict zero-deforestation policy and are committed to replanting 1,000,000 trees daily. <\/p><p>With Handee, you can clean up messes while also making a positive impact on the planet.<\/p>",
+        "text_alignment": "text-left",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "4612e8e7-606b-41cb-84c9-ea64ebe29007": {
+      "type": "feature-text",
+      "disabled": true,
+      "settings": {
+        "rich_text": "<p>With Handee, you can clean up messes while also making a positive impact on the planet.<\/p>",
+        "mobile_text_size": "text-2xl",
+        "desktop_text_size": "lg:text-4xl",
+        "display_on_card": false,
+        "apply_effects": false,
+        "content_width_desktop": "lg:w-full",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "f354befa-5188-4a38-9d71-13ec02b3a2bb": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "display_on_card": false,
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "left",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Our Story",
+        "heading_size": "heading-base",
+        "richtext": "<p>Our story began in 1993 when we launched our first towel tissue product that has a range of uses–from cleaning and spills to hand-drying, often used in cooking and as a serviette or napkin. Since 1997, we have been eager to educate our beloved customers on using Handee by sharing tips regarding pet handling and avoiding food contamination. The launch of Handee Clean Ups, our first multipurpose wipes, follows our product category growth. <\/p><p>In 2015, we created the 'This is a Good Sheet' series which became one of our customer's favourite campaigns. We successfully captured customers' everyday spills and looked for a quick solution to clean up while demonstrating Handee's superior strength and absorbency. We would grow to provide every household with handy helper through our product innovations. In everything we do, we are always dedicated to our purpose: help Australians simplify their daily cleaning tasks. <\/p>",
+        "text_alignment": "text-left",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "ce148b3e-94ac-4da1-91d4-4b0f18fe23a4": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "template--19038978605371__ce148b3e-94ac-4da1-91d4-4b0f18fe23a4-1683720770ad3ca66c-0": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "title": "1. PEFC Certified",
+            "text": "<p>PEFC promotes the use of wood and wood products from credibly certified, independently verified, sustainably managed sources believing that both PEFC and FSC provide equivalent sustainability assurances. We aim to ensure our customers that 100% of our raw materials are PEFC CoC-certified or non-controversial sources under PEFC guidelines.  <\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "template--19038978605371__ce148b3e-94ac-4da1-91d4-4b0f18fe23a4-1683720770ad3ca66c-1": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "title": "2. Dispersible and Biodegradable Paper",
+            "text": "<p>We acknowledge our consumer's concern regarding domestic waste to the environment. Therefore, we are dedicated to protecting our nature and implementing biodegradable product innovation to make significant positive impact on the world. Handee is certified home compostable, helping to reduce waste in landfill.<\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "template--19038978605371__ce148b3e-94ac-4da1-91d4-4b0f18fe23a4-1683720770ad3ca66c-2": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "title": "3. Sustainably Resourced ",
+            "text": "<p>Handee ensures that its product is made from 100% virgin pulp, a naturally produced pulp that directly sources from highly selected woods that gather from responsible sources, certified by PEFC. Likewise, we strive to produce in a responsible and sustainable manner. We source fibre responsibly and strive to minimise waste, water consumption, and energy consumption.<\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "template--19038978605371__ce148b3e-94ac-4da1-91d4-4b0f18fe23a4-1683720770ad3ca66c-0",
+        "template--19038978605371__ce148b3e-94ac-4da1-91d4-4b0f18fe23a4-1683720770ad3ca66c-1",
+        "template--19038978605371__ce148b3e-94ac-4da1-91d4-4b0f18fe23a4-1683720770ad3ca66c-2"
+      ],
+      "settings": {
+        "display_on_card": false,
+        "slideshow_on_mobile": false,
+        "title": "Our Sustainability Commitment for Customers",
+        "crop": "",
+        "image_shape": "default",
+        "show_index_on_blocks": false,
+        "index_shape": "star_1",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ee4c8b96-1e2e-4b2c-9da9-7e4d2827f53c",
+    "a3e927c3-a4e8-4528-8888-bc209e110057",
+    "8fcd9fe8-9b37-4851-94af-c116aff7900e",
+    "4612e8e7-606b-41cb-84c9-ea64ebe29007",
+    "f354befa-5188-4a38-9d71-13ec02b3a2bb",
+    "ce148b3e-94ac-4da1-91d4-4b0f18fe23a4"
+  ]
+}

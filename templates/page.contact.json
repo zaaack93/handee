@@ -3,6 +3,9 @@
     "main": {
       "type": "main-page-contact",
       "settings": {
+        "display_on_card": false,
+        "color_scheme": "primary",
+        "use_gradient_background": false
       }
     }
   },

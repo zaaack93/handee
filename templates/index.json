@@ -24,7 +24,7 @@
           "type": "shape_divider",
           "settings": {
             "target_section": "below",
-            "target_section_color_scheme": "quaternary",
+            "target_section_color_scheme": "tertiary",
             "style": "medium-waves_1200x43",
             "flip_horizontal": true,
             "enable_animation": false,
@@ -93,9 +93,9 @@
         "disable_media_style": false,
         "title": "The Superhero of Spills",
         "heading_size": "heading-template",
-        "richtext": "<p>When life gets messy, Handee has got you covered. <\/p>",
+        "richtext": "<h4>When life gets messy, Handee has got you covered. <\/h4>",
         "text_alignment": "text-left",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_link": "shopify:\/\/collections\/all-products",
         "button_label": "Shop Hand Towels",
         "color_scheme": "primary",
         "use_gradient_background": true
@@ -137,13 +137,13 @@
         "title": "Shop Australia's #1 Paper Towel",
         "subheading": "Keeping Aussie homes spill-free and worry-free for over 50 years.",
         "collection": "best-sellers",
-        "no_products": 4,
+        "no_products": 2,
         "show_view_all": true,
         "enable_quick_buy": false,
         "display_on_card": false,
-        "layout": "carousel",
+        "layout": "grid",
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 2,
         "slideshow_focus": "center",
         "mobile_slide_width": "three_fifths",
         "desktop_slide_width": 40,
@@ -272,8 +272,8 @@
         "title": "Clean Up Like A Pro",
         "max_width": 100,
         "text_style": "heading",
-        "color_scheme": "quaternary",
-        "use_gradient_background": true
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
       }
     },
     "165089168609b8f684": {
@@ -349,7 +349,7 @@
         "image_shape": "zig_zag_tear",
         "blog_show_author": false,
         "blog_show_date": false,
-        "show_post_excerpt": true,
+        "show_post_excerpt": false,
         "show_view_all": true,
         "color_scheme": "quaternary",
         "use_gradient_background": true
@@ -541,9 +541,9 @@
         "max_width": 200,
         "disable_media_style": false,
         "crop": "",
-        "image_shape": "triple_pill",
-        "desktop_slide_width": 30,
-        "autoscroll_mode": "1",
+        "image_shape": "double_pill",
+        "desktop_slide_width": 25,
+        "autoscroll_mode": "0",
         "color_scheme": "primary",
         "use_gradient_background": false
       }
@@ -564,8 +564,8 @@
         "heading_size": "heading-base",
         "richtext": "<p>Thanks to our advanced paper making technology, Handee paper towel is ultra strong - wet or dry.<\/p>",
         "text_alignment": "text-left",
-        "button_link": "shopify:\/\/products\/handee-ultra-paper-towel",
-        "button_label": "SHOP HANDEE ULTRA",
+        "button_link": "shopify:\/\/collections\/all-products",
+        "button_label": "SHOP HANDEE",
         "color_scheme": "tertiary",
         "use_gradient_background": false
       }
@@ -669,6 +669,21 @@
         "use_gradient_background": true
       }
     },
+    "7cda1029-e703-45c8-8177-ae6b8d57f06b": {
+      "type": "offset-collection-gallery",
+      "settings": {
+        "collection": "all-products",
+        "height": "pt-600",
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "wave_tear",
+        "no_mobile_grid_items": 4,
+        "no_desktop_grid_items": 24,
+        "zoom_level": 1.3,
+        "rotate": -15,
+        "color_scheme": "primary",
+        "use_gradient_background": true
+      }
+    },
     "1650891804363a2769": {
       "type": "newsletter",
       "settings": {
@@ -690,6 +705,7 @@
     "16508916323f758a49",
     "00892983-906a-4d57-b137-0c987a9edd8f",
     "61aebac6-ea67-44d8-8085-98fce3a024e5",
+    "7cda1029-e703-45c8-8177-ae6b8d57f06b",
     "1650891804363a2769"
   ]
 }

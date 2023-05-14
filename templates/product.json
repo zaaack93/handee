@@ -46,14 +46,6 @@
             "show_pickup_availability": false
           }
         },
-        "3ce0f7b3-d626-4191-a86e-b11ee24f39d0": {
-          "type": "text",
-          "settings": {
-            "display_on_card": false,
-            "text": "Text block",
-            "icon": "check-mark"
-          }
-        },
         "a17e90c4-acc9-4f1d-af84-828ae4cb2289": {
           "type": "description",
           "settings": {
@@ -62,17 +54,24 @@
             "text_align": "text-left"
           }
         },
-        "54647959-a331-470f-bf9c-89f5ae63778e": {
-          "type": "collapsible_tab",
+        "e7f8c0c0-e57e-48cb-b4da-334b7375d5b0": {
+          "type": "background_shape",
           "settings": {
-            "display_on_card": false,
-            "icon": "none",
-            "heading": "Collapsible tab",
-            "content": "",
-            "page": ""
+            "shape": "blob",
+            "blob_type": 7,
+            "size": 165,
+            "opacity": 100,
+            "blur": 0,
+            "horizontal_position": 62,
+            "vertical_position": 50,
+            "rotate": 0,
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color": "gradient",
+            "color_scheme": "quaternary"
           }
         },
-        "0c0e4f3e-613c-4465-9b82-eacb6a372286": {
+        "0e6ecdce-12c7-4096-8fd6-c8ea115a6958": {
           "type": "icon_row",
           "disabled": true,
           "settings": {
@@ -96,10 +95,9 @@
         "quantity_selector",
         "variant_picker",
         "baf3083e-d14d-435d-bca3-100d6ac490ce",
-        "3ce0f7b3-d626-4191-a86e-b11ee24f39d0",
         "a17e90c4-acc9-4f1d-af84-828ae4cb2289",
-        "54647959-a331-470f-bf9c-89f5ae63778e",
-        "0c0e4f3e-613c-4465-9b82-eacb6a372286"
+        "e7f8c0c0-e57e-48cb-b4da-334b7375d5b0",
+        "0e6ecdce-12c7-4096-8fd6-c8ea115a6958"
       ],
       "settings": {
         "crop": "",
@@ -109,20 +107,200 @@
         "enable_image_zoom": false,
         "enable_video_looping": true,
         "autoplay_videos_on_desktop": true,
-        "media_mobile_width": "w-full",
+        "media_mobile_width": "w-4\/5",
         "thumbnails_position": "under",
         "thumbnail_crop": "aspect-w-1 aspect-h-1",
         "thumbnail_shape": "triple_pill",
         "hide_media_shadow": false,
         "thumbnail_size": "large",
         "show_thumbnails_on_mobile": false,
-        "color_scheme": "primary",
+        "color_scheme": "tertiary",
         "use_gradient_background": true
+      }
+    },
+    "510196de-8d95-4b63-8e32-c94725c1a9a3": {
+      "type": "tolstoy-carousel",
+      "disabled": true,
+      "settings": {
+        "publishId": "publishId"
+      }
+    },
+    "e987b7af-7d83-4762-a7c9-35ec9f069d0d": {
+      "type": "icon-list",
+      "blocks": {
+        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/4_f4e579b0-1b41-4088-8845-4177eb42acbe.png",
+            "text": "Biodegradable Paper"
+          }
+        },
+        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/2_d438dee2-2da0-4be1-be05-8634e0a7cfdc.png",
+            "text": "Microwave Safe"
+          }
+        },
+        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/3_e1e0a721-69d7-47f7-8c13-129387be5300.png",
+            "text": "Food Safe"
+          }
+        },
+        "e1f33be0-8972-47fd-8c21-ffe5c39f330b": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/1_a6feb6dd-f1ce-4d84-bd17-2b3ca881e5b6.png",
+            "text": "Lint & Streak Free"
+          }
+        }
+      },
+      "block_order": [
+        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-0",
+        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-1",
+        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-2",
+        "e1f33be0-8972-47fd-8c21-ffe5c39f330b"
+      ],
+      "settings": {
+        "title": "",
+        "max_width": 100,
+        "text_style": "heading",
+        "color_scheme": "quaternary",
+        "use_gradient_background": false
+      }
+    },
+    "cef8f729-6f68-43fe-8433-13cfb1381a08": {
+      "type": "logo-list",
+      "blocks": {
+        "50bcf653-13d1-4d45-855d-815fd9227052": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "quaternary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
+        },
+        "template--18578222055739__cef8f729-6f68-43fe-8433-13cfb1381a08-1683854930c5e7136b-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_2.png",
+            "link": ""
+          }
+        },
+        "template--18578222055739__cef8f729-6f68-43fe-8433-13cfb1381a08-1683854930c5e7136b-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coles.png",
+            "link": ""
+          }
+        },
+        "template--18578222055739__cef8f729-6f68-43fe-8433-13cfb1381a08-1683854930c5e7136b-5": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iga_1.png",
+            "link": ""
+          }
+        },
+        "template--18578222055739__cef8f729-6f68-43fe-8433-13cfb1381a08-1683854930c5e7136b-2": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--18578222055739__cef8f729-6f68-43fe-8433-13cfb1381a08-1683854930c5e7136b-3": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--18578222055739__cef8f729-6f68-43fe-8433-13cfb1381a08-1683854930c5e7136b-4": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "50bcf653-13d1-4d45-855d-815fd9227052",
+        "template--18578222055739__cef8f729-6f68-43fe-8433-13cfb1381a08-1683854930c5e7136b-0",
+        "template--18578222055739__cef8f729-6f68-43fe-8433-13cfb1381a08-1683854930c5e7136b-1",
+        "template--18578222055739__cef8f729-6f68-43fe-8433-13cfb1381a08-1683854930c5e7136b-5",
+        "template--18578222055739__cef8f729-6f68-43fe-8433-13cfb1381a08-1683854930c5e7136b-2",
+        "template--18578222055739__cef8f729-6f68-43fe-8433-13cfb1381a08-1683854930c5e7136b-3",
+        "template--18578222055739__cef8f729-6f68-43fe-8433-13cfb1381a08-1683854930c5e7136b-4"
+      ],
+      "settings": {
+        "title": "Buy from your favourite retailers",
+        "max_width": 200,
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "6706dc08-89d3-4a43-b29c-d91a488f0008": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "181bae59-32b4-48f4-9ef0-6946b11fffb8": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "primary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "181bae59-32b4-48f4-9ef0-6946b11fffb8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/handee_collection.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/handee_gif.gif",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": false,
+        "style": "full",
+        "height": "natural",
+        "place_content": "place-content-center-center",
+        "text_align": "text-center",
+        "title": "#KeepItHandee",
+        "heading_size": "heading-template",
+        "richtext": "",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "primary",
+        "use_gradient_background": false,
+        "text_overlay_color": "same_as_section"
       }
     },
     "9014213c-9116-43e4-a0a3-fc59d6ceced3": {
       "type": "icon-list",
       "blocks": {
+        "51069857-36b5-43de-aba3-2e5d567efde3": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "primary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
         "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-0": {
           "type": "icon",
           "settings": {
@@ -157,6 +335,7 @@
         }
       },
       "block_order": [
+        "51069857-36b5-43de-aba3-2e5d567efde3",
         "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-0",
         "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-1",
         "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-2",
@@ -166,12 +345,109 @@
         "title": "",
         "max_width": 100,
         "text_style": "heading",
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    },
+    "7f8630ac-079b-4914-a42b-a85c57bff86e": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-0": {
+          "type": "image",
+          "settings": {
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": ""
+          }
+        },
+        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-1": {
+          "type": "image",
+          "settings": {
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": ""
+          }
+        },
+        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-2": {
+          "type": "image",
+          "settings": {
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": ""
+          }
+        },
+        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-3": {
+          "type": "image",
+          "settings": {
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": ""
+          }
+        },
+        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-4": {
+          "type": "image",
+          "settings": {
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": ""
+          }
+        },
+        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-5": {
+          "type": "image",
+          "settings": {
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-0",
+        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-1",
+        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-2",
+        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-3",
+        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-4",
+        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-5"
+      ],
+      "settings": {
+        "title": "Your Lifesaver for Life's Mishaps",
+        "first_large_image_position": "top_left",
+        "crop": "aspect-w-1 aspect-h-1",
+        "button_style": "push-btn-surface",
+        "show_buttons_on_mobile": false,
+        "only_show_button_on_hover": true,
         "color_scheme": "primary",
         "use_gradient_background": true
       }
     },
+    "ae18be33-20a9-48ea-85c8-8a67fa7b3714": {
+      "type": "text-marquee",
+      "settings": {
+        "text": "Proudly Australian Made",
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_size": "text-lg",
+        "desktop_text_size": "lg:text-4xl",
+        "speed": 50,
+        "direction": "",
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    },
     "8ca4135a-1c4f-4bb9-8195-7ac897ccc827": {
       "type": "comparison-table",
+      "disabled": true,
       "blocks": {
         "5aa7ae89-4be0-4338-9012-de2f5aec9c68": {
           "type": "row",
@@ -179,7 +455,7 @@
             "title": "Interlock Weave Technology",
             "column_1_icon": "check-mark",
             "column_1_text": "",
-            "column_2_icon": "",
+            "column_2_icon": "check_close",
             "column_2_text": "",
             "column_3_icon": "",
             "column_3_text": "",
@@ -235,7 +511,7 @@
             "title": "Biodegradable Paper",
             "column_1_icon": "check-mark",
             "column_1_text": "",
-            "column_2_icon": "",
+            "column_2_icon": "check_close",
             "column_2_text": "",
             "column_3_icon": "",
             "column_3_text": "",
@@ -262,8 +538,8 @@
         "column_3_title": "Column 3",
         "enable_column_4": false,
         "column_4_title": "Column 4",
-        "color_scheme": "primary",
-        "use_gradient_background": true
+        "color_scheme": "quaternary",
+        "use_gradient_background": false
       }
     },
     "ad6c2178-cfe7-4e33-9ff5-b3d27ea8505c": {
@@ -289,10 +565,10 @@
         "title": "See Handee Ultra Paper Towel in Action",
         "style": "inset",
         "cover_image": "shopify:\/\/shop_images\/200625_Handee_01_0057.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=2JRfmFtKIYs",
+        "video_url": "",
         "aspect_ratio": "16:9",
-        "color_scheme": "secondary",
-        "use_gradient_background": true
+        "color_scheme": "quaternary",
+        "use_gradient_background": false
       }
     },
     "859bcbe2-1baf-4c40-afcc-1b4d59777207": {
@@ -301,54 +577,55 @@
         "template--18150337282363__859bcbe2-1baf-4c40-afcc-1b4d59777207-16805823648cbdf690-0": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+            "question": "Where are Handee Ultra Paper Towels manufactured?",
+            "answer": "<p>Handee Ultra paper towels are manufactured by Sorbent Paper Company, operating manufacturing facilities in several locations, including New South Wales and Victoria. The company's production facilities utilize state-of-the-art technology and adhere to strict quality control standards to ensure that their products, meet high standards of quality and performance.<\/p>"
           }
         },
         "template--18150337282363__859bcbe2-1baf-4c40-afcc-1b4d59777207-16805823648cbdf690-1": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+            "question": "How many sheets are in a roll of Handee Ultra paper towel?",
+            "answer": "<p>The number of sheets in a roll of Handee Ultra paper towel can vary depending on the size and type of the roll. Generally, a regular-sized roll contains around 60-80 sheets, while a large-sized roll may contain 100-120 sheets.<\/p>"
           }
         },
         "template--18150337282363__859bcbe2-1baf-4c40-afcc-1b4d59777207-16805823648cbdf690-2": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+            "question": "What is PFEC?",
+            "answer": "<p>PEFC stands for Program for the Endorsement of Forest Certification. It is a global organization that promotes sustainable forest management practices and provides a certification system for forest products. The PEFC works to ensure that forests are managed in a way that meets the social, environmental, and economic needs of present and future generations. The organization's certification system enables customers to identify and choose products that come from sustainably managed forests, and it helps businesses demonstrate their commitment to sustainability.<\/p>"
           }
         },
         "template--18150337282363__859bcbe2-1baf-4c40-afcc-1b4d59777207-16805823648cbdf690-3": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+            "question": "Is Handee Ultra Paper Towel food safe?",
+            "answer": "<p>Yes, Handee Ultra paper towel is considered food safe. The paper towel is designed to be used for cleaning up spills and messes in the kitchen, and it is made from materials that are safe for use with food. However, it is important to note that if the paper towel comes into contact with food, it should be discarded and replaced with a clean paper towel to avoid cross-contamination. Additionally, it is always recommended to follow proper food safety practices when handling and preparing food.<\/p>"
           }
         },
         "template--18150337282363__859bcbe2-1baf-4c40-afcc-1b4d59777207-16805823648cbdf690-4": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+            "question": "Can paper towels be flushed down the toilet? ",
+            "answer": "<p>No, paper towels should not be flushed down the toilet as they are not designed to break down as easily as toilet paper and can cause blockages in your plumbing systems.<\/p>"
           }
         },
         "template--18150337282363__859bcbe2-1baf-4c40-afcc-1b4d59777207-16805823648cbdf690-5": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+            "question": "Is Handee Ultra Paper Towel biodegradable?",
+            "answer": "<p>Handee Ultra paper towel is made from paper pulp, which is biodegradable. The paper towel can break down naturally over time and does not contribute to long-term environmental pollution.<\/p>"
           }
         },
         "template--18150337282363__859bcbe2-1baf-4c40-afcc-1b4d59777207-16805823648cbdf690-6": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+            "question": "How can Handee Ultra Paper Towel be useful in my home?",
+            "answer": "<p>Handee Ultra paper towels can be useful in your home in many ways. Here are some examples:<\/p><p>Cleaning spills and messes: Handee Ultra paper towels are highly absorbent and strong, making them ideal for cleaning up spills and messes around the house.<\/p><p>Kitchen use: Handee Ultra paper towels are food safe and can be used to wipe down kitchen surfaces, dry dishes, and clean up after cooking.<\/p><p>Bathroom use: Handee Ultra paper towels are soft and gentle, making them suitable for wiping down bathroom surfaces and cleaning mirrors.<\/p><p>Pet care: Handee Ultra paper towels can be used to clean up pet messes and wipe down pet toys and accessories.<\/p><p>Arts and crafts: Handee Ultra paper towels can be used for various arts and crafts projects, such as painting, drawing, and collage.<\/p><p>Outdoor use: Handee Ultra paper towels are durable and can be used for outdoor activities such as camping, picnics, and barbecues.<\/p>"
           }
         },
         "template--18150337282363__859bcbe2-1baf-4c40-afcc-1b4d59777207-16805823648cbdf690-7": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "question": "Frequently asked question",
             "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
@@ -367,7 +644,7 @@
       ],
       "settings": {
         "display_on_card": true,
-        "heading_text_style": "heading",
+        "heading_text_style": "body",
         "two_columns_desktop": true,
         "title": "FAQ",
         "richtext": "<p>Find the most frequently asked questions below.<\/p>",
@@ -389,48 +666,63 @@
         "use_gradient_background": false
       }
     },
-    "10a3a9c2-9dc4-4747-87f2-9ab450eaee84": {
-      "type": "testimonials",
+    "1ba940f2-f7e0-4bdb-8509-d7f2488fd679": {
+      "type": "feature-text-columns",
       "blocks": {
-        "template--18150337282363__10a3a9c2-9dc4-4747-87f2-9ab450eaee84-1680582541dabe66d9-0": {
-          "type": "testimonial",
+        "template--18578222055739__1ba940f2-f7e0-4bdb-8509-d7f2488fd679-16838720216029d535-0": {
+          "type": "column",
           "settings": {
-            "rating": "5_stars",
-            "quote": "<p>A quote from a customer or staff member can help show of your products' unique selling points.<\/p>",
-            "source": "Source"
+            "title": "Heading",
+            "subheading": "<p>Subheading goes here.<\/p>"
           }
         },
-        "template--18150337282363__10a3a9c2-9dc4-4747-87f2-9ab450eaee84-1680582541dabe66d9-1": {
-          "type": "testimonial",
+        "template--18578222055739__1ba940f2-f7e0-4bdb-8509-d7f2488fd679-16838720216029d535-1": {
+          "type": "column",
           "settings": {
-            "rating": "5_stars",
-            "quote": "<p>A quote from a customer or staff member can help show of your products' unique selling points.<\/p>",
-            "source": "Source"
+            "title": "Heading",
+            "subheading": "<p>Subheading goes here.<\/p>"
           }
         },
-        "template--18150337282363__10a3a9c2-9dc4-4747-87f2-9ab450eaee84-1680582541dabe66d9-2": {
-          "type": "testimonial",
+        "template--18578222055739__1ba940f2-f7e0-4bdb-8509-d7f2488fd679-16838720216029d535-2": {
+          "type": "column",
           "settings": {
-            "rating": "5_stars",
-            "quote": "<p>A quote from a customer or staff member can help show of your products' unique selling points.<\/p>",
-            "source": "Source"
+            "title": "Heading",
+            "subheading": "<p>Subheading goes here.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--18150337282363__10a3a9c2-9dc4-4747-87f2-9ab450eaee84-1680582541dabe66d9-0",
-        "template--18150337282363__10a3a9c2-9dc4-4747-87f2-9ab450eaee84-1680582541dabe66d9-1",
-        "template--18150337282363__10a3a9c2-9dc4-4747-87f2-9ab450eaee84-1680582541dabe66d9-2"
+        "template--18578222055739__1ba940f2-f7e0-4bdb-8509-d7f2488fd679-16838720216029d535-0",
+        "template--18578222055739__1ba940f2-f7e0-4bdb-8509-d7f2488fd679-16838720216029d535-1",
+        "template--18578222055739__1ba940f2-f7e0-4bdb-8509-d7f2488fd679-16838720216029d535-2"
       ],
       "settings": {
-        "display_on_card": true,
-        "title": "",
-        "max_width": 100,
-        "disable_media_style": false,
+        "display_on_card": false,
+        "title": "jnkjnkjn",
+        "heading_size": "heading-template",
+        "subheading_font": "body",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "b3ae7df2-0f11-4311-907e-510a638d8ed7": {
+      "type": "image-with-text",
+      "settings": {
+        "display_on_card": false,
+        "image": "shopify:\/\/shop_images\/handee_gif.gif",
         "crop": "",
         "image_shape": "default",
-        "desktop_slide_width": 20,
-        "autoscroll_mode": "1",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Australia's favourite",
+        "heading_size": "heading-template",
+        "richtext": "<ul><li><\/li><\/ul>",
+        "text_alignment": "text-left",
+        "button_link": "",
+        "button_label": "Shop Now",
         "color_scheme": "primary",
         "use_gradient_background": false
       }
@@ -438,11 +730,18 @@
   },
   "order": [
     "main",
+    "510196de-8d95-4b63-8e32-c94725c1a9a3",
+    "e987b7af-7d83-4762-a7c9-35ec9f069d0d",
+    "cef8f729-6f68-43fe-8433-13cfb1381a08",
+    "6706dc08-89d3-4a43-b29c-d91a488f0008",
     "9014213c-9116-43e4-a0a3-fc59d6ceced3",
+    "7f8630ac-079b-4914-a42b-a85c57bff86e",
+    "ae18be33-20a9-48ea-85c8-8a67fa7b3714",
     "8ca4135a-1c4f-4bb9-8195-7ac897ccc827",
     "ad6c2178-cfe7-4e33-9ff5-b3d27ea8505c",
     "859bcbe2-1baf-4c40-afcc-1b4d59777207",
     "product-recommendations",
-    "10a3a9c2-9dc4-4747-87f2-9ab450eaee84"
+    "1ba940f2-f7e0-4bdb-8509-d7f2488fd679",
+    "b3ae7df2-0f11-4311-907e-510a638d8ed7"
   ]
 }
