@@ -69,11 +69,11 @@
         -%}
       </div>
     {%- endif -%}
-    <div class="product-tile mt-5 text-center break-words">
+    <div class="product-tile mt-5 text-center break-words rte">
       <a href="{{ product.url | within: collection }}" class="absolute top-0 left-0 w-full h-full z-10 block">
         <span class="visually-hidden">{{ product.title }}</span>
       </a>
-      <h3 class="font-body text-base">{{ product.title | escape }}</h3> 
+      <h4 class="font-heading text-base">{{ product.title | escape }}</h4> 
       {%- if settings.product_tiles_show_vendor -%}
         <p class="mt-1">{{ product.vendor }}</p>
       {%- endif -%}
@@ -89,6 +89,8 @@
       >
         {{ current_variant.price | money }}
       </span>
+
+      {%comment%}
       {% if product.compare_at_price_max > product.price %}
         <template x-if="current_variant && product.compare_at_price_max && current_variant.compare_at_price > current_variant.price">
           <span class="{{ price_text_size }}">
@@ -112,6 +114,8 @@
         money_price: money_price,
         on_sale: on_sale
       -%}
+
+      {%endcomment%}
       {%- endif -%}
 
     </div>
