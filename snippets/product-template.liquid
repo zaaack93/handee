@@ -288,7 +288,7 @@
                       </div>
                     {%- endif -%}
                     
-                    <div class="splide__arrows px-section flex items-center justify-end gap-2 mt-4 lg:hidden -pl {%- if section.settings.show_slideshow_arrows_on_mobile -%} 2- hidden{%endif%}">
+                    <div class="splide__arrows px-section flex items-center justify-end gap-2 mt-4 lg:hidden -pl {%- unless section.settings.show_slideshow_arrows_on_mobile -%} 2- hidden{%endunless%}">
                       {%- render 'splide-navigation' -%}
                     </div>
                     

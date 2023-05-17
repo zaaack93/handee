@@ -36,16 +36,6 @@
             "enable_color_swatches": false
           }
         },
-        "baf3083e-d14d-435d-bca3-100d6ac490ce": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "display_on_card": false,
-            "show_price": true,
-            "enable_payment_button": true,
-            "show_pickup_availability": false
-          }
-        },
         "a17e90c4-acc9-4f1d-af84-828ae4cb2289": {
           "type": "description",
           "settings": {
@@ -60,14 +50,14 @@
             "shape": "blob",
             "blob_type": 7,
             "size": 165,
-            "opacity": 100,
+            "opacity": 25,
             "blur": 0,
             "horizontal_position": 62,
             "vertical_position": 50,
             "rotate": 0,
             "enable_parallax": true,
             "parallax_speed": 3,
-            "color": "gradient",
+            "color": "background",
             "color_scheme": "quaternary"
           }
         },
@@ -87,6 +77,42 @@
             "icon_5": "ruler",
             "text_5": "Row item"
           }
+        },
+        "3c0b7106-9abe-47c3-8ed3-52c1b21c2cf9": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "product_list_limit": 1
+          }
+        },
+        "105eff89-a9ed-4f2c-a8a4-8f79d13c3370": {
+          "type": "share_buttons",
+          "disabled": true,
+          "settings": {
+            "display_on_card": false
+          }
+        },
+        "baf3083e-d14d-435d-bca3-100d6ac490ce": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "display_on_card": true,
+            "show_price": false,
+            "enable_payment_button": false,
+            "show_pickup_availability": false
+          }
+        },
+        "5b8acce3-0dec-4826-82a2-2f59e6c89800": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "quaternary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
         }
       },
       "block_order": [
@@ -94,85 +120,32 @@
         "price",
         "quantity_selector",
         "variant_picker",
-        "baf3083e-d14d-435d-bca3-100d6ac490ce",
         "a17e90c4-acc9-4f1d-af84-828ae4cb2289",
         "e7f8c0c0-e57e-48cb-b4da-334b7375d5b0",
-        "0e6ecdce-12c7-4096-8fd6-c8ea115a6958"
+        "0e6ecdce-12c7-4096-8fd6-c8ea115a6958",
+        "3c0b7106-9abe-47c3-8ed3-52c1b21c2cf9",
+        "105eff89-a9ed-4f2c-a8a4-8f79d13c3370",
+        "baf3083e-d14d-435d-bca3-100d6ac490ce",
+        "5b8acce3-0dec-4826-82a2-2f59e6c89800"
       ],
       "settings": {
         "crop": "",
         "image_shape": "default",
         "desktop_media_width": "lg:col-span-7_lg:col-span-5",
         "show_slideshow_arrows_on_desktop": false,
+        "show_slideshow_arrows_on_mobile": false,
         "enable_image_zoom": false,
         "enable_video_looping": true,
         "autoplay_videos_on_desktop": true,
         "media_mobile_width": "w-4\/5",
         "thumbnails_position": "under",
         "thumbnail_crop": "aspect-w-1 aspect-h-1",
-        "thumbnail_shape": "triple_pill",
+        "thumbnail_shape": "zig_zag_tear",
         "hide_media_shadow": false,
-        "thumbnail_size": "large",
+        "thumbnail_size": "standard",
         "show_thumbnails_on_mobile": false,
         "color_scheme": "tertiary",
         "use_gradient_background": true
-      }
-    },
-    "510196de-8d95-4b63-8e32-c94725c1a9a3": {
-      "type": "tolstoy-carousel",
-      "disabled": true,
-      "settings": {
-        "publishId": "publishId"
-      }
-    },
-    "e987b7af-7d83-4762-a7c9-35ec9f069d0d": {
-      "type": "icon-list",
-      "blocks": {
-        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-0": {
-          "type": "icon",
-          "settings": {
-            "icon": "star",
-            "image_alternative": "shopify:\/\/shop_images\/4_f4e579b0-1b41-4088-8845-4177eb42acbe.png",
-            "text": "Biodegradable Paper"
-          }
-        },
-        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-1": {
-          "type": "icon",
-          "settings": {
-            "icon": "star",
-            "image_alternative": "shopify:\/\/shop_images\/2_d438dee2-2da0-4be1-be05-8634e0a7cfdc.png",
-            "text": "Microwave Safe"
-          }
-        },
-        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-2": {
-          "type": "icon",
-          "settings": {
-            "icon": "star",
-            "image_alternative": "shopify:\/\/shop_images\/3_e1e0a721-69d7-47f7-8c13-129387be5300.png",
-            "text": "Food Safe"
-          }
-        },
-        "e1f33be0-8972-47fd-8c21-ffe5c39f330b": {
-          "type": "icon",
-          "settings": {
-            "icon": "star",
-            "image_alternative": "shopify:\/\/shop_images\/1_a6feb6dd-f1ce-4d84-bd17-2b3ca881e5b6.png",
-            "text": "Lint & Streak Free"
-          }
-        }
-      },
-      "block_order": [
-        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-0",
-        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-1",
-        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-2",
-        "e1f33be0-8972-47fd-8c21-ffe5c39f330b"
-      ],
-      "settings": {
-        "title": "",
-        "max_width": 100,
-        "text_style": "heading",
-        "color_scheme": "quaternary",
-        "use_gradient_background": false
       }
     },
     "cef8f729-6f68-43fe-8433-13cfb1381a08": {
@@ -180,13 +153,12 @@
       "blocks": {
         "50bcf653-13d1-4d45-855d-815fd9227052": {
           "type": "shape_divider",
-          "disabled": true,
           "settings": {
             "target_section": "above",
             "target_section_color_scheme": "quaternary",
             "style": "medium-waves_1200x43",
             "flip_horizontal": false,
-            "enable_animation": true,
+            "enable_animation": false,
             "animation_direction": ""
           }
         },
@@ -268,12 +240,11 @@
         "181bae59-32b4-48f4-9ef0-6946b11fffb8"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/handee_collection.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/handee_gif.gif",
+        "image": "shopify:\/\/shop_images\/BREAKFAST.gif",
         "display_on_card": false,
         "display_content_below_image_on_mobile": false,
         "style": "full",
-        "height": "natural",
+        "height": "pt-600",
         "place_content": "place-content-center-center",
         "text_align": "text-center",
         "title": "#KeepItHandee",
@@ -281,13 +252,125 @@
         "richtext": "",
         "cta_url": "",
         "cta_text": "",
-        "color_scheme": "primary",
+        "color_scheme": "secondary",
         "use_gradient_background": false,
         "text_overlay_color": "same_as_section"
       }
     },
+    "e987b7af-7d83-4762-a7c9-35ec9f069d0d": {
+      "type": "icon-list",
+      "disabled": true,
+      "blocks": {
+        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/4_f4e579b0-1b41-4088-8845-4177eb42acbe.png",
+            "text": "Biodegradable Paper"
+          }
+        },
+        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/2_d438dee2-2da0-4be1-be05-8634e0a7cfdc.png",
+            "text": "Microwave Safe"
+          }
+        },
+        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/3_e1e0a721-69d7-47f7-8c13-129387be5300.png",
+            "text": "Food Safe"
+          }
+        },
+        "e1f33be0-8972-47fd-8c21-ffe5c39f330b": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image_alternative": "shopify:\/\/shop_images\/1_a6feb6dd-f1ce-4d84-bd17-2b3ca881e5b6.png",
+            "text": "Lint & Streak Free"
+          }
+        },
+        "4789739e-6abc-43d1-84b1-728f21ae0b65": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "quaternary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-0",
+        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-1",
+        "template--18578222055739__e987b7af-7d83-4762-a7c9-35ec9f069d0d-168404771638bafdd4-2",
+        "e1f33be0-8972-47fd-8c21-ffe5c39f330b",
+        "4789739e-6abc-43d1-84b1-728f21ae0b65"
+      ],
+      "settings": {
+        "title": "",
+        "max_width": 100,
+        "text_style": "heading",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "22781863-28c4-4471-8b7e-83139107e37e": {
+      "type": "image-with-text",
+      "settings": {
+        "display_on_card": false,
+        "image": "shopify:\/\/shop_images\/JUICE-DROP_1_1.gif",
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Australia's #1 Absorbent Paper Towel",
+        "heading_size": "heading-base",
+        "richtext": "<p><strong>Handee - made to cope with anything you can throw at it!<\/strong><\/p>",
+        "text_alignment": "text-left",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    },
+    "510196de-8d95-4b63-8e32-c94725c1a9a3": {
+      "type": "tolstoy-carousel",
+      "disabled": true,
+      "settings": {
+        "publishId": "publishId"
+      }
+    },
+    "ae18be33-20a9-48ea-85c8-8a67fa7b3714": {
+      "type": "text-marquee",
+      "settings": {
+        "text": "Proudly Australian Made",
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_size": "text-lg",
+        "desktop_text_size": "lg:text-2xl",
+        "speed": 50,
+        "direction": "",
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    },
     "9014213c-9116-43e4-a0a3-fc59d6ceced3": {
       "type": "icon-list",
+      "disabled": true,
       "blocks": {
         "51069857-36b5-43de-aba3-2e5d567efde3": {
           "type": "shape_divider",
@@ -427,24 +510,6 @@
         "use_gradient_background": true
       }
     },
-    "ae18be33-20a9-48ea-85c8-8a67fa7b3714": {
-      "type": "text-marquee",
-      "settings": {
-        "text": "Proudly Australian Made",
-        "repeat_text": true,
-        "shape_between_text": "10_point_star",
-        "animate_shape_between_text": true,
-        "link": "",
-        "font": "font-heading heading-secondary",
-        "apply_effects": false,
-        "mobile_text_size": "text-lg",
-        "desktop_text_size": "lg:text-4xl",
-        "speed": 50,
-        "direction": "",
-        "color_scheme": "tertiary",
-        "use_gradient_background": false
-      }
-    },
     "8ca4135a-1c4f-4bb9-8195-7ac897ccc827": {
       "type": "comparison-table",
       "disabled": true,
@@ -544,6 +609,7 @@
     },
     "ad6c2178-cfe7-4e33-9ff5-b3d27ea8505c": {
       "type": "video",
+      "disabled": true,
       "blocks": {
         "86dbfdc1-4e89-4011-8123-93eebdb5fa22": {
           "type": "background_pattern",
@@ -665,83 +731,21 @@
         "color_scheme": "primary",
         "use_gradient_background": false
       }
-    },
-    "1ba940f2-f7e0-4bdb-8509-d7f2488fd679": {
-      "type": "feature-text-columns",
-      "blocks": {
-        "template--18578222055739__1ba940f2-f7e0-4bdb-8509-d7f2488fd679-16838720216029d535-0": {
-          "type": "column",
-          "settings": {
-            "title": "Heading",
-            "subheading": "<p>Subheading goes here.<\/p>"
-          }
-        },
-        "template--18578222055739__1ba940f2-f7e0-4bdb-8509-d7f2488fd679-16838720216029d535-1": {
-          "type": "column",
-          "settings": {
-            "title": "Heading",
-            "subheading": "<p>Subheading goes here.<\/p>"
-          }
-        },
-        "template--18578222055739__1ba940f2-f7e0-4bdb-8509-d7f2488fd679-16838720216029d535-2": {
-          "type": "column",
-          "settings": {
-            "title": "Heading",
-            "subheading": "<p>Subheading goes here.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18578222055739__1ba940f2-f7e0-4bdb-8509-d7f2488fd679-16838720216029d535-0",
-        "template--18578222055739__1ba940f2-f7e0-4bdb-8509-d7f2488fd679-16838720216029d535-1",
-        "template--18578222055739__1ba940f2-f7e0-4bdb-8509-d7f2488fd679-16838720216029d535-2"
-      ],
-      "settings": {
-        "display_on_card": false,
-        "title": "jnkjnkjn",
-        "heading_size": "heading-template",
-        "subheading_font": "body",
-        "color_scheme": "primary",
-        "use_gradient_background": false
-      }
-    },
-    "b3ae7df2-0f11-4311-907e-510a638d8ed7": {
-      "type": "image-with-text",
-      "settings": {
-        "display_on_card": false,
-        "image": "shopify:\/\/shop_images\/handee_gif.gif",
-        "crop": "",
-        "image_shape": "default",
-        "blob_type": 1,
-        "rotate_image": 0,
-        "image_position": "right",
-        "image_size": "half",
-        "disable_media_style": false,
-        "title": "Australia's favourite",
-        "heading_size": "heading-template",
-        "richtext": "<ul><li><\/li><\/ul>",
-        "text_alignment": "text-left",
-        "button_link": "",
-        "button_label": "Shop Now",
-        "color_scheme": "primary",
-        "use_gradient_background": false
-      }
     }
   },
   "order": [
     "main",
-    "510196de-8d95-4b63-8e32-c94725c1a9a3",
-    "e987b7af-7d83-4762-a7c9-35ec9f069d0d",
     "cef8f729-6f68-43fe-8433-13cfb1381a08",
     "6706dc08-89d3-4a43-b29c-d91a488f0008",
+    "e987b7af-7d83-4762-a7c9-35ec9f069d0d",
+    "22781863-28c4-4471-8b7e-83139107e37e",
+    "510196de-8d95-4b63-8e32-c94725c1a9a3",
+    "ae18be33-20a9-48ea-85c8-8a67fa7b3714",
     "9014213c-9116-43e4-a0a3-fc59d6ceced3",
     "7f8630ac-079b-4914-a42b-a85c57bff86e",
-    "ae18be33-20a9-48ea-85c8-8a67fa7b3714",
     "8ca4135a-1c4f-4bb9-8195-7ac897ccc827",
     "ad6c2178-cfe7-4e33-9ff5-b3d27ea8505c",
     "859bcbe2-1baf-4c40-afcc-1b4d59777207",
-    "product-recommendations",
-    "1ba940f2-f7e0-4bdb-8509-d7f2488fd679",
-    "b3ae7df2-0f11-4311-907e-510a638d8ed7"
+    "product-recommendations"
   ]
 }

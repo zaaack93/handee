@@ -1,55 +1,28 @@
 {
   "sections": {
-    "5194e0df-87ef-41c9-ad77-dc209fd25bbf": {
+    "4f84253c-061f-40d4-8880-a04deb21c7a6": {
       "type": "hero-slideshow",
       "blocks": {
-        "template--18578221596987__5194e0df-87ef-41c9-ad77-dc209fd25bbf-1683853580cb2f3b49-0": {
+        "template--18578221596987__4f84253c-061f-40d4-8880-a04deb21c7a6-168420543834d5b219-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/handee_collection.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/200625_Handee_01_0057_1.jpg",
+            "image": "shopify:\/\/shop_images\/SORB_MAY_CREATIVE_WEB-6_1_8f8f064d-e8fc-4a21-8b44-7653ab90c19c.jpg",
             "title": "All Products",
             "richtext": "",
             "cta_url": "",
-            "cta_text": "",
-            "place_content": "place-content-end-start",
+            "cta_text": "Shop Now",
+            "place_content": "place-content-start-start",
             "text_align": "text-left",
             "text_overlay_color": "same_as_section"
-          }
-        },
-        "template--18578221596987__5194e0df-87ef-41c9-ad77-dc209fd25bbf-1683853580cb2f3b49-1": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "title": "Hero slideshow",
-            "richtext": "",
-            "cta_url": "",
-            "cta_text": "Shop Now",
-            "place_content": "inherit",
-            "text_align": "inherit",
-            "text_overlay_color": "same_as_section"
-          }
-        },
-        "9cfcffe0-8bf3-489c-882e-26612b61bde9": {
-          "type": "shape_divider",
-          "settings": {
-            "target_section": "below",
-            "target_section_color_scheme": "primary",
-            "style": "medium-waves_1200x43",
-            "flip_horizontal": false,
-            "enable_animation": false,
-            "animation_direction": ""
           }
         }
       },
       "block_order": [
-        "template--18578221596987__5194e0df-87ef-41c9-ad77-dc209fd25bbf-1683853580cb2f3b49-0",
-        "template--18578221596987__5194e0df-87ef-41c9-ad77-dc209fd25bbf-1683853580cb2f3b49-1",
-        "9cfcffe0-8bf3-489c-882e-26612b61bde9"
+        "template--18578221596987__4f84253c-061f-40d4-8880-a04deb21c7a6-168420543834d5b219-0"
       ],
       "settings": {
         "style": "full",
-        "height": "natural",
+        "height": "pt-600",
         "display_on_card": false,
         "display_content_below_image_on_mobile": false,
         "auto_rotate": false,
@@ -66,13 +39,13 @@
       "disabled": true,
       "settings": {
         "display_on_card": false,
-        "show_collection_title": false,
+        "show_collection_title": true,
         "show_collection_description": false,
         "show_collection_image": true,
         "collection_image_style": "full",
-        "crop": "aspect-w-4 aspect-h-3",
+        "crop": "",
         "linklist": "",
-        "color_scheme": "tertiary",
+        "color_scheme": "primary",
         "use_gradient_background": false
       }
     },
@@ -82,7 +55,7 @@
         "no_products": 8,
         "display_on_card": false,
         "enable_quick_buy": false,
-        "products_per_row_mobile": "2",
+        "products_per_row_mobile": "1",
         "products_per_row_desktop": 2,
         "enable_filtering": false,
         "enable_sorting": false,
@@ -177,7 +150,7 @@
     }
   },
   "order": [
-    "5194e0df-87ef-41c9-ad77-dc209fd25bbf",
+    "4f84253c-061f-40d4-8880-a04deb21c7a6",
     "banner",
     "product-grid",
     "0fb60c88-b680-446c-98c8-1bc1c82b0f45",
