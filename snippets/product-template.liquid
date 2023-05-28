@@ -436,6 +436,9 @@
                 {% when 'link_retailers' %}
                   {% render 'link-retailers', block: block %}
 
+                {% when 'product_benefits' %}
+                    {% render 'product-key-benefits', block: block %}
+
                 {% when 'price' %}
                   {% render 'product-block-price',
                     product: product,

@@ -9,6 +9,49 @@
         }
     }
 
+    //product key benefits
+    .product-block-key_product{
+        .main-heading{
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            @media (max-width: 749px) {
+                font-weight: 900;
+                font-size: 30px;
+                line-height: 36px;
+            }
+        }
+        .content_icon_container{
+            flex-direction: column;
+            row-gap: 6px;
+            @media (max-width: 749px) {
+                column-gap: 15px;
+            }
+            .content_icon_item{
+                column-gap: 37px;
+                @media (max-width: 749px) {
+                    column-gap: 27px;
+                }
+                .text-scheme-text {
+                    width: max-content;
+                    height: 50px;
+                }
+                .title_text_icon{
+                    font-style: italic;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 36px;
+                    @media (max-width: 749px) {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+    
+
     //icon blocks with text
     .container-inner{
         display: flex;

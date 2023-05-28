@@ -126,6 +126,20 @@
             "enable_animation": false,
             "animation_direction": ""
           }
+        },
+        "45e7287e-886d-4cc6-a4b3-d49efe1f5c89": {
+          "type": "product_benefits",
+          "settings": {
+            "block_heading": "Key Benefits",
+            "image_heading_1": "Microwave Safe",
+            "image_link_1": "shopify:\/\/shop_images\/Handee-Icon-White_Microwave.png",
+            "image_heading_2": "Biodegradable Paper",
+            "image_link_2": "shopify:\/\/shop_images\/Handee-Icon-White_Biodegrade.png",
+            "image_heading_3": "Food Safe",
+            "image_link_3": "shopify:\/\/shop_images\/Handee-Icon-White_Hotdog.png",
+            "image_heading_4": "Lint & Streak Free",
+            "image_link_4": "shopify:\/\/shop_images\/Handee-Icon-White_StreakFree.png"
+          }
         }
       },
       "block_order": [
@@ -140,7 +154,8 @@
         "3c0b7106-9abe-47c3-8ed3-52c1b21c2cf9",
         "105eff89-a9ed-4f2c-a8a4-8f79d13c3370",
         "baf3083e-d14d-435d-bca3-100d6ac490ce",
-        "5b8acce3-0dec-4826-82a2-2f59e6c89800"
+        "5b8acce3-0dec-4826-82a2-2f59e6c89800",
+        "45e7287e-886d-4cc6-a4b3-d49efe1f5c89"
       ],
       "settings": {
         "crop": "",
@@ -349,7 +364,7 @@
         "image_position": "right",
         "image_size": "half",
         "disable_media_style": false,
-        "text_color": "#FFF",
+        "text_color": "#ffffff",
         "title": "Australia's #1 Absorbent Paper Towel",
         "heading_size": "heading-base",
         "richtext": "<p><strong>Handee - made to cope with anything you can throw at it!<\/strong><\/p>",

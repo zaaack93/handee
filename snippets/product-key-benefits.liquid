@@ -1,0 +1,24 @@
+<div class="product-block product-block-key_product w-full max-w-full">
+    {% if block.settings.block_heading %}
+        <h3 class="font-heading heading-style mb-4 main-heading">{{block.settings.block_heading}}</h3>
+    {% endif %}
+    
+    <div class="content_icon_container">
+        {% for i in (1..4) %}
+          {% assign title = 'image_heading_' | append: i%}
+          {% assign image = 'image_link_' | append: i%}
+          {% if block.settings[title] != blank or block.settings[image] != blank %}
+            <div class="content_icon_item">
+              {% if block.settings[image] != blank %}
+              <span class="text-scheme-text block">
+                  {{ block.settings[image] | image_url: width: 500 | image_tag: loading: 'lazy' }}
+              </span>
+            {% endif %}
+            {% if block.settings[title] != '' %}
+              <span class="break-words text-lg custom-text font-heading title_text_icon">{{block.settings[title]}}</span>
+            {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
