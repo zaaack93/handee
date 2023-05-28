@@ -1,22 +1,128 @@
 {
   "sections": {
+    "8098f34b-11ff-4330-9da3-9ccdba6a839c": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "template--18578221531451__8098f34b-11ff-4330-9da3-9ccdba6a839c-16849148860eda8806-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HANDEE_MAY_CREATIVE_WEB-4-16x9.jpg",
+            "title": "",
+            "richtext": "",
+            "cta_url": "",
+            "cta_text": "",
+            "place_content": "inherit",
+            "text_align": "inherit",
+            "text_overlay_color": "same_as_section"
+          }
+        },
+        "template--18578221531451__8098f34b-11ff-4330-9da3-9ccdba6a839c-16849148860eda8806-1": {
+          "type": "slide",
+          "settings": {
+            "title": "Hero slideshow",
+            "richtext": "",
+            "cta_url": "",
+            "cta_text": "Shop Now",
+            "place_content": "inherit",
+            "text_align": "inherit",
+            "text_overlay_color": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "template--18578221531451__8098f34b-11ff-4330-9da3-9ccdba6a839c-16849148860eda8806-0",
+        "template--18578221531451__8098f34b-11ff-4330-9da3-9ccdba6a839c-16849148860eda8806-1"
+      ],
+      "settings": {
+        "style": "full",
+        "height": "pt-screen-height",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": true,
+        "auto_rotate": false,
+        "slide_speed": "5000",
+        "place_content": "place-content-center-start",
+        "text_align": "text-left",
+        "heading_size": "heading-base",
+        "color_scheme": "quaternary",
+        "use_gradient_background": false
+      }
+    },
+    "76635fef-85c8-4d13-aa26-5b304528a093": {
+      "type": "text-marquee",
+      "settings": {
+        "text": "Handee Hacks",
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_size": "text-3xl",
+        "desktop_text_size": "lg:text-6xl",
+        "speed": 70,
+        "direction": "",
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    },
+    "91552601-d3ce-4494-96d9-4f801ab62db9": {
+      "type": "image-with-text",
+      "settings": {
+        "display_on_card": false,
+        "image": "shopify:\/\/shop_images\/Handee-Versatility-5x4.gif",
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "left",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Handee Hacks",
+        "heading_size": "heading-base",
+        "richtext": "<h3>Clean up whatever your day throws at you. Not just to clean spills and mess.  Follow down below to find out how else you can use your Handee paper towel.<\/h3>",
+        "text_alignment": "text-left",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "secondary",
+        "use_gradient_background": false
+      }
+    },
     "main": {
       "type": "main-blog",
+      "blocks": {
+        "ea8a2c54-ffff-4c92-bd97-aa1149893f5b": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "secondary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "ea8a2c54-ffff-4c92-bd97-aa1149893f5b"
+      ],
       "settings": {
         "display_on_card": true,
-        "show_blog_title": true,
+        "show_blog_title": false,
         "show_tags": true,
         "crop": "aspect-w-4 aspect-h-3",
-        "image_shape": "default",
+        "image_shape": "wave_tear",
         "blog_show_author": false,
-        "blog_show_date": true,
+        "blog_show_date": false,
         "show_post_excerpt": true,
-        "color_scheme": "primary",
-        "use_gradient_background": true
+        "color_scheme": "secondary",
+        "use_gradient_background": false
       }
     }
   },
   "order": [
+    "8098f34b-11ff-4330-9da3-9ccdba6a839c",
+    "76635fef-85c8-4d13-aa26-5b304528a093",
+    "91552601-d3ce-4494-96d9-4f801ab62db9",
     "main"
   ]
 }

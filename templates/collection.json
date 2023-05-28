@@ -6,19 +6,31 @@
         "template--18578221596987__4f84253c-061f-40d4-8880-a04deb21c7a6-168420543834d5b219-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SORB_MAY_CREATIVE_WEB-6_1_8f8f064d-e8fc-4a21-8b44-7653ab90c19c.jpg",
-            "title": "All Products",
+            "image": "shopify:\/\/shop_images\/HANDEE_MAY_CREATIVE_WEB-6.1.jpg",
+            "title": "",
             "richtext": "",
             "cta_url": "",
             "cta_text": "Shop Now",
-            "place_content": "place-content-start-start",
+            "place_content": "place-content-center-start",
             "text_align": "text-left",
-            "text_overlay_color": "same_as_section"
+            "text_overlay_color": "white"
+          }
+        },
+        "76c3deab-e00f-4473-ad3c-a732820d9a3a": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "tertiary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
           }
         }
       },
       "block_order": [
-        "template--18578221596987__4f84253c-061f-40d4-8880-a04deb21c7a6-168420543834d5b219-0"
+        "template--18578221596987__4f84253c-061f-40d4-8880-a04deb21c7a6-168420543834d5b219-0",
+        "76c3deab-e00f-4473-ad3c-a732820d9a3a"
       ],
       "settings": {
         "style": "full",
@@ -31,6 +43,24 @@
         "text_align": "text-left",
         "heading_size": "heading-template",
         "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "220fa0e8-8f0d-4a84-ba60-72575879a297": {
+      "type": "text-marquee",
+      "settings": {
+        "text": "Shop Handee",
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_size": "text-3xl",
+        "desktop_text_size": "lg:text-6xl",
+        "speed": 120,
+        "direction": "",
+        "color_scheme": "tertiary",
         "use_gradient_background": false
       }
     },
@@ -62,7 +92,7 @@
         "expand_filters": false,
         "show_filter_count": false,
         "enable_color_swatch_filters": false,
-        "color_scheme": "primary",
+        "color_scheme": "tertiary",
         "use_gradient_background": false
       }
     },
@@ -79,6 +109,7 @@
     },
     "2ea92359-5232-4dc7-b7b4-0dbda6f55dfa": {
       "type": "icon-list",
+      "disabled": true,
       "blocks": {
         "template--18578221596987__2ea92359-5232-4dc7-b7b4-0dbda6f55dfa-1683854580412f463b-0": {
           "type": "icon",
@@ -141,7 +172,7 @@
         "efca1659-c5e3-47c7-b12a-28783e33bfca"
       ],
       "settings": {
-        "title": "Stocked in",
+        "title": "Available in your favourite retailers",
         "max_width": 200,
         "text_style": "body",
         "color_scheme": "primary",
@@ -151,6 +182,7 @@
   },
   "order": [
     "4f84253c-061f-40d4-8880-a04deb21c7a6",
+    "220fa0e8-8f0d-4a84-ba60-72575879a297",
     "banner",
     "product-grid",
     "0fb60c88-b680-446c-98c8-1bc1c82b0f45",

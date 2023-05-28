@@ -104,10 +104,9 @@
         },
         "5b8acce3-0dec-4826-82a2-2f59e6c89800": {
           "type": "shape_divider",
-          "disabled": true,
           "settings": {
             "target_section": "below",
-            "target_section_color_scheme": "quaternary",
+            "target_section_color_scheme": "tertiary",
             "style": "medium-waves_1200x43",
             "flip_horizontal": false,
             "enable_animation": false,
@@ -140,16 +139,17 @@
         "media_mobile_width": "w-4\/5",
         "thumbnails_position": "under",
         "thumbnail_crop": "aspect-w-1 aspect-h-1",
-        "thumbnail_shape": "zig_zag_tear",
+        "thumbnail_shape": "wave_tear",
         "hide_media_shadow": false,
         "thumbnail_size": "standard",
         "show_thumbnails_on_mobile": false,
-        "color_scheme": "tertiary",
-        "use_gradient_background": true
+        "color_scheme": "secondary",
+        "use_gradient_background": false
       }
     },
     "cef8f729-6f68-43fe-8433-13cfb1381a08": {
       "type": "logo-list",
+      "disabled": true,
       "blocks": {
         "50bcf653-13d1-4d45-855d-815fd9227052": {
           "type": "shape_divider",
@@ -223,6 +223,7 @@
     },
     "6706dc08-89d3-4a43-b29c-d91a488f0008": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "blocks": {
         "181bae59-32b4-48f4-9ef0-6946b11fffb8": {
           "type": "shape_divider",
@@ -240,7 +241,7 @@
         "181bae59-32b4-48f4-9ef0-6946b11fffb8"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BREAKFAST.gif",
+        "image": "shopify:\/\/shop_images\/SORB_MAY_CREATIVE_WEB-9_cab09625-ac97-4567-975e-861ddf5f9a47.jpg",
         "display_on_card": false,
         "display_content_below_image_on_mobile": false,
         "style": "full",
@@ -325,9 +326,9 @@
       "type": "image-with-text",
       "settings": {
         "display_on_card": false,
-        "image": "shopify:\/\/shop_images\/JUICE-DROP_1_1.gif",
+        "video_file": "shopify:\/\/files\/videos\/SORB-Versatility-1x1-WEB.mp4",
         "crop": "aspect-w-1 aspect-h-1",
-        "image_shape": "default",
+        "image_shape": "blob",
         "blob_type": 1,
         "rotate_image": 0,
         "image_position": "right",
@@ -345,7 +346,6 @@
     },
     "510196de-8d95-4b63-8e32-c94725c1a9a3": {
       "type": "tolstoy-carousel",
-      "disabled": true,
       "settings": {
         "publishId": "publishId"
       }
@@ -361,10 +361,10 @@
         "font": "font-heading heading-secondary",
         "apply_effects": false,
         "mobile_text_size": "text-lg",
-        "desktop_text_size": "lg:text-2xl",
+        "desktop_text_size": "lg:text-5xl",
         "speed": 50,
         "direction": "",
-        "color_scheme": "tertiary",
+        "color_scheme": "primary",
         "use_gradient_background": false
       }
     },
@@ -714,7 +714,7 @@
         "two_columns_desktop": true,
         "title": "FAQ",
         "richtext": "<p>Find the most frequently asked questions below.<\/p>",
-        "color_scheme": "primary",
+        "color_scheme": "secondary",
         "use_gradient_background": false
       }
     },

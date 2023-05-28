@@ -15,15 +15,15 @@
         "template--19038698373435__ee4c8b96-1e2e-4b2c-9da9-7e4d2827f53c-168371953374c2489f-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-karolina-grabowska-4239113_Small_33fcb4a5-44e7-4830-a5ff-5984545c8ae4.jpg",
+            "image": "shopify:\/\/shop_images\/HANDEE_MAY_LS_WEB-32_e07d0f0c-a826-42bc-bdc8-b54f3a793b26.jpg",
             "image_mobile": "shopify:\/\/shop_images\/pexels-polina-zimmerman-4008503_Small_80b037a1-fe19-41df-a168-1da3387df441.jpg",
             "title": "Sustainability",
             "richtext": "",
             "cta_url": "",
             "cta_text": "",
-            "place_content": "place-content-center-start",
+            "place_content": "place-content-start-start",
             "text_align": "text-left",
-            "text_overlay_color": "same_as_section"
+            "text_overlay_color": "white"
           }
         },
         "template--19038698373435__ee4c8b96-1e2e-4b2c-9da9-7e4d2827f53c-168371953374c2489f-1": {
@@ -58,8 +58,27 @@
         "use_gradient_background": false
       }
     },
+    "c2972ec2-ed9b-4a6d-8a4d-4708b63a59df": {
+      "type": "text-marquee",
+      "settings": {
+        "text": "Did you know that Handee paper towels are sustainably made?",
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_size": "text-3xl",
+        "desktop_text_size": "lg:text-6xl",
+        "speed": 200,
+        "direction": "",
+        "color_scheme": "secondary",
+        "use_gradient_background": false
+      }
+    },
     "a3e927c3-a4e8-4528-8888-bc209e110057": {
       "type": "feature-text",
+      "disabled": true,
       "settings": {
         "rich_text": "<p>Did you know that Handee paper towels are sustainably made? <\/p>",
         "mobile_text_size": "text-2xl",
@@ -77,6 +96,7 @@
       "type": "image-with-text",
       "settings": {
         "display_on_card": false,
+        "image": "shopify:\/\/shop_images\/Handee_hero.jpg",
         "crop": "",
         "image_shape": "default",
         "blob_type": 1,
@@ -90,7 +110,7 @@
         "text_alignment": "text-left",
         "button_link": "",
         "button_label": "Shop Now",
-        "color_scheme": "primary",
+        "color_scheme": "tertiary",
         "use_gradient_background": false
       }
     },
@@ -132,6 +152,25 @@
         "use_gradient_background": false
       }
     },
+    "7dffb9ad-3211-4229-ae68-6a9436d72bc0": {
+      "type": "text-marquee",
+      "disabled": true,
+      "settings": {
+        "text": "Our Sustainability Commitment for Customers",
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_size": "text-3xl",
+        "desktop_text_size": "lg:text-6xl",
+        "speed": 200,
+        "direction": "",
+        "color_scheme": "secondary",
+        "use_gradient_background": false
+      }
+    },
     "ce148b3e-94ac-4da1-91d4-4b0f18fe23a4": {
       "type": "text-columns-with-images",
       "blocks": {
@@ -139,7 +178,8 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "title": "1. PEFC Certified",
+            "image": "shopify:\/\/shop_images\/HANDEE-Sustainability.jpg",
+            "title": "PEFC Certified",
             "text": "<p>PEFC promotes the use of wood and wood products from credibly certified, independently verified, sustainably managed sources believing that both PEFC and FSC provide equivalent sustainability assurances. We aim to ensure our customers that 100% of our raw materials are PEFC CoC-certified or non-controversial sources under PEFC guidelines.  <\/p>",
             "cta_link": "",
             "cta_text": "",
@@ -150,7 +190,8 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "title": "2. Dispersible and Biodegradable Paper",
+            "image": "shopify:\/\/shop_images\/Handee-Biodegradable.jpg",
+            "title": "Dispersible & Biodegradable",
             "text": "<p>We acknowledge our consumer's concern regarding domestic waste to the environment. Therefore, we are dedicated to protecting our nature and implementing biodegradable product innovation to make significant positive impact on the world. Handee is certified home compostable, helping to reduce waste in landfill.<\/p>",
             "cta_link": "",
             "cta_text": "",
@@ -161,7 +202,8 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "title": "3. Sustainably Resourced ",
+            "image": "shopify:\/\/shop_images\/Handee-Sustainably-Sourced.png",
+            "title": "Sustainably Resourced ",
             "text": "<p>Handee ensures that its product is made from 100% virgin pulp, a naturally produced pulp that directly sources from highly selected woods that gather from responsible sources, certified by PEFC. Likewise, we strive to produce in a responsible and sustainable manner. We source fibre responsibly and strive to minimise waste, water consumption, and energy consumption.<\/p>",
             "cta_link": "",
             "cta_text": "",
@@ -182,7 +224,7 @@
         "image_shape": "default",
         "show_index_on_blocks": false,
         "index_shape": "star_1",
-        "color_scheme": "primary",
+        "color_scheme": "secondary",
         "use_gradient_background": false
       }
     }
@@ -190,10 +232,12 @@
   "order": [
     "main",
     "ee4c8b96-1e2e-4b2c-9da9-7e4d2827f53c",
+    "c2972ec2-ed9b-4a6d-8a4d-4708b63a59df",
     "a3e927c3-a4e8-4528-8888-bc209e110057",
     "8fcd9fe8-9b37-4851-94af-c116aff7900e",
     "4612e8e7-606b-41cb-84c9-ea64ebe29007",
     "f354befa-5188-4a38-9d71-13ec02b3a2bb",
+    "7dffb9ad-3211-4229-ae68-6a9436d72bc0",
     "ce148b3e-94ac-4da1-91d4-4b0f18fe23a4"
   ]
 }

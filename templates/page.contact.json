@@ -4,7 +4,7 @@
       "type": "main-page-contact",
       "settings": {
         "display_on_card": false,
-        "color_scheme": "primary",
+        "color_scheme": "tertiary",
         "use_gradient_background": false
       }
     }

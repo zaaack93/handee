@@ -1,7 +1,93 @@
 {
   "sections": {
+    "f1bb1ff4-1e47-4986-8699-f4368b3ad86c": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "template--18578221891899__f1bb1ff4-1e47-4986-8699-f4368b3ad86c-1684453987c87e4f48-0": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HANDEE_MAY_LS_WEB-71_0e717119-ee27-4b15-ad33-025ef37e1fd5.jpg",
+            "title": "The Superhero of Spills",
+            "richtext": "<p>When life gets messy, Handee has got you covered. <\/p>",
+            "cta_url": "",
+            "cta_text": "Shop Now",
+            "place_content": "inherit",
+            "text_align": "inherit",
+            "text_overlay_color": "same_as_section"
+          }
+        },
+        "template--18578221891899__f1bb1ff4-1e47-4986-8699-f4368b3ad86c-1684453987c87e4f48-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hero_Desktop_2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Handee_hero.jpg",
+            "title": "The Superhero of Spills",
+            "richtext": "<h4>When life gets messy, Handee has got you covered. <\/h4>",
+            "cta_url": "shopify:\/\/collections\/all-products",
+            "cta_text": "Shop Handee",
+            "place_content": "place-content-end-start",
+            "text_align": "text-left",
+            "text_overlay_color": "same_as_section"
+          }
+        },
+        "0a834fd3-2b9a-437a-b022-d95fc4588fe3": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "tertiary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18578221891899__f1bb1ff4-1e47-4986-8699-f4368b3ad86c-1684453987c87e4f48-0",
+        "template--18578221891899__f1bb1ff4-1e47-4986-8699-f4368b3ad86c-1684453987c87e4f48-1",
+        "0a834fd3-2b9a-437a-b022-d95fc4588fe3"
+      ],
+      "settings": {
+        "style": "full",
+        "height": "natural",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": true,
+        "auto_rotate": false,
+        "slide_speed": "5000",
+        "place_content": "place-content-end-start",
+        "text_align": "text-left",
+        "heading_size": "heading-base",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "55fd2581-b07f-40bb-b1bd-d9e472704783": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "display_on_card": false,
+        "image": "shopify:\/\/shop_images\/HANDEE_MAY_LS_WEB-67.jpg",
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": true,
+        "title": "Image with text",
+        "heading_size": "heading-base",
+        "richtext": "",
+        "text_alignment": "text-left",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "primary",
+        "use_gradient_background": true
+      }
+    },
     "993c3bb5-e562-430f-b5ba-e212acdbc964": {
       "type": "video-with-text-overlay",
+      "disabled": true,
       "blocks": {
         "ebe5d758-4cdf-4b8b-a56f-08529a09770c": {
           "type": "shape_divider",
@@ -85,8 +171,26 @@
         "desktop_slide_width": 40,
         "autoscroll_mode": "1",
         "product_tiles_aspect_ratio": "",
-        "image_shape": "zig_zag_tear",
+        "image_shape": "wave_tear",
         "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    },
+    "19cee9e2-e7e7-47dc-9c86-ae0e69e3b6fb": {
+      "type": "text-marquee",
+      "settings": {
+        "text": "Clean up like a pro",
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_size": "text-3xl",
+        "desktop_text_size": "lg:text-7xl",
+        "speed": 120,
+        "direction": "",
+        "color_scheme": "quaternary",
         "use_gradient_background": false
       }
     },
@@ -97,7 +201,7 @@
           "type": "icon",
           "settings": {
             "icon": "star",
-            "image_alternative": "shopify:\/\/shop_images\/2.png",
+            "image_alternative": "shopify:\/\/shop_images\/Handee-Icon_Microwave.png",
             "text": "MICROWAVE SAFE"
           }
         },
@@ -105,15 +209,15 @@
           "type": "icon",
           "settings": {
             "icon": "star",
-            "image_alternative": "shopify:\/\/shop_images\/4.png",
-            "text": "LINT & STREAK FREE"
+            "image_alternative": "shopify:\/\/shop_images\/Handee-Icon_StreakFree.png",
+            "text": "STREAK FREE"
           }
         },
         "84b8026d-45ba-430a-b5e1-4efa25ffcf86": {
           "type": "icon",
           "settings": {
             "icon": "star",
-            "image_alternative": "shopify:\/\/shop_images\/6.png",
+            "image_alternative": "shopify:\/\/shop_images\/Handee-Icon_Hotdog.png",
             "text": "FOOD SAFE"
           }
         },
@@ -121,8 +225,8 @@
           "type": "icon",
           "settings": {
             "icon": "organic",
-            "image_alternative": "shopify:\/\/shop_images\/output-onlinepngtools.png",
-            "text": "BIODEGRADABLE PAPER"
+            "image_alternative": "shopify:\/\/shop_images\/Handee-Icon_Biodegrade.png",
+            "text": "BIODEGRADABLE"
           }
         },
         "16508913039d58ab55-0": {
@@ -159,6 +263,7 @@
         },
         "1b6d0d10-c112-410d-ba9b-b725adb46c06": {
           "type": "sticker",
+          "disabled": true,
           "settings": {
             "text": "Sticker",
             "shape": "star_1",
@@ -191,10 +296,10 @@
         "1b6d0d10-c112-410d-ba9b-b725adb46c06"
       ],
       "settings": {
-        "title": "Clean Up Like A Pro",
-        "max_width": 100,
+        "title": "",
+        "max_width": 110,
         "text_style": "heading",
-        "color_scheme": "tertiary",
+        "color_scheme": "quaternary",
         "use_gradient_background": false
       }
     },
@@ -224,6 +329,7 @@
         },
         "061421cc-1ae0-46a2-8df3-b3deb5e02761": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "below",
             "target_section_color_scheme": "primary",
@@ -241,8 +347,8 @@
       "settings": {
         "display_on_card": false,
         "video_file": "shopify:\/\/files\/videos\/JUICE-DROP.mp4",
-        "crop": "",
-        "image_shape": "blob",
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "scalloped_square",
         "blob_type": 14,
         "rotate_image": 0,
         "image_position": "right",
@@ -304,6 +410,25 @@
         "text_align": "text-left",
         "heading_size": "heading-template",
         "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "e1790b54-6e7f-4902-b997-736a0fa25f70": {
+      "type": "text-marquee",
+      "disabled": true,
+      "settings": {
+        "text": "Handee Hacks",
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_size": "text-3xl",
+        "desktop_text_size": "lg:text-7xl",
+        "speed": 120,
+        "direction": "",
+        "color_scheme": "quaternary",
         "use_gradient_background": false
       }
     },
@@ -400,17 +525,33 @@
         "blog": "news",
         "post_limit": 3,
         "crop": "aspect-w-4 aspect-h-3",
-        "image_shape": "zig_zag_tear",
+        "image_shape": "wave_tear",
         "blog_show_author": false,
         "blog_show_date": false,
         "show_post_excerpt": false,
         "show_view_all": true,
-        "color_scheme": "primary",
+        "color_scheme": "secondary",
         "use_gradient_background": false
       }
     },
     "12c4152d-e689-4386-ab18-86f2253e31fb": {
       "type": "video-with-text-overlay",
+      "blocks": {
+        "af8a1605-4383-4265-9b43-e578f0dcbe10": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "quaternary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "af8a1605-4383-4265-9b43-e578f0dcbe10"
+      ],
       "settings": {
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ce94b4d53a2141038413738d48b7d2ec.mp4",
         "crop": "cinematic",
@@ -424,8 +565,8 @@
         "richtext": "",
         "cta_url": "",
         "cta_text": "Shop Now",
-        "color_scheme": "primary",
-        "use_gradient_background": true,
+        "color_scheme": "tertiary",
+        "use_gradient_background": false,
         "text_overlay_color": "same_as_section"
       }
     },
@@ -720,7 +861,7 @@
         "image_shape": "double_pill",
         "desktop_slide_width": 25,
         "autoscroll_mode": "0",
-        "color_scheme": "primary",
+        "color_scheme": "quaternary",
         "use_gradient_background": false
       }
     },
@@ -729,6 +870,7 @@
       "blocks": {
         "ce84be94-0c5b-46cb-ae93-234c8eac051d": {
           "type": "background_shape",
+          "disabled": true,
           "settings": {
             "shape": "blob",
             "blob_type": 6,
@@ -819,7 +961,7 @@
         "two_columns_desktop": true,
         "title": "Handee FAQs",
         "richtext": "<p>Have something on your mind? Check out our frequently asked questions below.<\/p>",
-        "color_scheme": "primary",
+        "color_scheme": "tertiary",
         "use_gradient_background": false
       }
     },
@@ -862,7 +1004,7 @@
         "title": "Sign up to our newsletter",
         "richtext": "<p>Receive special offers and first look at new products.<\/p>",
         "display_on_card": false,
-        "color_scheme": "tertiary",
+        "color_scheme": "quaternary",
         "use_gradient_background": false
       }
     },
@@ -934,10 +1076,11 @@
         },
         "d618c8df-38f4-4080-88b7-b65c1a103573": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "below",
-            "target_section_color_scheme": "secondary",
-            "style": "medium-zig-zag_1200x37",
+            "target_section_color_scheme": "quaternary",
+            "style": "small-waves_1200x20",
             "flip_horizontal": false,
             "enable_animation": false,
             "animation_direction": ""
@@ -960,14 +1103,30 @@
         "color_scheme": "primary",
         "use_gradient_background": false
       }
+    },
+    "1f0c1a6b-3bd9-4689-a6df-460c82e528a4": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "title": "#KeepItHandee",
+        "style": "inset",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=D8wzLV8XqKg",
+        "aspect_ratio": "4:3",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
+    "f1bb1ff4-1e47-4986-8699-f4368b3ad86c",
+    "55fd2581-b07f-40bb-b1bd-d9e472704783",
     "993c3bb5-e562-430f-b5ba-e212acdbc964",
     "1650891358fef95dd4",
+    "19cee9e2-e7e7-47dc-9c86-ae0e69e3b6fb",
     "1650891303c44cb2d2",
     "00892983-906a-4d57-b137-0c987a9edd8f",
     "94557c91-5b43-4d29-8bd7-46f3ae3d3caf",
+    "e1790b54-6e7f-4902-b997-736a0fa25f70",
     "165089168609b8f684",
     "12c4152d-e689-4386-ab18-86f2253e31fb",
     "1650891033bae15b05",
@@ -977,6 +1136,7 @@
     "61aebac6-ea67-44d8-8085-98fce3a024e5",
     "7cda1029-e703-45c8-8177-ae6b8d57f06b",
     "1650891804363a2769",
-    "9cf8859d-f6c9-4997-b4d5-21e74d9ebfc7"
+    "9cf8859d-f6c9-4997-b4d5-21e74d9ebfc7",
+    "1f0c1a6b-3bd9-4689-a6df-460c82e528a4"
   ]
 }
