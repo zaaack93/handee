@@ -9,7 +9,7 @@
   assign predictive_search_enabled = true
   assign counter = 0
   assign show_icons = section.settings.show_icons
-  if section.settings.enable_overlay_on_homepage and template == 'index'
+  if section.settings.enable_overlay_on_homepage
     assign enable_overlay = true
   endif
   if section.settings.enable_overlay_on_collection_pages and template contains 'collection' and template != 'list-collections'
