@@ -19,7 +19,8 @@
       button_label: section.settings.button_label,
       heading_size: section.settings.heading_size,
       container_id: section.id,
-      disable_media_style: section.settings.disable_media_style -%}
+      disable_media_style: section.settings.disable_media_style,
+      settings: section.settings -%}
   </div>
 
   {%- liquid
@@ -345,7 +346,14 @@
       }, {
         "type": "header",
         "content": "Content"
-      }, {
+      }, 
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#FFF"
+      },
+      {
         "type": "text",
         "id": "title",
         "label": "Title",
@@ -368,7 +376,53 @@
         "type": "richtext",
         "id": "richtext",
         "label": "Text"
-      }, {
+      }, 
+      {
+        "type": "text",
+        "id": "image_heading_1",
+        "label": "Heading 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_link_1",
+        "label": "Icon 1 "
+      },
+      {
+        "type": "text",
+        "id": "image_heading_2",
+        "label": "Heading 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_link_2",
+        "label": "Icon 2"
+      },
+      
+      {
+        "type": "text",
+        "id": "image_heading_3",
+        "label": "Heading 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_link_3",
+        "label": "Icon 3"
+      },
+      
+      {
+        "type": "text",
+        "id": "image_heading_4",
+        "label": "Heading 4"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_link_4",
+        "label": "Icon 4 "
+      },
+      
+      
+      
+      {
         "type": "select",
         "id": "text_alignment",
         "label": "Text alignment",

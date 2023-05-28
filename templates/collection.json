@@ -7,11 +7,11 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/HANDEE_MAY_CREATIVE_WEB-6.1.jpg",
-            "title": "",
+            "title": "all product",
             "richtext": "",
             "cta_url": "",
             "cta_text": "Shop Now",
-            "place_content": "place-content-center-start",
+            "place_content": "place-content-start-start",
             "text_align": "text-left",
             "text_overlay_color": "white"
           }
@@ -39,7 +39,7 @@
         "display_content_below_image_on_mobile": false,
         "auto_rotate": false,
         "slide_speed": "5000",
-        "place_content": "place-content-center-start",
+        "place_content": "place-content-start-start",
         "text_align": "text-left",
         "heading_size": "heading-template",
         "color_scheme": "primary",
