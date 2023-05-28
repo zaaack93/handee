@@ -432,6 +432,10 @@
                       {%- endif -%}
                     </{{ header_tag }}>
                   </div>
+
+                {% when 'link_retailers' %}
+                  {% render 'link-retailers', block: block %}
+
                 {% when 'price' %}
                   {% render 'product-block-price',
                     product: product,

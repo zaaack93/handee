@@ -1,0 +1,21 @@
+<div class="product-block product-block-link_ratialers w-full max-w-full">
+{% if block.settings.block_heading %}
+    <h3 class="font-heading mb-4">{{block.settings.block_heading}}</h3>
+{% endif %}
+
+<div class="content_icon_container">
+    <div class="container-inner">
+    {% for i in (1..4) %}
+      {% assign link = 'image_heading_' | append: i%}
+      {% assign image = 'image_link_' | append: i%}
+      {% if block.settings[link] != blank or block.settings[image] != blank %}
+          {% if block.settings[image] != blank %}
+          <a href="{{block.settings[link]}}" {% if block.settings.open_on_new_tab %}target="_blank"{%endif%}>
+              {{ block.settings[image] | image_url: width: auto | image_tag: loading: 'lazy' }}
+          </a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+</div>

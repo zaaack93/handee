@@ -27,6 +27,20 @@
             "show_label": true
           }
         },
+        "d66d99c5-40c2-4c77-9061-408a617e6533": {
+          "type": "link_retailers",
+          "settings": {
+            "block_heading": "Click below to purchase from your favourite retailer:",
+            "open_on_new_tab": true,
+            "image_heading_1": "",
+            "image_link_1": "shopify:\/\/shop_images\/Coles_logo_2.png",
+            "image_heading_2": "",
+            "image_link_2": "shopify:\/\/shop_images\/woolworths-5-logo_2.png",
+            "image_heading_3": "",
+            "image_link_3": "shopify:\/\/shop_images\/IGA_logo_2.png",
+            "image_heading_4": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -118,6 +132,7 @@
         "title",
         "price",
         "quantity_selector",
+        "d66d99c5-40c2-4c77-9061-408a617e6533",
         "variant_picker",
         "a17e90c4-acc9-4f1d-af84-828ae4cb2289",
         "e7f8c0c0-e57e-48cb-b4da-334b7375d5b0",
@@ -334,9 +349,14 @@
         "image_position": "right",
         "image_size": "half",
         "disable_media_style": false,
+        "text_color": "#FFF",
         "title": "Australia's #1 Absorbent Paper Towel",
         "heading_size": "heading-base",
         "richtext": "<p><strong>Handee - made to cope with anything you can throw at it!<\/strong><\/p>",
+        "image_heading_1": "",
+        "image_heading_2": "",
+        "image_heading_3": "",
+        "image_heading_4": "",
         "text_alignment": "text-left",
         "button_link": "",
         "button_label": "Shop Now",
