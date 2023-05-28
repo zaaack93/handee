@@ -65,7 +65,7 @@
       </ul>
     </div>
     {% if section.blocks.size > 1 %}
-      <div class="splide__arrows flex justify-between items-center mt-5 px-section {% if style == 'full' %}lg:absolute bottom-0 right-0 pb-5{% endif %}">
+      <div class="splide__arrows flex justify-between items-center mt-5 px-section {% if style == 'full' %}lg:absolute bottom-0 right-0 pb-5{% endif %} max-lg:hidden">
       {%- render 'splide-navigation', autoplay: section.settings.auto_rotate -%}
       </div>
     {% endif %}
