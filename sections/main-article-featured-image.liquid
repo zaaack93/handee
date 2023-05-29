@@ -8,8 +8,9 @@
   endif
 %}
 <section
-  class="text-scheme-text bg-scheme-background overflow-hidden  {% if section.settings.use_gradient_background %}bg-scheme-gradient{% endif %}"
+  class="text-scheme-text bg-scheme-background relative overflow-hidden {% if section.settings.use_gradient_background %}bg-scheme-gradient{% endif %} full-bleed-section"
   data-color-scheme="{{ section.settings.color_scheme }}"
+  dddd
 >
   <div class="section-content  {% if style == 'inset' %}py-section-vertical-spacing{% endif %}">
     {% render 'image-with-text-overlay',

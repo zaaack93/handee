@@ -1,9 +1,9 @@
 <div class="product-block product-block-key_product w-full max-w-full">
     {% if block.settings.block_heading %}
-        <h3 class="font-heading heading-style mb-4 main-heading">{{block.settings.block_heading}}</h3>
+        <h3 class="font-heading heading-style main-heading" style="margin-bottom:{{block.settings.block_heading_space}}px">{{block.settings.block_heading}}</h3>
     {% endif %}
     
-    <div class="content_icon_container">
+    <div class="content_icon_container_pdp">
         {% for i in (1..4) %}
           {% assign title = 'image_heading_' | append: i%}
           {% assign image = 'image_link_' | append: i%}
