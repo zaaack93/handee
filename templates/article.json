@@ -19,7 +19,7 @@
         "show_share_links": true,
         "show_tags": true,
         "show_next_previous_links": true,
-        "color_scheme": "tertiary",
+        "color_scheme": "primary",
         "use_gradient_background": false
       }
     }

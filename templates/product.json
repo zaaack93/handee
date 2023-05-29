@@ -27,6 +27,14 @@
             "show_label": true
           }
         },
+        "a17e90c4-acc9-4f1d-af84-828ae4cb2289": {
+          "type": "description",
+          "settings": {
+            "display_on_card": false,
+            "truncate_description": false,
+            "text_align": "text-left"
+          }
+        },
         "d66d99c5-40c2-4c77-9061-408a617e6533": {
           "type": "link_retailers",
           "settings": {
@@ -43,35 +51,29 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "display_on_card": false,
-            "option_style": "buttons",
+            "option_style": "drop_down",
             "hide_option_labels": false,
             "enable_color_swatches": false
           }
         },
-        "a17e90c4-acc9-4f1d-af84-828ae4cb2289": {
-          "type": "description",
-          "settings": {
-            "display_on_card": false,
-            "truncate_description": false,
-            "text_align": "text-left"
-          }
-        },
         "e7f8c0c0-e57e-48cb-b4da-334b7375d5b0": {
           "type": "background_shape",
+          "disabled": true,
           "settings": {
             "shape": "blob",
             "blob_type": 7,
-            "size": 165,
-            "opacity": 25,
+            "size": 235,
+            "opacity": 60,
             "blur": 0,
-            "horizontal_position": 62,
+            "horizontal_position": 35,
             "vertical_position": 50,
             "rotate": 0,
             "enable_parallax": true,
             "parallax_speed": 3,
-            "color": "background",
+            "color": "gradient",
             "color_scheme": "quaternary"
           }
         },
@@ -94,6 +96,7 @@
         },
         "3c0b7106-9abe-47c3-8ed3-52c1b21c2cf9": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "block_heading": "Pairs well with",
             "product_list_limit": 1
@@ -116,29 +119,29 @@
             "show_pickup_availability": false
           }
         },
-        "5b8acce3-0dec-4826-82a2-2f59e6c89800": {
-          "type": "shape_divider",
-          "settings": {
-            "target_section": "below",
-            "target_section_color_scheme": "tertiary",
-            "style": "medium-waves_1200x43",
-            "flip_horizontal": false,
-            "enable_animation": false,
-            "animation_direction": ""
-          }
-        },
         "45e7287e-886d-4cc6-a4b3-d49efe1f5c89": {
           "type": "product_benefits",
           "settings": {
             "block_heading": "Key Benefits",
             "image_heading_1": "Microwave Safe",
-            "image_link_1": "shopify:\/\/shop_images\/Handee-Icon-White_Microwave.png",
+            "image_link_1": "shopify:\/\/shop_images\/2_d438dee2-2da0-4be1-be05-8634e0a7cfdc.png",
             "image_heading_2": "Biodegradable Paper",
-            "image_link_2": "shopify:\/\/shop_images\/Handee-Icon-White_Biodegrade.png",
+            "image_link_2": "shopify:\/\/shop_images\/4_f4e579b0-1b41-4088-8845-4177eb42acbe.png",
             "image_heading_3": "Food Safe",
-            "image_link_3": "shopify:\/\/shop_images\/Handee-Icon-White_Hotdog.png",
+            "image_link_3": "shopify:\/\/shop_images\/3_e1e0a721-69d7-47f7-8c13-129387be5300.png",
             "image_heading_4": "Lint & Streak Free",
-            "image_link_4": "shopify:\/\/shop_images\/Handee-Icon-White_StreakFree.png"
+            "image_link_4": "shopify:\/\/shop_images\/1_a6feb6dd-f1ce-4d84-bd17-2b3ca881e5b6.png"
+          }
+        },
+        "5b8acce3-0dec-4826-82a2-2f59e6c89800": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "secondary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
           }
         }
       },
@@ -146,21 +149,21 @@
         "title",
         "price",
         "quantity_selector",
+        "a17e90c4-acc9-4f1d-af84-828ae4cb2289",
         "d66d99c5-40c2-4c77-9061-408a617e6533",
         "variant_picker",
-        "a17e90c4-acc9-4f1d-af84-828ae4cb2289",
         "e7f8c0c0-e57e-48cb-b4da-334b7375d5b0",
         "0e6ecdce-12c7-4096-8fd6-c8ea115a6958",
         "3c0b7106-9abe-47c3-8ed3-52c1b21c2cf9",
         "105eff89-a9ed-4f2c-a8a4-8f79d13c3370",
         "baf3083e-d14d-435d-bca3-100d6ac490ce",
-        "5b8acce3-0dec-4826-82a2-2f59e6c89800",
-        "45e7287e-886d-4cc6-a4b3-d49efe1f5c89"
+        "45e7287e-886d-4cc6-a4b3-d49efe1f5c89",
+        "5b8acce3-0dec-4826-82a2-2f59e6c89800"
       ],
       "settings": {
         "crop": "",
         "image_shape": "default",
-        "desktop_media_width": "lg:col-span-7_lg:col-span-5",
+        "desktop_media_width": "lg:col-span-6_lg:col-span-6",
         "show_slideshow_arrows_on_desktop": false,
         "show_slideshow_arrows_on_mobile": false,
         "enable_image_zoom": false,
@@ -173,7 +176,7 @@
         "hide_media_shadow": false,
         "thumbnail_size": "standard",
         "show_thumbnails_on_mobile": false,
-        "color_scheme": "secondary",
+        "color_scheme": "primary",
         "use_gradient_background": false
       }
     },
@@ -251,41 +254,33 @@
         "use_gradient_background": false
       }
     },
-    "6706dc08-89d3-4a43-b29c-d91a488f0008": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "blocks": {
-        "181bae59-32b4-48f4-9ef0-6946b11fffb8": {
-          "type": "shape_divider",
-          "settings": {
-            "target_section": "above",
-            "target_section_color_scheme": "primary",
-            "style": "medium-waves_1200x43",
-            "flip_horizontal": false,
-            "enable_animation": false,
-            "animation_direction": ""
-          }
-        }
-      },
-      "block_order": [
-        "181bae59-32b4-48f4-9ef0-6946b11fffb8"
-      ],
+    "05271ed7-562d-416b-8632-3991515be84d": {
+      "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/SORB_MAY_CREATIVE_WEB-9_cab09625-ac97-4567-975e-861ddf5f9a47.jpg",
         "display_on_card": false,
-        "display_content_below_image_on_mobile": false,
-        "style": "full",
-        "height": "pt-600",
-        "place_content": "place-content-center-center",
-        "text_align": "text-center",
-        "title": "#KeepItHandee",
-        "heading_size": "heading-template",
-        "richtext": "",
-        "cta_url": "",
-        "cta_text": "",
+        "video_file": "shopify:\/\/files\/videos\/SORB-Versatility-1x1-WEB.mp4",
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "text_color": "#FFF",
+        "title": "Australia's #1 Absorbent Paper Towel",
+        "heading_size": "heading-base",
+        "richtext": "<p><strong>Handee - made to cope with anything you can throw at it!<\/strong><\/p>",
+        "image_heading_1": "SPILLS, SPLATTER & MESS",
+        "image_link_1": "shopify:\/\/shop_images\/Handee-Icon_Hotdog.png",
+        "image_heading_2": "PET MESS",
+        "image_link_2": "shopify:\/\/shop_images\/Handee-Icon_StreakFree.png",
+        "image_heading_3": "CARS, BBQ & SHED",
+        "image_heading_4": "WINDOWS & MIRRORS",
+        "text_alignment": "text-left",
+        "button_link": "",
+        "button_label": "Shop Now",
         "color_scheme": "secondary",
-        "use_gradient_background": false,
-        "text_overlay_color": "same_as_section"
+        "use_gradient_background": false
       }
     },
     "e987b7af-7d83-4762-a7c9-35ec9f069d0d": {
@@ -352,39 +347,6 @@
         "use_gradient_background": false
       }
     },
-    "22781863-28c4-4471-8b7e-83139107e37e": {
-      "type": "image-with-text",
-      "settings": {
-        "display_on_card": false,
-        "video_file": "shopify:\/\/files\/videos\/SORB-Versatility-1x1-WEB.mp4",
-        "crop": "aspect-w-1 aspect-h-1",
-        "image_shape": "blob",
-        "blob_type": 1,
-        "rotate_image": 0,
-        "image_position": "right",
-        "image_size": "half",
-        "disable_media_style": false,
-        "text_color": "#ffffff",
-        "title": "Australia's #1 Absorbent Paper Towel",
-        "heading_size": "heading-base",
-        "richtext": "<p><strong>Handee - made to cope with anything you can throw at it!<\/strong><\/p>",
-        "image_heading_1": "",
-        "image_heading_2": "",
-        "image_heading_3": "",
-        "image_heading_4": "",
-        "text_alignment": "text-left",
-        "button_link": "",
-        "button_label": "Shop Now",
-        "color_scheme": "tertiary",
-        "use_gradient_background": false
-      }
-    },
-    "510196de-8d95-4b63-8e32-c94725c1a9a3": {
-      "type": "tolstoy-carousel",
-      "settings": {
-        "publishId": "publishId"
-      }
-    },
     "ae18be33-20a9-48ea-85c8-8a67fa7b3714": {
       "type": "text-marquee",
       "settings": {
@@ -403,146 +365,33 @@
         "use_gradient_background": false
       }
     },
-    "9014213c-9116-43e4-a0a3-fc59d6ceced3": {
-      "type": "icon-list",
-      "disabled": true,
+    "ad6c2178-cfe7-4e33-9ff5-b3d27ea8505c": {
+      "type": "video",
       "blocks": {
-        "51069857-36b5-43de-aba3-2e5d567efde3": {
-          "type": "shape_divider",
+        "86dbfdc1-4e89-4011-8123-93eebdb5fa22": {
+          "type": "background_pattern",
           "disabled": true,
           "settings": {
-            "target_section": "above",
-            "target_section_color_scheme": "primary",
-            "style": "medium-waves_1200x43",
-            "flip_horizontal": false,
-            "enable_animation": false,
-            "animation_direction": ""
-          }
-        },
-        "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-0": {
-          "type": "icon",
-          "settings": {
-            "icon": "star",
-            "image_alternative": "shopify:\/\/shop_images\/5.png",
-            "text": "SPILLS, SPLATTER & MESS"
-          }
-        },
-        "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-1": {
-          "type": "icon",
-          "settings": {
-            "icon": "star",
-            "image_alternative": "shopify:\/\/shop_images\/3.png",
-            "text": "PET MESS"
-          }
-        },
-        "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-2": {
-          "type": "icon",
-          "settings": {
-            "icon": "star",
-            "image_alternative": "shopify:\/\/shop_images\/8.png",
-            "text": "CARS, BBQ & SHED"
-          }
-        },
-        "95394688-c205-4a69-95fe-c77014943799": {
-          "type": "icon",
-          "settings": {
-            "icon": "star",
-            "image_alternative": "shopify:\/\/shop_images\/7.png",
-            "text": "WINDOWS & MIRRORS"
+            "type": "diagonal_lines",
+            "color": "text",
+            "size": 24,
+            "opacity": 100,
+            "enable_parallax": false,
+            "parallax_speed": 3
           }
         }
       },
       "block_order": [
-        "51069857-36b5-43de-aba3-2e5d567efde3",
-        "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-0",
-        "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-1",
-        "template--18578222055739__9014213c-9116-43e4-a0a3-fc59d6ceced3-1680755959abcfdcb1-2",
-        "95394688-c205-4a69-95fe-c77014943799"
+        "86dbfdc1-4e89-4011-8123-93eebdb5fa22"
       ],
       "settings": {
-        "title": "",
-        "max_width": 100,
-        "text_style": "heading",
-        "color_scheme": "tertiary",
+        "title": "See Handee Ultra Double Length in Action",
+        "style": "inset",
+        "cover_image": "shopify:\/\/shop_images\/200625_Handee_01_0057.jpg",
+        "video_url": "",
+        "aspect_ratio": "16:9",
+        "color_scheme": "quaternary",
         "use_gradient_background": false
-      }
-    },
-    "7f8630ac-079b-4914-a42b-a85c57bff86e": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-0": {
-          "type": "image",
-          "settings": {
-            "image_shape": "default",
-            "rotate_image": 0,
-            "button_text": "",
-            "url": ""
-          }
-        },
-        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-1": {
-          "type": "image",
-          "settings": {
-            "image_shape": "default",
-            "rotate_image": 0,
-            "button_text": "",
-            "url": ""
-          }
-        },
-        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-2": {
-          "type": "image",
-          "settings": {
-            "image_shape": "default",
-            "rotate_image": 0,
-            "button_text": "",
-            "url": ""
-          }
-        },
-        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-3": {
-          "type": "image",
-          "settings": {
-            "image_shape": "default",
-            "rotate_image": 0,
-            "button_text": "",
-            "url": ""
-          }
-        },
-        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-4": {
-          "type": "image",
-          "settings": {
-            "image_shape": "default",
-            "rotate_image": 0,
-            "button_text": "",
-            "url": ""
-          }
-        },
-        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-5": {
-          "type": "image",
-          "settings": {
-            "image_shape": "default",
-            "rotate_image": 0,
-            "button_text": "",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-0",
-        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-1",
-        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-2",
-        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-3",
-        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-4",
-        "template--18578222055739__7f8630ac-079b-4914-a42b-a85c57bff86e-1682058227b830d35e-5"
-      ],
-      "settings": {
-        "title": "Your Lifesaver for Life's Mishaps",
-        "first_large_image_position": "top_left",
-        "crop": "aspect-w-1 aspect-h-1",
-        "button_style": "push-btn-surface",
-        "show_buttons_on_mobile": false,
-        "only_show_button_on_hover": true,
-        "color_scheme": "primary",
-        "use_gradient_background": true
       }
     },
     "8ca4135a-1c4f-4bb9-8195-7ac897ccc827": {
@@ -638,36 +487,6 @@
         "column_3_title": "Column 3",
         "enable_column_4": false,
         "column_4_title": "Column 4",
-        "color_scheme": "quaternary",
-        "use_gradient_background": false
-      }
-    },
-    "ad6c2178-cfe7-4e33-9ff5-b3d27ea8505c": {
-      "type": "video",
-      "disabled": true,
-      "blocks": {
-        "86dbfdc1-4e89-4011-8123-93eebdb5fa22": {
-          "type": "background_pattern",
-          "disabled": true,
-          "settings": {
-            "type": "diagonal_lines",
-            "color": "text",
-            "size": 24,
-            "opacity": 100,
-            "enable_parallax": false,
-            "parallax_speed": 3
-          }
-        }
-      },
-      "block_order": [
-        "86dbfdc1-4e89-4011-8123-93eebdb5fa22"
-      ],
-      "settings": {
-        "title": "See Handee Ultra Paper Towel in Action",
-        "style": "inset",
-        "cover_image": "shopify:\/\/shop_images\/200625_Handee_01_0057.jpg",
-        "video_url": "",
-        "aspect_ratio": "16:9",
         "color_scheme": "quaternary",
         "use_gradient_background": false
       }
@@ -771,15 +590,11 @@
   "order": [
     "main",
     "cef8f729-6f68-43fe-8433-13cfb1381a08",
-    "6706dc08-89d3-4a43-b29c-d91a488f0008",
+    "05271ed7-562d-416b-8632-3991515be84d",
     "e987b7af-7d83-4762-a7c9-35ec9f069d0d",
-    "22781863-28c4-4471-8b7e-83139107e37e",
-    "510196de-8d95-4b63-8e32-c94725c1a9a3",
     "ae18be33-20a9-48ea-85c8-8a67fa7b3714",
-    "9014213c-9116-43e4-a0a3-fc59d6ceced3",
-    "7f8630ac-079b-4914-a42b-a85c57bff86e",
-    "8ca4135a-1c4f-4bb9-8195-7ac897ccc827",
     "ad6c2178-cfe7-4e33-9ff5-b3d27ea8505c",
+    "8ca4135a-1c4f-4bb9-8195-7ac897ccc827",
     "859bcbe2-1baf-4c40-afcc-1b4d59777207",
     "product-recommendations"
   ]

@@ -1,5 +1,78 @@
 {
   "sections": {
+    "ed6b371e-293a-4f26-8321-f25ea0d2dd6d": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "e5afd151-5068-41d6-9b93-3779018047b2": {
+          "type": "background_shape",
+          "settings": {
+            "shape": "blob",
+            "blob_type": 6,
+            "size": 100,
+            "opacity": 99,
+            "blur": 0,
+            "horizontal_position": 57,
+            "vertical_position": 56,
+            "rotate": 0,
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color": "accent",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "615cd0fb-eb6f-4eb7-ad53-be5e4a67b4e0": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "text": "Sticker",
+            "shape": "star_1",
+            "width": 150,
+            "sticker_font_size": "1.563rem",
+            "image": "shopify:\/\/shop_images\/1.png",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 50,
+            "vertical_position": 85,
+            "rotate": 16,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": false,
+            "parallax_speed": 4,
+            "color": "bg-scheme-accent text-scheme-accent-overlay",
+            "color_scheme": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "e5afd151-5068-41d6-9b93-3779018047b2",
+        "615cd0fb-eb6f-4eb7-ad53-be5e4a67b4e0"
+      ],
+      "settings": {
+        "display_on_card": false,
+        "video_file": "shopify:\/\/files\/videos\/Handee Ultra - Cleaning.mp4",
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "text_color": "#273460",
+        "title": "Australia’s most absorbent paper towel!",
+        "heading_size": "heading-base",
+        "richtext": "<h4><em>Keeping Aussie homes spill-free and worry-free for 30 years with our advanced paper making technology.<\/em><\/h4>",
+        "image_heading_1": "",
+        "image_heading_2": "",
+        "image_heading_3": "",
+        "image_heading_4": "",
+        "text_alignment": "text-left",
+        "button_link": "shopify:\/\/collections\/all-products",
+        "button_label": "Shop Handee",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
     "f1bb1ff4-1e47-4986-8699-f4368b3ad86c": {
       "type": "hero-slideshow",
       "blocks": {
@@ -19,20 +92,36 @@
         },
         "template--18578221891899__f1bb1ff4-1e47-4986-8699-f4368b3ad86c-1684453987c87e4f48-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hero_Desktop_2.jpg",
+            "image": "shopify:\/\/shop_images\/SORB_MAY_CREATIVE_WEB-2.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Handee_hero.jpg",
-            "title": "The Superhero of Spills",
-            "richtext": "<h4>When life gets messy, Handee has got you covered. <\/h4>",
+            "title": "Australia’s most absorbent paper towel!",
+            "richtext": "<h4><em>Keeping Aussie homes spill-free and worry-free for 30 years with our advanced paper making technology.<\/em><\/h4>",
             "cta_url": "shopify:\/\/collections\/all-products",
             "cta_text": "Shop Handee",
-            "place_content": "place-content-end-start",
+            "place_content": "place-content-start-start",
+            "text_align": "text-left",
+            "text_overlay_color": "same_as_section"
+          }
+        },
+        "23a200ec-b814-450e-b39c-7767c50c8b34": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HANDEE_MAY_CREATIVE_WEB-9-Orange.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Handee_hero.jpg",
+            "title": "Australia’s most absorbent paper towel!",
+            "richtext": "<h4><em>Keeping Aussie homes spill-free and worry-free for 30 years with our advanced paper making technology.<\/em><\/h4>",
+            "cta_url": "shopify:\/\/collections\/all-products",
+            "cta_text": "Shop Handee",
+            "place_content": "place-content-start-start",
             "text_align": "text-left",
             "text_overlay_color": "same_as_section"
           }
         },
         "0a834fd3-2b9a-437a-b022-d95fc4588fe3": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "below",
             "target_section_color_scheme": "tertiary",
@@ -46,50 +135,74 @@
       "block_order": [
         "template--18578221891899__f1bb1ff4-1e47-4986-8699-f4368b3ad86c-1684453987c87e4f48-0",
         "template--18578221891899__f1bb1ff4-1e47-4986-8699-f4368b3ad86c-1684453987c87e4f48-1",
+        "23a200ec-b814-450e-b39c-7767c50c8b34",
         "0a834fd3-2b9a-437a-b022-d95fc4588fe3"
       ],
       "settings": {
         "style": "full",
-        "height": "natural",
+        "height": "pt-screen-height",
         "display_on_card": false,
         "display_content_below_image_on_mobile": true,
         "auto_rotate": false,
         "slide_speed": "5000",
-        "place_content": "place-content-end-start",
+        "place_content": "place-content-center-start",
         "text_align": "text-left",
         "heading_size": "heading-base",
         "color_scheme": "primary",
         "use_gradient_background": false
       }
     },
-    "55fd2581-b07f-40bb-b1bd-d9e472704783": {
-      "type": "image-with-text",
+    "1650891358fef95dd4": {
+      "type": "featured-collection",
+      "blocks": {
+        "7261f40b-41bf-4b48-8953-041e29fe35e4": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "primary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "a3770a3e-1fec-4c1b-a639-ea67e882b25a": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "quaternary",
+            "style": "waves-2-asymmetrical_1440x330",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "7261f40b-41bf-4b48-8953-041e29fe35e4",
+        "a3770a3e-1fec-4c1b-a639-ea67e882b25a"
+      ],
       "settings": {
+        "title": "Choose the Superhero of Spills",
+        "subheading": "When life gets messy, keep it Handee.",
+        "collection": "best-sellers",
+        "no_products": 2,
+        "show_view_all": true,
+        "enable_quick_buy": false,
         "display_on_card": false,
-        "video_file": "shopify:\/\/files\/videos\/SORB-Versatility-1x1-WEB.mp4",
-        "crop": "aspect-w-1 aspect-h-1",
-        "image_shape": "default",
-        "blob_type": 1,
-        "rotate_image": 0,
-        "image_position": "right",
-        "image_size": "half",
-        "disable_media_style": true,
-        "title": "Image with text",
-        "heading_size": "heading-base",
-        "richtext": "",
-        "image_heading_1": "SPILLS, SPLATTER & MESS",
-        "image_link_1": "shopify:\/\/shop_images\/Handee-Icon-White_Microwave.png",
-        "image_heading_2": "PET MESS",
-        "image_link_2": "shopify:\/\/shop_images\/Handee-Icon-White_Biodegrade.png",
-        "image_heading_3": "CARS, BBQ & SHED",
-        "image_link_3": "shopify:\/\/shop_images\/Handee-Icon-White_Hotdog.png",
-        "image_heading_4": "WINDOWS & MIRRORS",
-        "image_link_4": "shopify:\/\/shop_images\/Handee-Icon-White_StreakFree.png",
-        "text_alignment": "text-left",
-        "button_link": "",
-        "button_label": "Shop Now",
-        "color_scheme": "primary",
-        "use_gradient_background": true
+        "layout": "grid",
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 2,
+        "slideshow_focus": "center",
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 40,
+        "autoscroll_mode": "1",
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "wave_tear",
+        "color_scheme": "secondary",
+        "use_gradient_background": false
       }
     },
     "993c3bb5-e562-430f-b5ba-e212acdbc964": {
@@ -130,59 +243,6 @@
         "text_overlay_color": "same_as_section"
       }
     },
-    "1650891358fef95dd4": {
-      "type": "featured-collection",
-      "blocks": {
-        "7261f40b-41bf-4b48-8953-041e29fe35e4": {
-          "type": "shape_divider",
-          "disabled": true,
-          "settings": {
-            "target_section": "above",
-            "target_section_color_scheme": "secondary",
-            "style": "medium-waves_1200x43",
-            "flip_horizontal": false,
-            "enable_animation": false,
-            "animation_direction": ""
-          }
-        },
-        "a3770a3e-1fec-4c1b-a639-ea67e882b25a": {
-          "type": "shape_divider",
-          "disabled": true,
-          "settings": {
-            "target_section": "above",
-            "target_section_color_scheme": "quaternary",
-            "style": "waves-2-asymmetrical_1440x330",
-            "flip_horizontal": false,
-            "enable_animation": false,
-            "animation_direction": ""
-          }
-        }
-      },
-      "block_order": [
-        "7261f40b-41bf-4b48-8953-041e29fe35e4",
-        "a3770a3e-1fec-4c1b-a639-ea67e882b25a"
-      ],
-      "settings": {
-        "title": "Shop Australia's #1 Paper Towel",
-        "subheading": "Keeping Aussie homes spill-free and worry-free for over 50 years.",
-        "collection": "best-sellers",
-        "no_products": 2,
-        "show_view_all": true,
-        "enable_quick_buy": false,
-        "display_on_card": false,
-        "layout": "grid",
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 2,
-        "slideshow_focus": "center",
-        "mobile_slide_width": "three_fifths",
-        "desktop_slide_width": 40,
-        "autoscroll_mode": "1",
-        "product_tiles_aspect_ratio": "",
-        "image_shape": "wave_tear",
-        "color_scheme": "tertiary",
-        "use_gradient_background": false
-      }
-    },
     "19cee9e2-e7e7-47dc-9c86-ae0e69e3b6fb": {
       "type": "text-marquee",
       "settings": {
@@ -195,14 +255,46 @@
         "apply_effects": false,
         "mobile_text_size": "text-3xl",
         "desktop_text_size": "lg:text-7xl",
-        "speed": 120,
+        "speed": 100,
         "direction": "",
-        "color_scheme": "quaternary",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "55fd2581-b07f-40bb-b1bd-d9e472704783": {
+      "type": "image-with-text",
+      "settings": {
+        "display_on_card": false,
+        "video_file": "shopify:\/\/files\/videos\/SORB-Versatility-1x1-WEB.mp4",
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "text_color": "#273460",
+        "title": "Australia's #1 Paper Towel",
+        "heading_size": "heading-base",
+        "richtext": "",
+        "image_heading_1": "SPILLS, SPLATTER & MESS",
+        "image_link_1": "shopify:\/\/shop_images\/5.png",
+        "image_heading_2": "PET MESS",
+        "image_link_2": "shopify:\/\/shop_images\/3.png",
+        "image_heading_3": "CARS, BBQ & SHED",
+        "image_link_3": "shopify:\/\/shop_images\/3_e1e0a721-69d7-47f7-8c13-129387be5300.png",
+        "image_heading_4": "WINDOWS & MIRRORS",
+        "image_link_4": "shopify:\/\/shop_images\/7.png",
+        "text_alignment": "text-left",
+        "button_link": "shopify:\/\/pages\/about-us",
+        "button_label": "",
+        "color_scheme": "primary",
         "use_gradient_background": false
       }
     },
     "1650891303c44cb2d2": {
       "type": "icon-list",
+      "disabled": true,
       "blocks": {
         "a441a13a-b611-4758-b003-98bdad4f8db3": {
           "type": "icon",
@@ -312,6 +404,7 @@
     },
     "00892983-906a-4d57-b137-0c987a9edd8f": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "aa36c31d-f8a6-472b-93e4-b9442cc4f94d": {
           "type": "sticker",
@@ -361,6 +454,7 @@
         "image_position": "right",
         "image_size": "half",
         "disable_media_style": false,
+        "text_color": "#ffffff",
         "title": "Australia’s most absorbent paper towel!",
         "heading_size": "heading-base",
         "richtext": "<p>Thanks to our advanced paper making technology, Handee paper towel is ultra strong - wet or dry.<\/p>",
@@ -550,6 +644,7 @@
       "blocks": {
         "af8a1605-4383-4265-9b43-e578f0dcbe10": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "above",
             "target_section_color_scheme": "quaternary",
@@ -579,6 +674,17 @@
         "color_scheme": "tertiary",
         "use_gradient_background": false,
         "text_overlay_color": "same_as_section"
+      }
+    },
+    "1f0c1a6b-3bd9-4689-a6df-460c82e528a4": {
+      "type": "video",
+      "settings": {
+        "title": "#KeepItHandee",
+        "style": "inset",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=D8wzLV8XqKg",
+        "aspect_ratio": "4:3",
+        "color_scheme": "primary",
+        "use_gradient_background": false
       }
     },
     "1650891033bae15b05": {
@@ -673,6 +779,7 @@
         "image_position": "right",
         "image_size": "half",
         "disable_media_style": false,
+        "text_color": "#ffffff",
         "title": "The Superhero of Spills",
         "heading_size": "heading-template",
         "richtext": "<h4>When life gets messy, Handee has got you covered. <\/h4>",
@@ -699,6 +806,7 @@
         "image_position": "left",
         "image_size": "half",
         "disable_media_style": false,
+        "text_color": "#ffffff",
         "title": "Committed to sustainable forest management",
         "heading_size": "heading-base",
         "richtext": "<p>Handee Ultra wood pulp is sourced from socially and environmentally sustainable forests in line with PEFC guidelines, recognised through Responsible Wood. <\/p>",
@@ -709,7 +817,7 @@
         "text_alignment": "text-left",
         "button_link": "shopify:\/\/pages\/contact",
         "button_label": "Learn more",
-        "color_scheme": "tertiary",
+        "color_scheme": "secondary",
         "use_gradient_background": false
       }
     },
@@ -881,7 +989,7 @@
         "desktop_slide_width": 25,
         "autoscroll_mode": "0",
         "color_scheme": "quaternary",
-        "use_gradient_background": false
+        "use_gradient_background": true
       }
     },
     "61aebac6-ea67-44d8-8085-98fce3a024e5": {
@@ -980,7 +1088,7 @@
         "two_columns_desktop": true,
         "title": "Handee FAQs",
         "richtext": "<p>Have something on your mind? Check out our frequently asked questions below.<\/p>",
-        "color_scheme": "tertiary",
+        "color_scheme": "primary",
         "use_gradient_background": false
       }
     },
@@ -1023,12 +1131,13 @@
         "title": "Sign up to our newsletter",
         "richtext": "<p>Receive special offers and first look at new products.<\/p>",
         "display_on_card": false,
-        "color_scheme": "quaternary",
+        "color_scheme": "secondary",
         "use_gradient_background": false
       }
     },
     "9cf8859d-f6c9-4997-b4d5-21e74d9ebfc7": {
       "type": "logo-list",
+      "disabled": true,
       "blocks": {
         "template--18578221891899__9cf8859d-f6c9-4997-b4d5-21e74d9ebfc7-16841993043dda7ff1-0": {
           "type": "logo",
@@ -1122,32 +1231,22 @@
         "color_scheme": "primary",
         "use_gradient_background": false
       }
-    },
-    "1f0c1a6b-3bd9-4689-a6df-460c82e528a4": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "title": "#KeepItHandee",
-        "style": "inset",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=D8wzLV8XqKg",
-        "aspect_ratio": "4:3",
-        "color_scheme": "primary",
-        "use_gradient_background": false
-      }
     }
   },
   "order": [
+    "ed6b371e-293a-4f26-8321-f25ea0d2dd6d",
     "f1bb1ff4-1e47-4986-8699-f4368b3ad86c",
-    "55fd2581-b07f-40bb-b1bd-d9e472704783",
-    "993c3bb5-e562-430f-b5ba-e212acdbc964",
     "1650891358fef95dd4",
+    "993c3bb5-e562-430f-b5ba-e212acdbc964",
     "19cee9e2-e7e7-47dc-9c86-ae0e69e3b6fb",
+    "55fd2581-b07f-40bb-b1bd-d9e472704783",
     "1650891303c44cb2d2",
     "00892983-906a-4d57-b137-0c987a9edd8f",
     "94557c91-5b43-4d29-8bd7-46f3ae3d3caf",
     "e1790b54-6e7f-4902-b997-736a0fa25f70",
     "165089168609b8f684",
     "12c4152d-e689-4386-ab18-86f2253e31fb",
+    "1f0c1a6b-3bd9-4689-a6df-460c82e528a4",
     "1650891033bae15b05",
     "1194cb91-1aa1-4f58-8d4e-e85abd405f13",
     "1650891590472e0352",
@@ -1155,7 +1254,6 @@
     "61aebac6-ea67-44d8-8085-98fce3a024e5",
     "7cda1029-e703-45c8-8177-ae6b8d57f06b",
     "1650891804363a2769",
-    "9cf8859d-f6c9-4997-b4d5-21e74d9ebfc7",
-    "1f0c1a6b-3bd9-4689-a6df-460c82e528a4"
+    "9cf8859d-f6c9-4997-b4d5-21e74d9ebfc7"
   ]
 }
