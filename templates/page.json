@@ -6,9 +6,9 @@
         "template--18578221990203__64ba5387-afcf-427d-a85e-0f1ff7db2f21-1683853580cb2f3b49-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HANDEE_MAY_CREATIVE_LOWRES-7-EDIT.jpg",
+            "image": "shopify:\/\/shop_images\/HANDEE_MAY_CREATIVE_WEB-3.1.jpg",
             "image_mobile": "shopify:\/\/shop_images\/SORB_MAY_CREATIVE_WEB-7_6afb5ef2-85ac-4dba-98ff-f46d570a8025.jpg",
-            "title": "Frequently Asked Questions",
+            "title": "",
             "richtext": "",
             "cta_url": "",
             "cta_text": "Shop Now",
@@ -37,7 +37,7 @@
       ],
       "settings": {
         "style": "full",
-        "height": "pt-700",
+        "height": "pt-800",
         "display_on_card": false,
         "display_content_below_image_on_mobile": false,
         "auto_rotate": false,
@@ -46,6 +46,24 @@
         "text_align": "text-left",
         "heading_size": "heading-base",
         "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "80b9b2cc-77e5-4fbf-8436-93f47419f60d": {
+      "type": "text-marquee",
+      "settings": {
+        "text": "Frequently Asked Questions",
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_size": "text-3xl",
+        "desktop_text_size": "lg:text-6xl",
+        "speed": 70,
+        "direction": "",
+        "color_scheme": "tertiary",
         "use_gradient_background": false
       }
     },
@@ -133,8 +151,8 @@
         "display_on_card": true,
         "heading_text_style": "body",
         "two_columns_desktop": true,
-        "title": "FAQ",
-        "richtext": "<p>Find the most frequently asked questions below.<\/p>",
+        "title": "Let us spill the news on any questions below.",
+        "richtext": "",
         "color_scheme": "secondary",
         "use_gradient_background": false
       }
@@ -142,6 +160,7 @@
   },
   "order": [
     "64ba5387-afcf-427d-a85e-0f1ff7db2f21",
+    "80b9b2cc-77e5-4fbf-8436-93f47419f60d",
     "main",
     "3d3c1369-f411-4c3a-a99f-074bc9cfa73c"
   ]

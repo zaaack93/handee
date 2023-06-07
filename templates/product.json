@@ -39,6 +39,7 @@
           "type": "link_retailers",
           "settings": {
             "block_heading": "Click below to purchase from your favourite retailer:",
+            "block_heading_space": 10,
             "open_on_new_tab": true,
             "image_heading_1": "",
             "image_link_1": "shopify:\/\/shop_images\/Coles_logo_2.png",
@@ -122,15 +123,16 @@
         "45e7287e-886d-4cc6-a4b3-d49efe1f5c89": {
           "type": "product_benefits",
           "settings": {
-            "block_heading": "Key Benefits",
+            "block_heading": "Handee Benefits",
+            "block_heading_space": 10,
             "image_heading_1": "Microwave Safe",
-            "image_link_1": "shopify:\/\/shop_images\/2_d438dee2-2da0-4be1-be05-8634e0a7cfdc.png",
+            "image_link_1": "shopify:\/\/shop_images\/Handee-Icons_MicrowaveSafe.png",
             "image_heading_2": "Biodegradable Paper",
-            "image_link_2": "shopify:\/\/shop_images\/4_f4e579b0-1b41-4088-8845-4177eb42acbe.png",
+            "image_link_2": "shopify:\/\/shop_images\/Handee-Icons_Biodegradable.png",
             "image_heading_3": "Food Safe",
-            "image_link_3": "shopify:\/\/shop_images\/3_e1e0a721-69d7-47f7-8c13-129387be5300.png",
+            "image_link_3": "shopify:\/\/shop_images\/Handee-Icons_FoodSafe_7b0e2a0f-18ae-485d-b8d3-247a27a3d6b9.png",
             "image_heading_4": "Lint & Streak Free",
-            "image_link_4": "shopify:\/\/shop_images\/1_a6feb6dd-f1ce-4d84-bd17-2b3ca881e5b6.png"
+            "image_link_4": "shopify:\/\/shop_images\/Handee-Icons_LintAndStreakFree.png"
           }
         },
         "5b8acce3-0dec-4826-82a2-2f59e6c89800": {
@@ -266,16 +268,18 @@
         "image_position": "right",
         "image_size": "half",
         "disable_media_style": false,
-        "text_color": "#FFF",
-        "title": "Australia's #1 Absorbent Paper Towel",
+        "text_color": "#ffffff",
+        "title": "Australia's Most Absorbent Paper Towel",
         "heading_size": "heading-base",
-        "richtext": "<p><strong>Handee - made to cope with anything you can throw at it!<\/strong><\/p>",
+        "richtext": "<p><strong>Handee - From indoors, to outdoors, it's made to cope with anything you can throw at it! <\/strong><\/p>",
         "image_heading_1": "SPILLS, SPLATTER & MESS",
-        "image_link_1": "shopify:\/\/shop_images\/Handee-Icon_Hotdog.png",
+        "image_link_1": "shopify:\/\/shop_images\/Handee-Icons_FoodSafe-White.png",
         "image_heading_2": "PET MESS",
-        "image_link_2": "shopify:\/\/shop_images\/Handee-Icon_StreakFree.png",
+        "image_link_2": "shopify:\/\/shop_images\/Handee-Icons_PetMess-White.png",
         "image_heading_3": "CARS, BBQ & SHED",
+        "image_link_3": "shopify:\/\/shop_images\/Handee-Icons_BBQs-White.png",
         "image_heading_4": "WINDOWS & MIRRORS",
+        "image_link_4": "shopify:\/\/shop_images\/Handee-Icons_WindowsMirrors-White.png",
         "text_alignment": "text-left",
         "button_link": "",
         "button_label": "Shop Now",
@@ -359,9 +363,9 @@
         "apply_effects": false,
         "mobile_text_size": "text-lg",
         "desktop_text_size": "lg:text-5xl",
-        "speed": 50,
+        "speed": 70,
         "direction": "",
-        "color_scheme": "primary",
+        "color_scheme": "tertiary",
         "use_gradient_background": false
       }
     },
@@ -390,7 +394,7 @@
         "cover_image": "shopify:\/\/shop_images\/200625_Handee_01_0057.jpg",
         "video_url": "",
         "aspect_ratio": "16:9",
-        "color_scheme": "quaternary",
+        "color_scheme": "primary",
         "use_gradient_background": false
       }
     },
