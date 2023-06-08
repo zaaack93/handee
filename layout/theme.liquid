@@ -115,6 +115,34 @@
     {
       --max-site-width: 1500px;
     }
+
+          /* Large Screens */
+      @media (min-width: 992px) {
+        :root
+        {
+          --max-site-width: 960px;
+        }
+      }
+
+      /* Extra Large Screens */
+      @media (min-width: 1200px) {
+        :root
+        {
+          --max-site-width: 1140px;
+        }
+      }
+
+      /* Wider Screens */
+      @media (min-width: 1500px) {
+        {
+          --max-site-width: 1300px;
+        }
+      }
+      @media (min-width: 1800px) {
+        {
+          --max-site-width: 1500px;
+        }
+      }
   </style>
   {% style %}
     {{ main_font | font_face: font_display: 'swap' }}

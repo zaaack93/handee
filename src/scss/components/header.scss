@@ -11,7 +11,7 @@
 #MainContent{
     .shopify-section:first-child {
         .py-section-vertical-spacing[class*="place-content-start-"] {
-            padding-top: calc(var(--section-vertical-spacing) + 100px);
+            //padding-top: calc(var(--section-vertical-spacing) + 100px);
             @media (min-width: 990px) {
                 padding-top: calc(var(--section-vertical-spacing) + 50px);
             }
