@@ -145,7 +145,8 @@
     <div class="text-scheme-text md:flex justify-between section-content-top-margin">
 
       <div class="{% if country_selector or locale_selector %}lg:w-1/3{% endif %}">
-        <p class="text-sm">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: '/' }}. <span class="ml-2 inline-block">{{ powered_by_link }}</span></p>
+        <p class="text-sm">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: '/' }}. <span class="ml-2 inline-block"><a target="_blank" rel="nofollow" href="http://yonder-studio.com">Site Design by Yonder Studio.</a></span></p>
+        
       </div>
 
       {%- if section.settings.show_payment_icons -%}

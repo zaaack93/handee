@@ -63,3 +63,25 @@
         }
     }
 }
+
+
+//icon list container for slide
+icon-links-slider{
+    position: relative;
+}
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .left-button {
+    left: -11px;
+  }
+  
+  .right-button {
+    right: -11px;
+  }

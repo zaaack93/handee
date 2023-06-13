@@ -1,6 +1,5 @@
 //header navigation trigger
 const targetElement = document.querySelector(".blur-bg-header");
-console.log(targetElement)
 if(targetElement){
 window.addEventListener("scroll", () => {
   if (window.scrollY === 0) {
