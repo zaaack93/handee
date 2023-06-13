@@ -1,8 +1,3 @@
-@media (max-width: 660px) {
-  .site-header.no-back-blur .theme-icon path {
-    stroke: white;
-  }
-}
 @media (min-width: 990px) {
   #MainContent .shopify-section:first-child .py-section-vertical-spacing[class*=place-content-start-] {
     padding-top: calc(var(--section-vertical-spacing) + 50px);

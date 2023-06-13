@@ -15,7 +15,7 @@
     {%- if link != blank -%}
     <a href="{{ link }}" class="text-{{ section_color }}-text hover:text-{{ section_color }}-accent">
     {%- endif -%}
-    <div class="marquee-container inline-flex items-center whitespace-nowrap pl-100 {{ font }}">
+    <div class="marquee-container inline-flex items-center whitespace-nowrap {{ font }}">
       {%- if repeat_text -%}
         {% for i in (1..10) %}
         <span class=" flex-shrink-0  {{ mobile_text_size }}  {{ desktop_text_size }} {% if font contains 'heading' and section.settings.apply_effects %}heading-effects{% endif %}" {% if i > 1 %}aria-hidden="true"{% endif %}>{{ text }}</span>
