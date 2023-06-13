@@ -13,7 +13,7 @@
 -%}
 <footer class="relative text-scheme-text bg-scheme-background py-section-vertical-spacing px-section {% if section.settings.use_gradient_background %}bg-scheme-gradient{% endif %}" data-color-scheme="{{ section.settings.color_scheme | default: 'primary' }}" data-section-id="{{ section.id }}" data-section-type="footer">
 
-  <div class="section-content relative z-10 max-w-site mx-auto">
+  <div class="section-content relative z-10 w-full mx-auto">
 
     {% if section.settings.logo != blank %}
     <div class="flex items-center justify-center ">
