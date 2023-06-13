@@ -20,7 +20,7 @@
 
 <section class="relative text-scheme-text bg-scheme-background  {% if section.settings.use_gradient_background %}bg-scheme-gradient{% endif %} relative overflow-hidden" data-color-scheme="{{ section.settings.color_scheme | default: 'primary' }}" >
 
-  <div class="section-content relative z-10 w-full max-w-site mx-auto py-section-vertical-spacing px-section">
+  <div class="section-content relative z-10 w-full w-full mx-auto py-section-vertical-spacing px-section">
 
     {% if section.settings.title != '' %}
     {%- assign block_heading_level = 'h3' -%}

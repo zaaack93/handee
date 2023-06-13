@@ -512,8 +512,12 @@
             "label": "Medium"
           },
           {
-            "value": "4rem:8rem",
+            "value": "4rem:6rem",
             "label": "Large"
+          },
+          {
+            "value": "6rem:8rem",
+            "label": "X-Large"
           }
         ]
       },
