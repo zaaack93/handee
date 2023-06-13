@@ -45,7 +45,7 @@
       ],
       "settings": {
         "style": "full",
-        "height": "pt-800",
+        "height": "pt-two-thirds-screen-height",
         "display_on_card": false,
         "display_content_below_image_on_mobile": false,
         "auto_rotate": false,

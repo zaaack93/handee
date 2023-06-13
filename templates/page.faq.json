@@ -6,9 +6,9 @@
         "template--18578221990203__64ba5387-afcf-427d-a85e-0f1ff7db2f21-1683853580cb2f3b49-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SORB_MAY_CREATIVE_WEB-2.jpg",
+            "image": "shopify:\/\/shop_images\/HANDEE_MAY_CREATIVE_WEB-3.1.jpg",
             "image_mobile": "shopify:\/\/shop_images\/SORB_MAY_CREATIVE_WEB-7_6afb5ef2-85ac-4dba-98ff-f46d570a8025.jpg",
-            "title": "Frequently Asked Questions",
+            "title": "",
             "richtext": "",
             "cta_url": "",
             "cta_text": "Shop Now",
@@ -37,7 +37,7 @@
       ],
       "settings": {
         "style": "full",
-        "height": "pt-700",
+        "height": "pt-two-thirds-screen-height",
         "display_on_card": false,
         "display_content_below_image_on_mobile": false,
         "auto_rotate": false,

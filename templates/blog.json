@@ -18,6 +18,7 @@
         },
         "template--18578221531451__8098f34b-11ff-4330-9da3-9ccdba6a839c-16849148860eda8806-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "title": "Hero slideshow",
             "richtext": "",
@@ -35,7 +36,7 @@
       ],
       "settings": {
         "style": "full",
-        "height": "pt-800",
+        "height": "pt-two-thirds-screen-height",
         "display_on_card": false,
         "display_content_below_image_on_mobile": true,
         "auto_rotate": false,
@@ -70,14 +71,14 @@
       "settings": {
         "display_on_card": false,
         "image": "shopify:\/\/shop_images\/Handee-Versatility-5x4.gif",
-        "crop": "",
+        "crop": "aspect-w-1 aspect-h-1",
         "image_shape": "default",
         "blob_type": 1,
         "rotate_image": 0,
         "image_position": "left",
         "image_size": "half",
         "disable_media_style": false,
-        "text_color": "#FFF",
+        "text_color": "#ffffff",
         "title": "Handee Hacks",
         "heading_size": "heading-base",
         "richtext": "<h3>Clean up whatever your day throws at you. Not just to clean spills and mess.  Follow down below to find out how else you can use your Handee paper towel.<\/h3>",

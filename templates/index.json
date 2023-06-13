@@ -2,23 +2,22 @@
   "sections": {
     "ed6b371e-293a-4f26-8321-f25ea0d2dd6d": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "e5afd151-5068-41d6-9b93-3779018047b2": {
           "type": "background_shape",
           "settings": {
             "shape": "blob",
             "blob_type": 6,
-            "size": 100,
+            "size": 95,
             "opacity": 99,
             "blur": 0,
-            "horizontal_position": 57,
-            "vertical_position": 56,
-            "rotate": 0,
-            "enable_parallax": false,
+            "horizontal_position": 76,
+            "vertical_position": 70,
+            "rotate": -66,
+            "enable_parallax": true,
             "parallax_speed": 3,
-            "color": "accent",
-            "color_scheme": "same_as_section"
+            "color": "background",
+            "color_scheme": "quaternary"
           }
         },
         "615cd0fb-eb6f-4eb7-ad53-be5e4a67b4e0": {
@@ -69,12 +68,13 @@
         "text_alignment": "text-left",
         "button_link": "shopify:\/\/collections\/all-products",
         "button_label": "Shop Handee",
-        "color_scheme": "primary",
-        "use_gradient_background": false
+        "color_scheme": "quaternary",
+        "use_gradient_background": true
       }
     },
     "f1bb1ff4-1e47-4986-8699-f4368b3ad86c": {
       "type": "hero-slideshow",
+      "disabled": true,
       "blocks": {
         "template--18578221891899__f1bb1ff4-1e47-4986-8699-f4368b3ad86c-1684453987c87e4f48-0": {
           "type": "slide",
@@ -205,6 +205,25 @@
         "use_gradient_background": false
       }
     },
+    "19cee9e2-e7e7-47dc-9c86-ae0e69e3b6fb": {
+      "type": "text-marquee",
+      "disabled": true,
+      "settings": {
+        "text": "Clean up like a pro",
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_size": "text-3xl",
+        "desktop_text_size": "lg:text-7xl",
+        "speed": 100,
+        "direction": "",
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    },
     "993c3bb5-e562-430f-b5ba-e212acdbc964": {
       "type": "video-with-text-overlay",
       "disabled": true,
@@ -241,55 +260,6 @@
         "color_scheme": "primary",
         "use_gradient_background": true,
         "text_overlay_color": "same_as_section"
-      }
-    },
-    "19cee9e2-e7e7-47dc-9c86-ae0e69e3b6fb": {
-      "type": "text-marquee",
-      "settings": {
-        "text": "Clean up like a pro",
-        "repeat_text": true,
-        "shape_between_text": "10_point_star",
-        "animate_shape_between_text": true,
-        "link": "",
-        "font": "font-heading heading-secondary",
-        "apply_effects": false,
-        "mobile_text_size": "text-3xl",
-        "desktop_text_size": "lg:text-7xl",
-        "speed": 100,
-        "direction": "",
-        "color_scheme": "tertiary",
-        "use_gradient_background": false
-      }
-    },
-    "55fd2581-b07f-40bb-b1bd-d9e472704783": {
-      "type": "image-with-text",
-      "settings": {
-        "display_on_card": false,
-        "video_file": "shopify:\/\/files\/videos\/SORB-Versatility-1x1-WEB.mp4",
-        "crop": "aspect-w-1 aspect-h-1",
-        "image_shape": "default",
-        "blob_type": 1,
-        "rotate_image": 0,
-        "image_position": "right",
-        "image_size": "half",
-        "disable_media_style": false,
-        "text_color": "#273460",
-        "title": "Australia's #1 Paper Towel",
-        "heading_size": "heading-base",
-        "richtext": "",
-        "image_heading_1": "SPILLS, SPLATTER & MESS",
-        "image_link_1": "shopify:\/\/shop_images\/Handee-Icons_Spills.png",
-        "image_heading_2": "PET MESS",
-        "image_link_2": "shopify:\/\/shop_images\/Handee-Icons_PetMess.png",
-        "image_heading_3": "CARS, BBQ & SHED",
-        "image_link_3": "shopify:\/\/shop_images\/Handee-Icons_FoodSafe.png",
-        "image_heading_4": "WINDOWS & MIRRORS",
-        "image_link_4": "shopify:\/\/shop_images\/Handee-Icons_WindowsMirrors.png",
-        "text_alignment": "text-left",
-        "button_link": "shopify:\/\/pages\/about-us",
-        "button_label": "",
-        "color_scheme": "primary",
-        "use_gradient_background": false
       }
     },
     "1650891303c44cb2d2": {
@@ -518,11 +488,10 @@
         "use_gradient_background": false
       }
     },
-    "e1790b54-6e7f-4902-b997-736a0fa25f70": {
+    "8ecc9258-cc5f-4065-a0e7-1149d2c19b50": {
       "type": "text-marquee",
-      "disabled": true,
       "settings": {
-        "text": "Handee Hacks",
+        "text": "Ultra Strong - Wet and Dry",
         "repeat_text": true,
         "shape_between_text": "10_point_star",
         "animate_shape_between_text": true,
@@ -531,9 +500,167 @@
         "apply_effects": false,
         "mobile_text_size": "text-3xl",
         "desktop_text_size": "lg:text-7xl",
-        "speed": 120,
+        "speed": 100,
         "direction": "",
-        "color_scheme": "quaternary",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "64194941-156c-4e2f-9c9d-007bf1eea96e": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Handee-Pattern-Detail_a17b9834-d133-4a25-8909-76a82091372f.jpg",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": true,
+        "style": "full",
+        "height": "pt-three-quarters-screen-height",
+        "place_content": "place-content-center-center",
+        "text_align": "text-center",
+        "title": "What makes Handee superior?",
+        "heading_size": "heading-base",
+        "richtext": "<h4> Handee combines Through-Air-Dry technology (TAD) with an exclusive quilted emboss to create it’s revolutionary Interlock Weave. This unique weave helps lock in moisture better so that you can trap in liquid quickly and effectively.  Thanks to our advanced paper making technology, Handee paper towel is ultra strong – wet or dry.<\/h4>",
+        "cta_url": "",
+        "cta_text": "Shop Now",
+        "color_scheme": "primary",
+        "use_gradient_background": false,
+        "text_overlay_color": "same_as_section"
+      }
+    },
+    "1650891033bae15b05": {
+      "type": "image-with-text",
+      "blocks": {
+        "fd63bf46-7b83-450b-9205-e98d3bb15657": {
+          "type": "background_shape",
+          "settings": {
+            "shape": "blob",
+            "blob_type": 6,
+            "size": 195,
+            "opacity": 100,
+            "blur": 0,
+            "horizontal_position": 79,
+            "vertical_position": 89,
+            "rotate": -12,
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color": "gradient",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "7de8f682-42c1-4705-b9ea-207f66e0c04e": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "secondary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "175e66d3-20ec-47c8-b628-6580300f4f5f": {
+          "type": "sticker",
+          "settings": {
+            "text": "Sticker",
+            "shape": "star_1",
+            "width": 210,
+            "sticker_font_size": "1.563rem",
+            "image": "shopify:\/\/shop_images\/1.png",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 88,
+            "vertical_position": 62,
+            "rotate": 46,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 6,
+            "color": "bg-scheme-accent text-scheme-accent-overlay",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "140e7989-8375-45bf-b75f-61897a50b73a": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "text": "Sticker",
+            "shape": "star_1",
+            "width": 120,
+            "sticker_font_size": "1.563rem",
+            "image": "shopify:\/\/shop_images\/Handee_trans_Medium_d0c1b561-1b6a-4aee-a7e6-cfc885ad2b8c.png",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 77,
+            "vertical_position": 38,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 6,
+            "color": "bg-scheme-accent text-scheme-accent-overlay",
+            "color_scheme": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "fd63bf46-7b83-450b-9205-e98d3bb15657",
+        "7de8f682-42c1-4705-b9ea-207f66e0c04e",
+        "175e66d3-20ec-47c8-b628-6580300f4f5f",
+        "140e7989-8375-45bf-b75f-61897a50b73a"
+      ],
+      "settings": {
+        "display_on_card": false,
+        "image": "shopify:\/\/shop_images\/Handee-Pattern-Detail_a17b9834-d133-4a25-8909-76a82091372f.jpg",
+        "crop": "",
+        "image_shape": "scalloped_square",
+        "blob_type": 2,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "text_color": "#273460",
+        "title": "What makes Handee superior?",
+        "heading_size": "heading-base",
+        "richtext": "<h4>Handee combines Through-Air-Dry technology (TAD) with an exclusive quilted emboss to create it’s revolutionary Interlock Weave. This unique weave helps lock in moisture better so that you can trap in liquid quickly and effectively.  Thanks to our advanced paper making technology, Handee paper towel is ultra strong – wet or dry.<\/h4>",
+        "image_heading_1": "",
+        "image_heading_2": "",
+        "image_heading_3": "",
+        "image_heading_4": "",
+        "text_alignment": "text-left",
+        "button_link": "shopify:\/\/collections\/all-products",
+        "button_label": "",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "55fd2581-b07f-40bb-b1bd-d9e472704783": {
+      "type": "image-with-text",
+      "settings": {
+        "display_on_card": false,
+        "video_file": "shopify:\/\/files\/videos\/SORB-Versatility-1x1-WEB.mp4",
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "text_color": "#ffffff",
+        "title": "Clean up like a Pro",
+        "heading_size": "heading-base",
+        "richtext": "",
+        "image_heading_1": "SPILLS, SPLATTER & MESS",
+        "image_link_1": "shopify:\/\/shop_images\/Handee-Icons_FoodSafe-White.png",
+        "image_heading_2": "PET MESS",
+        "image_link_2": "shopify:\/\/shop_images\/Handee-Icons_PetMess-White.png",
+        "image_heading_3": "CARS, BBQ & SHED",
+        "image_link_3": "shopify:\/\/shop_images\/Handee-Icons_BBQs-White.png",
+        "image_heading_4": "WINDOWS & MIRRORS",
+        "image_link_4": "shopify:\/\/shop_images\/Handee-Icons_WindowsMirrors-White.png",
+        "text_alignment": "text-left",
+        "button_link": "shopify:\/\/pages\/about-us",
+        "button_label": "",
+        "color_scheme": "secondary",
         "use_gradient_background": false
       }
     },
@@ -641,6 +768,7 @@
     },
     "12c4152d-e689-4386-ab18-86f2253e31fb": {
       "type": "video-with-text-overlay",
+      "disabled": true,
       "blocks": {
         "af8a1605-4383-4265-9b43-e578f0dcbe10": {
           "type": "shape_divider",
@@ -685,113 +813,6 @@
         "aspect_ratio": "4:3",
         "color_scheme": "primary",
         "use_gradient_background": false
-      }
-    },
-    "1650891033bae15b05": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "fd63bf46-7b83-450b-9205-e98d3bb15657": {
-          "type": "background_shape",
-          "settings": {
-            "shape": "blob",
-            "blob_type": 8,
-            "size": 170,
-            "opacity": 70,
-            "blur": 0,
-            "horizontal_position": 69,
-            "vertical_position": 58,
-            "rotate": -12,
-            "enable_parallax": true,
-            "parallax_speed": 3,
-            "color": "gradient",
-            "color_scheme": "same_as_section"
-          }
-        },
-        "7de8f682-42c1-4705-b9ea-207f66e0c04e": {
-          "type": "shape_divider",
-          "settings": {
-            "target_section": "below",
-            "target_section_color_scheme": "tertiary",
-            "style": "medium-waves_1200x43",
-            "flip_horizontal": true,
-            "enable_animation": false,
-            "animation_direction": ""
-          }
-        },
-        "175e66d3-20ec-47c8-b628-6580300f4f5f": {
-          "type": "sticker",
-          "settings": {
-            "text": "Sticker",
-            "shape": "star_1",
-            "width": 270,
-            "sticker_font_size": "1.563rem",
-            "image": "shopify:\/\/shop_images\/Paper_hand_towel_roll_2nd_image__75074.webp",
-            "half_image_width_on_mobile": true,
-            "horizontal_position": 88,
-            "vertical_position": 88,
-            "rotate": 0,
-            "show_sticker_on_mobile": true,
-            "show_sticker_on_desktop": true,
-            "rotation_animation": "rotate_when_scrolling",
-            "enable_parallax": true,
-            "parallax_speed": 6,
-            "color": "bg-scheme-accent text-scheme-accent-overlay",
-            "color_scheme": "same_as_section"
-          }
-        },
-        "140e7989-8375-45bf-b75f-61897a50b73a": {
-          "type": "sticker",
-          "disabled": true,
-          "settings": {
-            "text": "Sticker",
-            "shape": "star_1",
-            "width": 120,
-            "sticker_font_size": "1.563rem",
-            "image": "shopify:\/\/shop_images\/Handee_trans_Medium_d0c1b561-1b6a-4aee-a7e6-cfc885ad2b8c.png",
-            "half_image_width_on_mobile": true,
-            "horizontal_position": 77,
-            "vertical_position": 38,
-            "rotate": 0,
-            "show_sticker_on_mobile": true,
-            "show_sticker_on_desktop": true,
-            "rotation_animation": "rotate_when_scrolling",
-            "enable_parallax": true,
-            "parallax_speed": 6,
-            "color": "bg-scheme-accent text-scheme-accent-overlay",
-            "color_scheme": "same_as_section"
-          }
-        }
-      },
-      "block_order": [
-        "fd63bf46-7b83-450b-9205-e98d3bb15657",
-        "7de8f682-42c1-4705-b9ea-207f66e0c04e",
-        "175e66d3-20ec-47c8-b628-6580300f4f5f",
-        "140e7989-8375-45bf-b75f-61897a50b73a"
-      ],
-      "settings": {
-        "display_on_card": false,
-        "video_file": "shopify:\/\/files\/videos\/Copy of Handee Double Length 6_ 3.mp4",
-        "crop": "",
-        "image_shape": "zig_zag_tear",
-        "blob_type": 2,
-        "rotate_image": 0,
-        "image_position": "right",
-        "image_size": "half",
-        "disable_media_style": false,
-        "text_color": "#ffffff",
-        "title": "The Superhero of Spills",
-        "heading_size": "heading-template",
-        "richtext": "<h4>When life gets messy, Handee has got you covered. <\/h4>",
-        "image_heading_1": "",
-        "image_heading_2": "",
-        "image_heading_3": "",
-        "image_heading_4": "",
-        "text_alignment": "text-left",
-        "button_link": "shopify:\/\/collections\/all-products",
-        "button_label": "Shop Hand Towels",
-        "color_scheme": "primary",
-        "use_gradient_background": true
       }
     },
     "1194cb91-1aa1-4f58-8d4e-e85abd405f13": {
@@ -988,7 +1009,7 @@
         "image_shape": "double_pill",
         "desktop_slide_width": 25,
         "autoscroll_mode": "0",
-        "color_scheme": "quaternary",
+        "color_scheme": "primary",
         "use_gradient_background": true
       }
     },
@@ -1237,17 +1258,18 @@
     "ed6b371e-293a-4f26-8321-f25ea0d2dd6d",
     "f1bb1ff4-1e47-4986-8699-f4368b3ad86c",
     "1650891358fef95dd4",
-    "993c3bb5-e562-430f-b5ba-e212acdbc964",
     "19cee9e2-e7e7-47dc-9c86-ae0e69e3b6fb",
-    "55fd2581-b07f-40bb-b1bd-d9e472704783",
+    "993c3bb5-e562-430f-b5ba-e212acdbc964",
     "1650891303c44cb2d2",
     "00892983-906a-4d57-b137-0c987a9edd8f",
     "94557c91-5b43-4d29-8bd7-46f3ae3d3caf",
-    "e1790b54-6e7f-4902-b997-736a0fa25f70",
+    "8ecc9258-cc5f-4065-a0e7-1149d2c19b50",
+    "64194941-156c-4e2f-9c9d-007bf1eea96e",
+    "1650891033bae15b05",
+    "55fd2581-b07f-40bb-b1bd-d9e472704783",
     "165089168609b8f684",
     "12c4152d-e689-4386-ab18-86f2253e31fb",
     "1f0c1a6b-3bd9-4689-a6df-460c82e528a4",
-    "1650891033bae15b05",
     "1194cb91-1aa1-4f58-8d4e-e85abd405f13",
     "1650891590472e0352",
     "16508916323f758a49",

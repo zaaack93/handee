@@ -10,6 +10,21 @@
             "text_align": "text-left"
           }
         },
+        "d66d99c5-40c2-4c77-9061-408a617e6533": {
+          "type": "link_retailers",
+          "settings": {
+            "block_heading": "Click below to purchase from your favourite retailer:",
+            "block_heading_space": 10,
+            "open_on_new_tab": true,
+            "image_heading_1": "",
+            "image_link_1": "shopify:\/\/shop_images\/Coles_logo_2.png",
+            "image_heading_2": "",
+            "image_link_2": "shopify:\/\/shop_images\/woolworths-5-logo_2.png",
+            "image_heading_3": "",
+            "image_link_3": "shopify:\/\/shop_images\/IGA_logo_2.png",
+            "image_heading_4": ""
+          }
+        },
         "price": {
           "type": "price",
           "disabled": true,
@@ -33,21 +48,6 @@
             "display_on_card": false,
             "truncate_description": false,
             "text_align": "text-left"
-          }
-        },
-        "d66d99c5-40c2-4c77-9061-408a617e6533": {
-          "type": "link_retailers",
-          "settings": {
-            "block_heading": "Click below to purchase from your favourite retailer:",
-            "block_heading_space": 10,
-            "open_on_new_tab": true,
-            "image_heading_1": "",
-            "image_link_1": "shopify:\/\/shop_images\/Coles_logo_2.png",
-            "image_heading_2": "",
-            "image_link_2": "shopify:\/\/shop_images\/woolworths-5-logo_2.png",
-            "image_heading_3": "",
-            "image_link_3": "shopify:\/\/shop_images\/IGA_logo_2.png",
-            "image_heading_4": ""
           }
         },
         "variant_picker": {
@@ -149,10 +149,10 @@
       },
       "block_order": [
         "title",
+        "d66d99c5-40c2-4c77-9061-408a617e6533",
         "price",
         "quantity_selector",
         "a17e90c4-acc9-4f1d-af84-828ae4cb2289",
-        "d66d99c5-40c2-4c77-9061-408a617e6533",
         "variant_picker",
         "e7f8c0c0-e57e-48cb-b4da-334b7375d5b0",
         "0e6ecdce-12c7-4096-8fd6-c8ea115a6958",
@@ -176,7 +176,7 @@
         "thumbnail_crop": "aspect-w-1 aspect-h-1",
         "thumbnail_shape": "wave_tear",
         "hide_media_shadow": false,
-        "thumbnail_size": "standard",
+        "thumbnail_size": "large",
         "show_thumbnails_on_mobile": false,
         "color_scheme": "primary",
         "use_gradient_background": false

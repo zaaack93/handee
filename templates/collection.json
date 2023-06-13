@@ -34,7 +34,7 @@
       ],
       "settings": {
         "style": "full",
-        "height": "pt-800",
+        "height": "pt-600",
         "display_on_card": false,
         "display_content_below_image_on_mobile": false,
         "auto_rotate": false,
@@ -58,7 +58,7 @@
         "apply_effects": false,
         "mobile_text_size": "text-3xl",
         "desktop_text_size": "lg:text-6xl",
-        "speed": 120,
+        "speed": 70,
         "direction": "",
         "color_scheme": "secondary",
         "use_gradient_background": false
