@@ -60,12 +60,12 @@
     "a3e927c3-a4e8-4528-8888-bc209e110057": {
       "type": "feature-text",
       "settings": {
-        "rich_text": "<p>Handee has been the Australians' beloved number-one paper towel brand since 1993. <\/p>",
+        "rich_text": "<p>Handee has been the Australians' beloved No. #1 paper towel brand since 1993. <\/p>",
         "mobile_text_size": "text-2xl",
-        "desktop_text_size": "lg:text-5xl",
+        "desktop_text_size": "lg:text-4xl",
         "display_on_card": false,
         "apply_effects": false,
-        "content_width_desktop": "lg:w-2\/3",
+        "content_width_desktop": "lg:w-full",
         "button_link": "",
         "button_label": "Shop Now",
         "color_scheme": "tertiary",
@@ -133,21 +133,21 @@
           "type": "logo",
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_2.png",
-            "link": ""
+            "link": "https:\/\/www.woolworths.com.au\/shop\/search\/products?searchTerm=handee"
           }
         },
         "template--19038698373435__a86e1255-aaba-40dd-bcb2-26b3eb53a83d-1683854930c5e7136b-1": {
           "type": "logo",
           "settings": {
             "image": "shopify:\/\/shop_images\/coles.png",
-            "link": ""
+            "link": "https:\/\/www.coles.com.au\/search?q=handee"
           }
         },
         "template--19038698373435__a86e1255-aaba-40dd-bcb2-26b3eb53a83d-1683854930c5e7136b-2": {
           "type": "logo",
           "settings": {
             "image": "shopify:\/\/shop_images\/iga_1.png",
-            "link": ""
+            "link": "https:\/\/www.igashop.com.au\/search\/1?q=handee"
           }
         },
         "template--19038698373435__a86e1255-aaba-40dd-bcb2-26b3eb53a83d-1683854930c5e7136b-3": {

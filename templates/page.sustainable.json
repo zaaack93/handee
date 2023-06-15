@@ -71,7 +71,7 @@
         "desktop_text_size": "lg:text-6xl",
         "speed": 200,
         "direction": "",
-        "color_scheme": "secondary",
+        "color_scheme": "tertiary",
         "use_gradient_background": false
       }
     },
@@ -103,7 +103,7 @@
         "image_position": "right",
         "image_size": "half",
         "disable_media_style": false,
-        "text_color": "#ffffff",
+        "text_color": "#273460",
         "title": "Making Positive Impact",
         "heading_size": "heading-base",
         "richtext": "<p>Our strategic supply partnership with the world's largest pulp and paper company helps us manage and maintain a vertically integrated business model that provides you with the economic and quality benefits of efficient and responsibly managed business operations. Our paper towels are made through an innovative process that reduces waste and helps to conserve resources.<\/p><p>We understand that customers like you care about the environment and want to make a positive impact with your purchasing choices. That's why we're proud to uphold a strict zero-deforestation policy and are committed to replanting 1,000,000 trees daily. <\/p><p>With Handee, you can clean up messes while also making a positive impact on the planet.<\/p>",
@@ -114,7 +114,7 @@
         "text_alignment": "text-left",
         "button_link": "",
         "button_label": "Shop Now",
-        "color_scheme": "tertiary",
+        "color_scheme": "primary",
         "use_gradient_background": false
       }
     },
@@ -211,7 +211,7 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify:\/\/shop_images\/Handee-Sustainably-Sourced.png",
+            "image": "shopify:\/\/shop_images\/Pine_trees.jpg",
             "title": "Sustainably Resourced ",
             "text": "<p>Handee ensures that its product is made from 100% virgin pulp, a naturally produced pulp that directly sources from highly selected woods that gather from responsible sources, certified by PEFC. Likewise, we strive to produce in a responsible and sustainable manner. We source fibre responsibly and strive to minimise waste, water consumption, and energy consumption.<\/p>",
             "cta_link": "",
@@ -228,7 +228,7 @@
       "settings": {
         "display_on_card": false,
         "slideshow_on_mobile": true,
-        "title": "Our Sustainability Commitment for Australia.",
+        "title": "Our Sustainability Commitment for Australia",
         "crop": "aspect-w-1 aspect-h-1",
         "image_shape": "default",
         "show_index_on_blocks": false,

@@ -16,11 +16,11 @@
             "block_heading": "Click below to purchase from your favourite retailer:",
             "block_heading_space": 10,
             "open_on_new_tab": true,
-            "image_heading_1": "",
+            "image_heading_1": "https:\/\/www.coles.com.au\/search?q=handee",
             "image_link_1": "shopify:\/\/shop_images\/Coles_logo_2.png",
-            "image_heading_2": "",
+            "image_heading_2": "https:\/\/www.woolworths.com.au\/shop\/search\/products?searchTerm=handee",
             "image_link_2": "shopify:\/\/shop_images\/woolworths-5-logo_2.png",
-            "image_heading_3": "",
+            "image_heading_3": "https:\/\/www.igashop.com.au\/search\/1?q=handee",
             "image_link_3": "shopify:\/\/shop_images\/IGA_logo_2.png",
             "image_heading_4": ""
           }
@@ -371,6 +371,7 @@
     },
     "ad6c2178-cfe7-4e33-9ff5-b3d27ea8505c": {
       "type": "video",
+      "disabled": true,
       "blocks": {
         "86dbfdc1-4e89-4011-8123-93eebdb5fa22": {
           "type": "background_pattern",
@@ -572,12 +573,13 @@
         "two_columns_desktop": true,
         "title": "FAQ",
         "richtext": "<p>Find the most frequently asked questions below.<\/p>",
-        "color_scheme": "secondary",
+        "color_scheme": "primary",
         "use_gradient_background": false
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "show_product_recommendations": true,
         "display_on_card": false,
@@ -586,6 +588,67 @@
         "max_products": "3",
         "product_tiles_aspect_ratio": "",
         "image_shape": "",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "ccc476e1-1473-47ce-aae3-7ebfb1d36ff8": {
+      "type": "logo-list",
+      "blocks": {
+        "template--19287255318843__ccc476e1-1473-47ce-aae3-7ebfb1d36ff8-168669882056ef6b2f-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_2.png",
+            "link": "https:\/\/www.woolworths.com.au\/shop\/search\/products?searchTerm=handee"
+          }
+        },
+        "template--19287255318843__ccc476e1-1473-47ce-aae3-7ebfb1d36ff8-168669882056ef6b2f-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coles.png",
+            "link": "https:\/\/www.coles.com.au\/search?q=handee"
+          }
+        },
+        "template--19287255318843__ccc476e1-1473-47ce-aae3-7ebfb1d36ff8-168669882056ef6b2f-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iga_1.png",
+            "link": "https:\/\/www.igashop.com.au\/search\/1?q=handee"
+          }
+        },
+        "template--19287255318843__ccc476e1-1473-47ce-aae3-7ebfb1d36ff8-168669882056ef6b2f-3": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--19287255318843__ccc476e1-1473-47ce-aae3-7ebfb1d36ff8-168669882056ef6b2f-4": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--19287255318843__ccc476e1-1473-47ce-aae3-7ebfb1d36ff8-168669882056ef6b2f-5": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19287255318843__ccc476e1-1473-47ce-aae3-7ebfb1d36ff8-168669882056ef6b2f-0",
+        "template--19287255318843__ccc476e1-1473-47ce-aae3-7ebfb1d36ff8-168669882056ef6b2f-1",
+        "template--19287255318843__ccc476e1-1473-47ce-aae3-7ebfb1d36ff8-168669882056ef6b2f-2",
+        "template--19287255318843__ccc476e1-1473-47ce-aae3-7ebfb1d36ff8-168669882056ef6b2f-3",
+        "template--19287255318843__ccc476e1-1473-47ce-aae3-7ebfb1d36ff8-168669882056ef6b2f-4",
+        "template--19287255318843__ccc476e1-1473-47ce-aae3-7ebfb1d36ff8-168669882056ef6b2f-5"
+      ],
+      "settings": {
+        "title": "Shop Handee from your favourite retailers",
+        "max_width": 170,
         "color_scheme": "primary",
         "use_gradient_background": false
       }
@@ -600,6 +663,7 @@
     "ad6c2178-cfe7-4e33-9ff5-b3d27ea8505c",
     "8ca4135a-1c4f-4bb9-8195-7ac897ccc827",
     "859bcbe2-1baf-4c40-afcc-1b4d59777207",
-    "product-recommendations"
+    "product-recommendations",
+    "ccc476e1-1473-47ce-aae3-7ebfb1d36ff8"
   ]
 }

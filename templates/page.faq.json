@@ -49,6 +49,24 @@
         "use_gradient_background": false
       }
     },
+    "e0e85ac6-a465-40b8-97e2-6d50671bbd62": {
+      "type": "text-marquee",
+      "settings": {
+        "text": "Need a hand with something?",
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_size": "text-3xl",
+        "desktop_text_size": "lg:text-7xl",
+        "speed": 230,
+        "direction": "",
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -138,11 +156,28 @@
         "color_scheme": "primary",
         "use_gradient_background": false
       }
+    },
+    "4e939193-cf61-4966-a4a4-ccdd81f00e4b": {
+      "type": "feature-text",
+      "settings": {
+        "rich_text": "<p>Can't find what you're looking for? <\/p>",
+        "mobile_text_size": "text-lg",
+        "desktop_text_size": "lg:text-2xl",
+        "display_on_card": false,
+        "apply_effects": false,
+        "content_width_desktop": "lg:w-full",
+        "button_link": "shopify:\/\/pages\/contact",
+        "button_label": "Contact Us",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
     "64ba5387-afcf-427d-a85e-0f1ff7db2f21",
+    "e0e85ac6-a465-40b8-97e2-6d50671bbd62",
     "main",
-    "3d3c1369-f411-4c3a-a99f-074bc9cfa73c"
+    "3d3c1369-f411-4c3a-a99f-074bc9cfa73c",
+    "4e939193-cf61-4966-a4a4-ccdd81f00e4b"
   ]
 }

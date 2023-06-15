@@ -666,6 +666,7 @@
     },
     "165089168609b8f684": {
       "type": "blog-posts",
+      "disabled": true,
       "blocks": {
         "4251f46a-18e8-42f6-a2cb-35016631152f": {
           "type": "sticker",
