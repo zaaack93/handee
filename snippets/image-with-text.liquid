@@ -67,8 +67,8 @@
 
             <div class="rte  mt-5  max-w-2xl {% if text_alignment contains 'center' %}mx-auto{% elsif text_alignment contains 'right' %}ml-auto{% endif %}">
               {{ richtext }}
-              
 
+              {%if icons != blank%}
               <ul id="icon-row-{{ section.id }}" class="feature-icon-list flex flex-wrap lg:flex-nowrap items-top justify-center -mt-5 lg:mt-0 lg:-mx-5 customized-mobile-icon-list">
                 {% for block in icons %}
                   <li class="px-5 mt-5 lg:mt-0 text-center w-1/2 lg:w-auto lg:flex-1 lg:min-w-0" style="max-width: {{ section.settings.max_width | times: 2 }}px">
@@ -87,7 +87,14 @@
                   </li>
                 {% endfor %}
               </ul>
-
+              {%endif%}
+              {% comment %} check for icons if all is nil {% endcomment %}
+              {%assign texts = "" %}
+              {% for i in (1..4) %}
+                {% assign title = 'image_heading_' | append: i%}
+                {% assign texts = texts | append : settings[title]%}
+              {% endfor %}
+              {% if texts != ""%}
               <div class="content_icon_container">
                 {% for i in (1..4) %}
                   {% assign title = 'image_heading_' | append: i%}
@@ -106,6 +113,7 @@
                   {% endif %}
                 {% endfor %}
               </div>
+              {%endif%}
             </div>
 
             {%- if button_link != blank and button_label != '' -%}
